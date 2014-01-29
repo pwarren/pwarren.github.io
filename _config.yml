@@ -11,7 +11,7 @@ url: http://pwarren.id.au
 
 # Comment out if not wanted, change if wanted.
 twitter: https://twitter.com/pawarren
-facebook: https://facebook.com/paul.fenwick
+facebook: https://facebook.com/p.a.warren
 googleplus: https://plus.google.com/+PaulWarren0
 github: https://github.com/pwarren
 gittip: https://gittip.com/pwarren
@@ -55,11 +55,11 @@ sidebar:
     title: "Technology"
     url: "/tech"
   - family:
-    title: "Family History
+    title: "Family Stories"
     url: "/family"
-  - advogato:
-    title: "Older Posts"
-    url: "/advogato"
+  - recipes:
+    title: "Recipes"
+    url: "/recipes"
 
 sitemap:
     file: "/sitemap.xml"
