@@ -1,24 +1,24 @@
-timezone: Australia/Melbourne
-name: paul.j.fenwick
-shortname: pjf
-description: "Some guy from the internet who loves freedom."
-github_repo: https://github.com/pjf/pjf.github.io
-avatar: pjf_square.jpg
-copyright: 2014 Paul Fenwick
+timezone: Australia/Canberra
+name: Paul Warren
+shortname: pwarren
+description: "A geek of various shades"
+github_repo: https://github.com/pwarren/pjf.github.io
+avatar: grr_square.jpg
+copyright: 2014 Paul Warren
 
 # Site URL
-url: http://pjf.id.au
+url: http://pwarren.id.au
 
 # Comment out if not wanted, change if wanted.
-twitter: https://twitter.com/pjf
+twitter: https://twitter.com/pawarren
 facebook: https://facebook.com/paul.fenwick
-googleplus: https://plus.google.com/+PaulFenwick
-github: https://github.com/pjf
-gittip: https://gittip.com/pjf
-flickr: https://flickr.com/photos/pfenwick
+googleplus: https://plus.google.com/+PaulWarren0
+github: https://github.com/pwarren
+gittip: https://gittip.com/pwarren
+#flickr: https://flickr.com/photos/pfenwick
 
 # Flattr username
-flattr: _pjf
+flattr: pwarren
 
 paginate: 5
 
@@ -38,31 +38,25 @@ search:
     google:
         cx: 'partner-pub-5040518412301671:2427815553'
 
-addthis:
-  publisher: ra-52daa5464f2c1c4b
+#addthis:
+#  publisher: ra-52daa5464f2c1c4b
 
 analytics:
-  id: UA-47199716-1
+  id: UA-27161555-1
 
 disqus:
-  shortname: pjf
+  shortname: pwarren
 
 sidebar:
   - talks:
     title: "Talks"
     url: "/talks"
-  - ethics:
-    title: "Ethics"
-    url: "/ethics"
   - tech:
     title: "Technology"
     url: "/tech"
-  - depression:
-    title: "Depression"
-    url: "/depression"
-  - df:
-    title: "Dwarf Fortress"
-    url: "/df"
+  - family:
+    title: "Family History
+    url: "/family"
   - advogato:
     title: "Older Posts"
     url: "/advogato"
