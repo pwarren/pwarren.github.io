@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>paul.j.fenwick</title>
-		<description>Some guy from the internet who loves freedom.</description>
-		<link>http://pjf.id.au</link>
-		<atom:link href="http://pjf.id.au/feed.xml" rel="self" type="application/rss+xml" />
+		<title>Paul Warren</title>
+		<description>A geek of various shades</description>
+		<link>http://blog.pwarren.id.au</link>
+		<atom:link href="http://blog.pwarren.id.au/feed.xml" rel="self" type="application/rss+xml" />
                 
 
                     
@@ -12,33 +12,13 @@
                     
 
 			<item>
-				<title>How to learn everything, without spending any time</title>
-				<description>&lt;p&gt;What if I told you there’s an app which runs on all your devices, is free, has strong evidence-based support for its effectiveness, and allows you to acquire large amounts of knowledge and &lt;em&gt;retain it indefinitely&lt;/em&gt;?&lt;/p&gt;
-
-&lt;p&gt;What if I told you it wasn’t even going to take any time out of your day?&lt;/p&gt;
-&lt;!--more--&gt;&lt;figure class='right'&gt;&lt;a class='fancybox' href='/images/tech/anki.png' rel='group'&gt;&lt;img src='/images/tech/anki.png' /&gt;&lt;/a&gt;&lt;figcaption&gt;Anki: It's like having cheat-codes for knowledge.&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;There are two amazing tools which I use during those odd chunks of time. The first &lt;a href=&quot;http://pjf.id.au/tech/2014/01/23/dont-read-articles--listen-to-them.html&quot; title=&quot;Don't read articles, listen to them (pjf.id.au)&quot;&gt;reads me articles I’ve saved&lt;/a&gt;, and requires only that I have headphones. The second is &lt;a href=&quot;http://ankisrs.net/&quot; title=&quot;Anki: Powerful, intelligent flashcards&quot;&gt;Anki&lt;/a&gt;, and it’s like having cheat-codes for knowledge.&lt;/p&gt;
-
-&lt;p&gt;Anki is a flash-card system that employs &lt;a href=&quot;https://en.wikipedia.org/wiki/Spacing_effect&quot; title=&quot;Spacing Effect (Wikipedia)&quot;&gt;spaced repetition&lt;/a&gt;, which exploits our understanding of human memory to allow you to obtain a large amount of knowledge, and then &lt;em&gt;retain that knowledge indefinitely&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;We know from research that we remember things most &lt;em&gt;efficiently&lt;/em&gt; when we’re tested infrequently over a longer time span. If you’ve ever crammed for an exam, you’ve probably discovered you’ve lost that knowledge a week or two later. Anki and spaced repetition gives us &lt;em&gt;anti-cramming&lt;/em&gt;, letting you do a minimum of work to memorize information over a long period of time.&lt;/p&gt;
-
-&lt;p&gt;The working behind spaced repetition is simple. As long as you’re able to keep remembering, the time between successive tests gradually increases. New knowledge may be tested multiple times per week, but things you know really well will may come up every couple of years. The idea is to get you to recall knowledge just before you’re about to forget it.&lt;/p&gt;
-
-&lt;p&gt;Provided you practice regularly, it’s possible to learn and retain a tremendous amount of information. Regular practice sounds like it’s going to be hard, but I’ve discovered it’s actually the easiest part.&lt;/p&gt;
-
-&lt;p&gt;My day is full of odd bits of time that aren’t typically useful. Waiting for a tram, for my coffee to brew, standing in line at the airport. These chunks aren’t long enough to do much with, but they’re &lt;em&gt;perfect&lt;/em&gt; for Anki cards. Each card takes only a few seconds, and if you reach your learning goals for the day there are always options to review ahead. Because you’re recycling time that would otherwise be wasted, using Anki comes with practically no opportunity costs whatsoever!&lt;/p&gt;
-
-&lt;p&gt;The Anki phone app comes with the ability to configure notifications if you have cards due. &lt;em&gt;Switch that on&lt;/em&gt;. Simply having an icon on your toolbar provides a reminder you’ve got cards to complete, and can help act as a visual cue for whenever you open up your phone and wonder what you were meant to be doing.&lt;/p&gt;
-
-&lt;p&gt;Anki lets you make your own decks in the desktop client. I have decks for words I frequently misspell, dietary intolerances of my friends, people I’ve met, &lt;a href=&quot;https://coursera.org/&quot; title=&quot;Coursera: Take free online classes from 80+ top universities and organisations&quot;&gt;subjects I’ve learning&lt;/a&gt;, &lt;a href=&quot;http://duolingo.com/&quot; title=&quot;Duolingo: Learn languages for free&quot;&gt;languages&lt;/a&gt;, and anything else that I know I’ll easily forget. However Anki also has a rich number of &lt;a href=&quot;https://ankiweb.net/shared/decks/&quot; title=&quot;Anki Shared Decks&quot;&gt;shared decks&lt;/a&gt;. For me personally, both &lt;a href=&quot;https://ankiweb.net/shared/info/970971960&quot;&gt;cognitive biases&lt;/a&gt; and &lt;a href=&quot;https://ankiweb.net/shared/info/1530243698&quot;&gt;hiragana/katakana&lt;/a&gt; (Japanese characters) feature heavily in my learning schedule.&lt;/p&gt;
-
-&lt;p&gt;Anki has clients for Windows, Mac, Linux/BSD, iOS, and Android; as well as a mobile-friendly web interface. While the iOS client requires payment, the others are free and open source.&lt;/p&gt;
-
-&lt;p&gt;So what are you waiting for? &lt;a href=&quot;http://ankisrs.net/&quot; title=&quot;Anki: Powerful, intelligent flashcards&quot;&gt;Download Anki&lt;/a&gt; and start learning!&lt;/p&gt;</description>
-				<pubDate>Wed, 29 Jan 2014 00:00:00 +1100</pubDate>
-				<link>http://pjf.id.au//tech/2014/01/29/learn-everything-without-spending-time.html</link>
-				<guid isPermaLink="true">http://pjf.id.au//tech/2014/01/29/learn-everything-without-spending-time.html</guid>
+				<title>RTL-entropy Lightning Talk</title>
+				<description>&lt;div class='video-container'&gt;&lt;iframe height='420' src='http://www.youtube.com/embed/RWn5QJpOBFU?html5=1' width='560'&gt; &lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;&lt;a href='http://www.youtube.com/watch?v=RWn5QJpOBFU'&gt;Watch on YouTube&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A quick talk I did about my rtl-entropy software: https://github.com/pwarren/rtl-entropy/&lt;/p&gt;
+&lt;!--more--&gt;</description>
+				<pubDate>Mon, 27 Jan 2014 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//talks/2014/01/27/rtl-entropy.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//talks/2014/01/27/rtl-entropy.html</guid>
 			</item>
 		
 
@@ -47,17 +27,57 @@
                     
 
 			<item>
-				<title>Don't read social media</title>
-				<description>&lt;p&gt;My advice for you today is &lt;em&gt;don’t&lt;/em&gt; read social media. Most of it is rubbish, and there’s a good chance you’re only reading it because you’re bored. If you’re actively engaged, then fine, but if you’ve just spent the last 30 minutes listlessly flicking through posts, then stop that. Stop it right now. You’re not making yourself any happier.&lt;/p&gt;
+				<title>EFI single boot on a MacBook Air</title>
+				<description>&lt;p&gt;EFI needs its own smallish partition with a fat32 filesystem&lt;/p&gt;
 
-&lt;p&gt;You know how you’ve got that thing you enjoy, but which takes more time and effort? Go do that instead. I don’t care if it’s &lt;a href=&quot;http://www.gutenberg.org/&quot; title=&quot;Project Gutenberg: Over 42,000 free ebooks&quot;&gt;reading&lt;/a&gt;, or painting, or &lt;a href=&quot;http://www.codecademy.com/&quot; title=&quot;CodeAcademy: Learn to code&quot;&gt;coding&lt;/a&gt;, or &lt;a href=&quot;http://writtenkitten.net/&quot; title=&quot;Written? Kitten!&quot;&gt;writing&lt;/a&gt;, or &lt;a href=&quot;http://duolingo.com/&quot; title=&quot;Duolingo: Learn languages for free&quot;&gt;learning a language&lt;/a&gt;, or &lt;a href=&quot;https://coursera.org/&quot; title=&quot;Coursera: Take free online classes from 80+ top universities and organisations&quot;&gt;studying&lt;/a&gt;, or &lt;a href=&quot;https://www.fitocracy.com/&quot; title=&quot;Fitocracy: The fitness social network to level up in real life&quot;&gt;exercise&lt;/a&gt;, or &lt;a href=&quot;http://hpmor.com/&quot; title=&quot;Harry Potter and the Methods of Rationality&quot;&gt;whatever&lt;/a&gt;. Go do that now. If your brain is fried, then go &lt;a href=&quot;http://pjf.id.au/tech/2014/01/23/dont-read-articles--listen-to-them.html&quot; title=&quot;Don't read articles, listen to them (pjf.id.au)&quot;&gt;listen to articles&lt;/a&gt;, discover &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Spoken_articles&quot; title=&quot;Spoken Wikipedia&quot;&gt;spoken wikipedia&lt;/a&gt;, or y’know, actually sleep.&lt;/p&gt;
+&lt;p&gt;here’s my layout with just one disk:&lt;/p&gt;
 
-&lt;p&gt;But please—unless you have &lt;a href=&quot;https://en.wikipedia.org/wiki/Anhedonia&quot; title=&quot;Anhedonia (Wikipedia)&quot;&gt;anhedonia&lt;/a&gt;—don’t spend your time bored and listlessly scrolling through posts on social media. There’s so much more you could be doing instead.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;   (parted) print
+   Model: ATA Hitachi HTS54503 (scsi)
+   Disk /dev/sda: 320GB
+   Sector size (logical/physical): 512B/512B
+   Partition Table: gpt
+   
+   Number Start End Size File system Name Flags
+   1 1049kB 512MB 511MB fat32 boot
+   2 512MB 316GB 316GB ext4
+   3 316GB 320GB 4023MB linux-swap(v1)&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;~ Paul&lt;/p&gt;</description>
-				<pubDate>Tue, 28 Jan 2014 00:00:00 +1100</pubDate>
-				<link>http://pjf.id.au//personal/2014/01/28/my-advice-for-today.html</link>
-				<guid isPermaLink="true">http://pjf.id.au//personal/2014/01/28/my-advice-for-today.html</guid>
+&lt;p&gt;Now, debian does sort of support UEFI booting with the 7.2 install discs (haven’t tried 7.3 yet but should be good), but there was some extra mucking about I had to do.&lt;/p&gt;
+
+&lt;p&gt;Once you’ve installed, and it boots the flashing folder icon (or question mark, I forget which). Boot into rescue mode, and let debian find the right root partition, and execute a shell in that partition.&lt;/p&gt;
+
+&lt;p&gt;You may have to:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;mount /boot/efi&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;then:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;apt-get install grub-efi-amd64&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we’re almost there! the installer for grub-efi-amd64 puts the boot file in /efi/EFI/debian/grub64x64.efi&lt;/p&gt;
+
+&lt;p&gt;And we need to put that in the right place for EFI to load it properly:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;mkdir /boot/efi/EFI/boot
+cp /boot/efi/EFI/debian/grubx64.efi /boot/efi/EFI/boot/bootx64.efi&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;then run:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;update-grub&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To make sure all the configs are in the right place.&lt;/p&gt;
+
+&lt;p&gt;Then reboot! and you should eventually get into debian :)&lt;/p&gt;
+
+&lt;p&gt;If you have a white screen for ~30s after the boot chime, and you want to get rid of the wait, you’ll have to boot an OS X disk and run:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bless --device /dev/disk0s1 --setBoot --verbose&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;substituting the proper device node for your boot device of course.&lt;/p&gt;</description>
+				<pubDate>Tue, 17 Dec 2013 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2013/12/17/EFI-single-boot-mac.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2013/12/17/EFI-single-boot-mac.html</guid>
 			</item>
 		
 
@@ -66,34 +86,32 @@
                     
 
 			<item>
-				<title>How to screw learning with one simple belief</title>
-				<description>&lt;figure class='right'&gt;&lt;a class='fancybox' href='/images/ethics/praise-fail.png' rel='group'&gt;&lt;img src='/images/ethics/praise-fail.png' /&gt;&lt;/a&gt;&lt;figcaption&gt;Source: Mueller and Dweck¹&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;This. Right here. Look at it.&lt;/p&gt;
+				<title>Firefox i386 on Debian amd64</title>
+				<description>&lt;p&gt;Goto http://getfirefox.com/ and download the latest one.&lt;/p&gt;
 
-&lt;p&gt;It’s a graph showing the performance of children after they’ve been praised for their intelligence (“you must be smart”) versus their effort (“you must have put a lot of effort into that”), and then given a series of hard problems to try to solve. The kids who are taught that effort count &lt;em&gt;increase&lt;/em&gt; in the number of problems they can solve. Those who are told that they’re smart show a frightening decrease.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;p&gt;What’s the difference? Those being told that they’re smart are taught that abilities are fixed. If you’re finding a puzzle hard, then it must be because you’re not very good at that, and you should try something else. Kids taught that results are based on effort see the hard puzzles as something they can &lt;em&gt;learn&lt;/em&gt; to do, and then they do so¹.&lt;/p&gt;
-&lt;figure class='right'&gt;&lt;a class='fancybox' href='/images/ethics/praise-preference.png' rel='group'&gt;&lt;img src='/images/ethics/praise-preference.png' /&gt;&lt;/a&gt;&lt;figcaption&gt;Source: Mueller and Dweck¹&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;This is shown really clearly in the second graph. Children are asked what type of puzzles they’d like to solve, and are given four options. The first three are pretty similar: “problems that aren’t too hard, so I don’t get many wrong,” “problems that are pretty easy, so I’ll do well,” and “problems that I’m pretty good at, so I can show that I’m smart.” However the last option is different: “problems that I’ll learn a lot from, even if I won’t look so smart.”&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; tar -jxvf firefox-*.tar.bz2
+ sudo mv firefox /opt
+ sudo dpkg --add-architecture i386
+ sudo apt-get update
 
-&lt;p&gt;The first three options are “performance” options, they’re all about looking good, or getting things right. The last option is a “learning” option, and it values knowledge and growth over performance.&lt;/p&gt;
+ sudo apt-get install libc6:i386 libstdc++6:i386 libxrender1:i386 libasound2:i386 libdbus-glib-1-2:i386 libxext6:i386 libgtk2.0-0:i386 libxt6:i386 libcurl3:i386 libnss3:i386 libnspr4:i386 libssl1.0.0:i386&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;The second graph shows how often children selected performance options based upon the type of praise they were given. Children praised for their intelligence choose tasks which are easy and make them look good; children praised for their effort choose tasks which are hard, and which will teach them more.&lt;/p&gt;
+&lt;p&gt;After that,&lt;/p&gt;
 
-&lt;p&gt;This is important enough, but there are social ramifications as well. People with more fixed views of ability are more likely to adopt stereotypes, and are less likely to develop to higher levels of ethical reasoning than those with dynamic views of ability². And this doesn’t seem to have a damn thing to do with cognitive abilities; it’s all about outlook.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  /opt/firefox/firefox
+  should work.&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Do not go through life believing that you lack a talent, and do not allow others to believe that about themselves. Humans have an amazing capacity for growth; learning is hard, but it’s &lt;em&gt;definitely&lt;/em&gt; worth it.&lt;/p&gt;
+&lt;p&gt;Next get the 32 bit tar.gz file for adobe flash, unpack and copy it to /opt/firefox/browser/plugins/&lt;/p&gt;
 
-&lt;p&gt;~ Paul&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; tar -zxvf install_flash_player_11_linux.i386.tar.gz
+ mkdir -p /opt/firefox/browser/plugins
 
-&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+ cp libflashplayer.so /opt/firefox/browser/plugins&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;¹ Mueller, Claudia M., and Carol S. Dweck. “Praise for Intelligence Can Undermine Children’s Motivation and Performance.” Journal of Personality and Social Psychology 75, no. 1 (1998): 33. [&lt;a href=&quot;http://www.uky.edu/~eushe2/mrg/MuellerDweck1998.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;² Levy, Sheri R., and Carol S. Dweck. “The Impact of Children’s Static versus Dynamic Conceptions of People on Stereotype Formation.” Child Development 70, no. 5 (1999): 1163–1180. [&lt;a href=&quot;http://www.stanford-knowledgebase.org/dept/psychology/cgi-bin/drupalm/system/files/Children%27s%20static%20vs%20dynamic%20person%20conceptions%20as%20predictors%20of%20their%20stereotype%20information.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/p&gt;</description>
-				<pubDate>Sat, 25 Jan 2014 00:00:00 +1100</pubDate>
-				<link>http://pjf.id.au//ethics/2014/01/25/how-to-screw-learning-with-one-simple-belief.html</link>
-				<guid isPermaLink="true">http://pjf.id.au//ethics/2014/01/25/how-to-screw-learning-with-one-simple-belief.html</guid>
+&lt;p&gt;and you should be good to go!&lt;/p&gt;</description>
+				<pubDate>Mon, 21 Oct 2013 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2013/10/21/firefox-i386-on-debian-amd64.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2013/10/21/firefox-i386-on-debian-amd64.html</guid>
 			</item>
 		
 
@@ -102,28 +120,31 @@
                     
 
 			<item>
-				<title>Don't read articles, listen to them</title>
-				<description>&lt;figure class='right smaller'&gt;&lt;a class='fancybox' href='/images/tech/pocket.png' rel='group'&gt;&lt;img src='/images/tech/pocket.png' /&gt;&lt;/a&gt;&lt;/figure&gt;
-&lt;p&gt;This morning I pottered around the kitchen. I made toast and coffee, I washed the dishes, I sorted my groceries. I also read a lengthy article on AIDS in China at the same time. In fact, I’ve been reading more than ever now that I’ve given up on actually &lt;em&gt;reading&lt;/em&gt;.&lt;/p&gt;
+				<title>Plum Sauce</title>
+				<description>&lt;ul&gt;
+&lt;li&gt;6 lbs egg plums&lt;/li&gt;
 
-&lt;p&gt;I don’t hide the fact that I want to learn everything. I have &lt;a href=&quot;http://ankisrs.net/&quot; title=&quot;Anki: Powerful, intelligent flashcards&quot;&gt;flashcards&lt;/a&gt; that I practice every day, I’m enrolled in more &lt;a href=&quot;https://coursera.org/&quot; title=&quot;Coursera: Take free online classes from 80+ top universities and organisations&quot;&gt;coursera&lt;/a&gt; courses than I can poke a stick at, and my most favourite thing in the world is to find someone with specialised knowledge and enthusiasm and talk to them about it in depth. Consequently, I do a lot of thinking about how to learn efficiently.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;p&gt;One thing which is very apparent to me is that I have limited resources when it comes to concentration. If I’m having a conversation, or writing an article, or hacking code, then that concentration slot is full; I can’t do anything else that requires much cognition at the same time. It’s concentration that’s my limited resource when it comes to learning and creating.&lt;/p&gt;
+&lt;li&gt;3 pints vinegar&lt;/li&gt;
 
-&lt;p&gt;And yet, there are so many times each day when I’m &lt;em&gt;not&lt;/em&gt; concentrating on something, and yet have the capacity to do so. Public transport, making breakfast, even sitting on the loo. Sometimes those times are used for serious thinking, but often they’re just filled with frivolous or even anxious thoughts.&lt;/p&gt;
+&lt;li&gt;1 tblsp salt&lt;/li&gt;
 
-&lt;p&gt;I have a good solution to this. And for me, it’s been game-changing.&lt;/p&gt;
+&lt;li&gt;1 tblsp cloves&lt;/li&gt;
 
-&lt;p&gt;There’s a free app called &lt;a href=&quot;http://getpocket.com/&quot; title=&quot;Pocket: Save for later. Put articles, videos or pretty much anything into Pocket.&quot;&gt;Pocket&lt;/a&gt;. It takes articles, turns them into a format that looks great on mobile devices, and syncs them so you can read them anywhere. That’s nice; but by itself it still means I need to have my phone out to read.&lt;/p&gt;
+&lt;li&gt;1 lb onions&lt;/li&gt;
 
-&lt;p&gt;The clincher is that Pocket for Android comes with built-in text-to-speech (TTS) capabilities. If you combine it with a TTS engine that doesn’t suck, and &lt;a href=&quot;http://ivona.com/&quot; title=&quot;IVONA: Award winning, natural text-to-speech for desktop, mobile, server and web.&quot;&gt;Ivona&lt;/a&gt; immediately springs to mind here, then you have a &lt;em&gt;much&lt;/em&gt; easier way of “reading” articles.&lt;/p&gt;
+&lt;li&gt;3 lbs sugar&lt;/li&gt;
 
-&lt;p&gt;The combination is so nice that I read articles almost exclusively via Pocket and Ivona now. I’m even adding &lt;a href=&quot;http://github.com/pjf/exobrain&quot; title=&quot;Exobrain: A collection of agents which collect, classify, and act upon data&quot;&gt;exobrain&lt;/a&gt; capabilities sending me an article on social media will automatically add it to my reading queues. Of course, all my writing on &lt;a href=&quot;http://pjf.id.au/&quot; title=&quot;Paul Fenwick's personal website&quot;&gt;pjf.id.au&lt;/a&gt; sounds great in Pocket, too!&lt;/p&gt;
+&lt;li&gt;1 tsp cayenne&lt;/li&gt;
 
-&lt;p&gt;Alas, Pocket for iOS lacks the built-in TTS capabilities; I’ve been told iOS lacks an easy-to-use speech interface for developers. However many third-party apps seem to have sprung up to fill this niche. If you have any good experiences, I’d love to hear about them.&lt;/p&gt;</description>
-				<pubDate>Thu, 23 Jan 2014 00:00:00 +1100</pubDate>
-				<link>http://pjf.id.au//tech/2014/01/23/dont-read-articles--listen-to-them.html</link>
-				<guid isPermaLink="true">http://pjf.id.au//tech/2014/01/23/dont-read-articles--listen-to-them.html</guid>
+&lt;li&gt;1 tblsp spice&lt;/li&gt;
+
+&lt;li&gt;1 tblsp whole ginger (bruised)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Boil all ingredients together for one hour, then strain through a colander, and bottle when cold.&lt;/p&gt;</description>
+				<pubDate>Mon, 20 May 2013 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//recipes/2013/05/20/plum-sauce.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//recipes/2013/05/20/plum-sauce.html</guid>
 			</item>
 		
 
@@ -132,326 +153,40 @@
                     
 
 			<item>
-				<title>Automated backups with udev and btrfs</title>
-				<description>&lt;p&gt;I’m incredibly lazy. My preferred way of making backups is to plug in an external drive, and have my laptop automatically do the rest.&lt;/p&gt;
+				<title>Tomato Sauce</title>
+				<description>&lt;ul&gt;
+&lt;li&gt;40 lbs Tomatoes&lt;/li&gt;
 
-&lt;p&gt;In order to facilitate this laziness, I’m going to be using two tools: btrfs (an amazing filesystem with snapshot support), and udev (which can detect when a device has been inserted or removed). I’m also going to send notifcations directly to my Pebble watch, because I can.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;p&gt;Everything in this guide needs to be done as root, so we might as well start a root-shell now:&lt;/p&gt;
+&lt;li&gt;6 pints vinegar&lt;/li&gt;
 
-&lt;pre&gt;&lt;code&gt;$ sudo -i&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;1 tsp Cayenne&lt;/li&gt;
 
-&lt;h3 id=&quot;preparing_our_disk&quot;&gt;Preparing our disk&lt;/h3&gt;
+&lt;li&gt;1 oz cloves&lt;/li&gt;
 
-&lt;p&gt;I use &lt;a href=&quot;http://arstechnica.com/information-technology/2014/01/bitrot-and-atomic-cows-inside-next-gen-filesystems/&quot; title=&quot;Bitrot and atomic COWs: Inside next-gen filesystems&quot;&gt;btrfs&lt;/a&gt; for external backups. It’s able to detect when data has gone bad, it has wicked-cool snapshot capabilities, and if I’m backing up an existing btrfs filesystem I can do very quickly and efficiently by sending incremental snapshots. However most of this guide will still work even if you’re using a different filesystem type.&lt;/p&gt;
+&lt;li&gt;2 oz spice&lt;/li&gt;
 
-&lt;p&gt;Our first step is to prepare the disk where our backups are going to live. under Linux we can have volumes with &lt;em&gt;labels&lt;/em&gt;. They’re awesome, because they’re human readable, but still provide a way to identify a device regardless of where it gets mounted. In theory one could have a number of drives with the same label, and we could trigger a backup automatically whenever &lt;em&gt;any&lt;/em&gt; of them are plugged in.&lt;/p&gt;
+&lt;li&gt;1 1/4 lbs salt&lt;/li&gt;
 
-&lt;p&gt;With btrfs, we can set the label when we format the disk, but I always forget to do that. It’s okay, because changing the label is easy:&lt;/p&gt;
+&lt;li&gt;6 lbs green apples&lt;/li&gt;
 
-&lt;pre&gt;&lt;code&gt;$ btrfs filesystem label /dev/sdc1 backup&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;4 lbs onions&lt;/li&gt;
 
-&lt;p&gt;If you’re using &lt;code&gt;ext2&lt;/code&gt; or above, you can do the same with &lt;code&gt;tune2fs&lt;/code&gt;:&lt;/p&gt;
+&lt;li&gt;2 ozs white pepper&lt;/li&gt;
 
-&lt;pre&gt;&lt;code&gt;$ tune2fs -L backup /dev/sdc1&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;2 ozs whole ginger&lt;/li&gt;
 
-&lt;p&gt;My actual disks have more descriptive labels, indicating both the machine and filesystem they’re responsible for.&lt;/p&gt;
+&lt;li&gt;4 ozs garlic&lt;/li&gt;
 
-&lt;p&gt;I like to mount my backups in a consistent location, so I’m going to create that now:&lt;/p&gt;
+&lt;li&gt;5 lbs white suger&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;pre&gt;&lt;code&gt;$ mkdir /mnt/backup&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Cut up apples, Tomatoes and onions and put int preserving pan with all other ingredients and boil for 2.5 to 3 hours stirring frequently.&lt;/p&gt;
 
-&lt;p&gt;We also need to tell linux that when it sees a disk with the &lt;code&gt;backup&lt;/code&gt; label, it needs to go on the mount-point specified. We do this by adding a line to &lt;code&gt;/etc/fstab&lt;/code&gt;, and we can also specify other options in here as well For example, I use btrfs’ compression option:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ echo &amp;quot;LABEL=backup /mnt/backup btrfs noauto,compress 0 2&amp;quot; \
-    &amp;gt;&amp;gt; /etc/fstab&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;On other filesystems, you should leave out ‘compress’ on the line above. The ‘noauto’ option tells Linux not to try and mount the drive when booting; as a removable backup drive, it’s unlikely to be there.&lt;/p&gt;
-
-&lt;h3 id=&quot;udev&quot;&gt;udev&lt;/h3&gt;
-
-&lt;p&gt;Now for the bit which caused me pain, &lt;code&gt;udev&lt;/code&gt;, a system for triggering events when devices change on your system. I don’t know if there are versions of &lt;code&gt;udev&lt;/code&gt; with different keywords, or which care differently about capitalisation, but it took a &lt;em&gt;lot&lt;/em&gt; of tweaking around until I managed to get a udev rule that would automatically mount my disk:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ cat &amp;gt; /etc/udev/rules.d/99-backup.rules
-
-SUBSYSTEM==&amp;quot;block&amp;quot;, ENV{ID_FS_LABEL}==&amp;quot;backup&amp;quot;, ACTION==&amp;quot;add&amp;quot;, \
-    RUN+=&amp;quot;/bin/mount /mnt/backup&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Udev is also supposed to automatically pick up new rules, but my system didn’t the first time. We can nudge it with:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ udevadm control --reload-rules&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;backups&quot;&gt;Backups&lt;/h3&gt;
-
-&lt;p&gt;To make backups I’m using rsync. I use both &lt;code&gt;ionice&lt;/code&gt; and &lt;code&gt;nice&lt;/code&gt; to have our command yield both io and cpu resources to other processes, so we don’t lose system responsiveness during the backup.&lt;/p&gt;
-
-&lt;p&gt;I also use the &lt;code&gt;-vHAaxX&lt;/code&gt; switches to &lt;code&gt;rsync&lt;/code&gt;. This backups up &lt;code&gt;v&lt;/code&gt;erbosely, &lt;code&gt;H&lt;/code&gt;ard links, &lt;code&gt;A&lt;/code&gt;CLs, &lt;code&gt;a&lt;/code&gt;ll, &lt;code&gt;X&lt;/code&gt;tended attributions, and sticking to one filesystem (&lt;code&gt;-x&lt;/code&gt;). I also pass in &lt;code&gt;--delete&lt;/code&gt; to remove files from the backup drive that are no longer on my machine’s disk.&lt;/p&gt;
-
-&lt;p&gt;In addition, I also pass &lt;code&gt;--filter 'P SNAPSHOT-*&lt;/code&gt;, to tell rsync to protect any file at the destination which starts with &lt;code&gt;SNAPSHOT-&lt;/code&gt;. As we’ll see in a moment, these are my btrfs snapshots; we don’t want rsync to try and remove them.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ ionice -c3 nice rsync -vHAaxX --delete \
-    --filter 'P SNAPSHOT-*' / /mnt/backup/&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Once this is done (it can take some time), I take a read-only btrfs snapshot on my backup drive with the current date in UTC:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ btrfs subvolume snapshot -r /mnt/backup \
-    /mnt/backup/SNAPSHOT-`date -u +%Y-%m-%d`&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;One of the joys of btrfs is the top-level filesystem on my backup drive is arranged exactly the same way as the filesystem I’m backing up. In a pinch I could use it a a drop-in replacement. If a file doesn’t change between snapshots, then btrfs requires no additional storage space to store it, and with &lt;a href=&quot;https://github.com/g2p/bedup&quot; title=&quot;bedup: btrfs de-duplication&quot;&gt;bedup&lt;/a&gt; we can even de-duplicate files across filesystems and subvolumes.&lt;/p&gt;
-
-&lt;p&gt;Each snapshot is also a complete backup in its own right; I never have to worry about whether I have a base filesystem upon which to apply an incremental backup on to.&lt;/p&gt;
-
-&lt;p&gt;If you’re not using btrfs or a similar snapshotting filesystem, you might find &lt;a href=&quot;http://www.rsnapshot.org/&quot; title=&quot;rsnapshot: A remote filesystem snapshot utility, based on rsync&quot;&gt;rsnapshot&lt;/a&gt; preferable to straight rsync. It makes rolling snapshots where unchanged files are hard linked to conserve space, but looks like a complete backup each time.&lt;/p&gt;
-
-&lt;h3 id=&quot;automating_everything_with_snapback&quot;&gt;Automating everything with snapback&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;Snapback&lt;/code&gt; is some code I wrote because anything more than plugging in a USB drive to my laptop is just too much work. It uses &lt;a href=&quot;https://pushover.net/&quot; title=&quot;Pushover: Simple mobile notifications&quot;&gt;Pushover&lt;/a&gt; to send notifications to my pebble watch, so there’s no need to look through &lt;code&gt;/var/log&lt;/code&gt; to see what’s happening, and I’m immediately notified when the backup is complete.&lt;/p&gt;
-
-&lt;p&gt;It ties all the above together into a script that’s triggered from udev. Because udev kills any process that’s running too long, under the hood we fork a daemon to do the heavy lifting for us.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;Snapback&lt;/code&gt; is pretty heavily customised to work on my laptop, but you’re welcome to adapt it to your own purposes if you like.&lt;/p&gt;
-
-&lt;p&gt;You can &lt;a href=&quot;https://github.com/pjf/snapback&quot; title=&quot;Snapback: Automatically backup your machine to btrfs when a disk is plugged in (GitHub)&quot;&gt;find snapback on github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;credits&quot;&gt;Credits&lt;/h3&gt;
-
-&lt;p&gt;Thanks to &lt;a class='social-link' href='https://twitter.com/jeremyvisser'&gt;Jeremy Visser&lt;/a&gt; for pointing out &lt;code&gt;sudo -i&lt;/code&gt; as a more comfortable way to get a root shell.&lt;/p&gt;
-
-&lt;p&gt;Thanks to &lt;a class='social-link' href='https://twitter.com/evmcl'&gt;Evan&lt;/a&gt; for reminding me of rsnapshot, and providing a &lt;a href=&quot;https://github.com/evmcl/pjf.github.io/commit/fa400560eb9aabf14b9d324b462ea58ddba3ddc4&quot;&gt;content patch&lt;/a&gt; to this article! :)&lt;/p&gt;</description>
-				<pubDate>Thu, 23 Jan 2014 00:00:00 +1100</pubDate>
-				<link>http://pjf.id.au//tech/2014/01/23/automated-backups-with-udev-and-btrfs.html</link>
-				<guid isPermaLink="true">http://pjf.id.au//tech/2014/01/23/automated-backups-with-udev-and-btrfs.html</guid>
+&lt;p&gt;Strain through a fine colander, bottle, cork, seal and label.&lt;/p&gt;</description>
+				<pubDate>Sun, 19 May 2013 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//recipes/2013/05/19/tomato-sauce.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//recipes/2013/05/19/tomato-sauce.html</guid>
 			</item>
 		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Website Privacy and You</title>
-				<description>&lt;p&gt;Too many entities want to know too much about you, and one of the sneakiest ways they do this is to get website author to add third-party tracking information to their own site. The value to the website operator is often a service, feature, or even revenue, but that doesn’t change the fact that having third parties track your information sure &lt;em&gt;feels&lt;/em&gt; skeezy to me.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;p&gt;On &lt;a href=&quot;http://pjf.id.au/&quot; title=&quot;Paul Fenwick's personal website&quot;&gt;pjf.id.au&lt;/a&gt; I use three third-party services: AddThis, Google Analytics, and Disqus.&lt;/p&gt;
-
-&lt;h3 id=&quot;addthis&quot;&gt;AddThis&lt;/h3&gt;
-
-&lt;p&gt;AddThis provides an easy way to add sharing links to content. They integrate with just about everything, and they provide the content author with information as to how content is being shared, and how many views are because of that sharing.&lt;/p&gt;
-
-&lt;p&gt;AddThis provide a simple &lt;a href=&quot;http://www.addthis.com/privacy/opt-out&quot; title=&quot;AddThis opt-out&quot;&gt;opt-out button&lt;/a&gt; to prevent them from collecting and sharing information about you. Opting-out doesn’t stop you from using the share buttons, it just protects your privacy. I recommend you use it.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Edit:&lt;/em&gt; On January 25th 2014 I removed AddThis in favour of a static, tracking-free set of share buttons.&lt;/p&gt;
-
-&lt;h3 id=&quot;google_analytics&quot;&gt;Google Analytics&lt;/h3&gt;
-
-&lt;p&gt;I use Google Analytics to get an overview of who’s visiting my site. By default, Analytics receives your entire IP address, but I feel that Google already knows too much about you, so I ask them to collect &lt;a href=&quot;https://support.google.com/analytics/answer/2763052?hl=en&amp;ref_topic=2919631&quot;&gt;less information&lt;/a&gt; by partially anonymising your IP address.&lt;/p&gt;
-
-&lt;p&gt;Google would also love to &lt;a href=&quot;https://support.google.com/analytics/answer/2700409&quot;&gt;cross-reference your data&lt;/a&gt; with existing advertising cookies to determine demographics such as age, gender and intrests. I have that firmly turned off, but you can be pretty sure most everywhere else on the web has it turned on.&lt;/p&gt;
-
-&lt;p&gt;Google gives you a way to &lt;a href=&quot;https://support.google.com/analytics/answer/181881&quot;&gt;permanently opting out of analytics&lt;/a&gt; by using an open-source browser add-on.&lt;/p&gt;
-
-&lt;p&gt;Google also provides a way to &lt;a href=&quot;https://www.google.com/settings/ads/plugin&quot;&gt;permanently opt-out of targetted advertising&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;disqus&quot;&gt;Disqus&lt;/h3&gt;
-
-&lt;p&gt;Disqus provides a pretty excellent way of adding comments and discussions to articles. However they also make their money from advertising, and have no opt-out button when it comes to collecting your information.&lt;/p&gt;
-
-&lt;p&gt;I don’t want to require that you identify yourself to a third party to comment on my writings, so I’ve enabled anonymous comments This is also likely to increase the number of spam and junk comments a little, so I’d appreciate you flagging those if you see them.&lt;/p&gt;
-
-&lt;h3 id=&quot;opting_out_of_everything_at_aboutads&quot;&gt;Opting out of everything at AboutAds&lt;/h3&gt;
-
-&lt;p&gt;There are hundreds of advertising agencies out there who keep personalised information about you. Some of them participate in a self-regulatory program to make it easier for users to opt-out.&lt;/p&gt;
-
-&lt;p&gt;I &lt;em&gt;strongly&lt;/em&gt; recommend you visit the &lt;a href=&quot;http://www.aboutads.info/choices/&quot;&gt;Opt Out page&lt;/a&gt; at AboutAds, which provides an interface to opt-out from over a hundred advertising services.&lt;/p&gt;
-
-&lt;h3 id=&quot;fixing_everything_with_noscript&quot;&gt;Fixing everything with NoScript&lt;/h3&gt;
-
-&lt;p&gt;One excellent solution to opt-out of &lt;em&gt;everything&lt;/em&gt; is to use the &lt;a href=&quot;http://noscript.net/&quot; title=&quot;NoScript: JavaScript/Java/Flash blocker for a safer Firefox experience&quot;&gt;NoScript&lt;/a&gt; extension for Firefox. While modestly inconvenient to use at first, NoScript makes it very easy to temporarily or permanently block domains and features you don’t want, which results in a much cleaner, faster, and more private web experience.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, NoScript only exists for Firefox-based browsers. Recommendations for other browsers are welcome.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&quot;https://www.torproject.org/&quot;&gt;Tor Project&lt;/a&gt; also provides pretty serious anonymity functionality that works with any browser.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; Unfortunately, the search box on my site may give you ads. Google doesn’t let you disable that unless you’re a registered non-profit, which I’m currently not. The search box does not interact with Google in any way unless you submit a search using it.&lt;/p&gt;</description>
-				<pubDate>Wed, 22 Jan 2014 00:00:00 +1100</pubDate>
-				<link>http://pjf.id.au//tech/2014/01/22/website-privacy-and-you.html</link>
-				<guid isPermaLink="true">http://pjf.id.au//tech/2014/01/22/website-privacy-and-you.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>A new website, a new philosophy</title>
-				<description>&lt;p&gt;A few years ago, the server on which I hosted my personal website suffered a hardware failure and died. It had been running for over a decade and the design had &lt;a href=&quot;https://web.archive.org/web/20110216060633/http://www.pjf.id.au/&quot;&gt;not changed once&lt;/a&gt; during that time.&lt;/p&gt;
-
-&lt;p&gt;I’m very glad to say that I’ve now resurrected the site, along with the over ten years worth of writing I had there. However what I’m really excited about is the technology and philosophy of how the new site is constructed.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;p&gt;I do a &lt;a href=&quot;/ethics&quot; title=&quot;Paul Fenwick's writings on ethics and philosophy&quot;&gt;lot of writing&lt;/a&gt; on how I feel the world could be a better place, and much of that comes down to changing the way in which we think. Our society teaches us odd values; we’re told sharing and generosity are good, and they are &lt;em&gt;exceptional&lt;/em&gt; traits to have. Literally; they are something which is an exception or deviation from expected behaviour.&lt;/p&gt;
-
-&lt;p&gt;We teach people to share, but then we expect them not to.&lt;/p&gt;
-
-&lt;p&gt;I want to change that. It costs me nothing to share my digital works; the value for me is in making the world a better place, and I want to make it easy for others to do the same. That’s the philosophy behind pjf.id.au.&lt;/p&gt;
-
-&lt;p&gt;So first of all, this is a website built on respect for one’s audience. There are no advertisements; I have no hosting costs to defray. There are no tricks, I want to be honest in what I’m presenting. The website looks good at any resolution, and on any browser that respects standards. I use a few third-party tools to make it easier to share and comment on posts, or for me to see how the site is being used, but wherever possible I’ve disabled any functionality they may have which tracks individual users, or shares information with others.&lt;/p&gt;
-
-&lt;p&gt;Most importantly to me, I’m making all my writing available under a &lt;a href=&quot;https://creativecommons.org/licenses/by/3.0/&quot; title=&quot;Creative Commons Attribution 3.0 License&quot;&gt;Creative Commons Attribution&lt;/a&gt; license. In short, you can use, modify, and redistribute it—even commercially—as long as you provide attribution and facilitate others doing the same. There’s almost 700 pieces of work, stretching back over a decade, and I’m still importing much of my work that’s been scattered across the net.&lt;/p&gt;
-
-&lt;p&gt;I want to make it easy for you to re-use my work, so everything, including content and underlying infrastructure, is &lt;a href=&quot;https://github.com/pjf/pjf.github.io&quot;&gt;available on github&lt;/a&gt;. You can fork and clone the entire website, and try to do a better job of being me if you like. More importantly, you can use the &lt;code&gt;base&lt;/code&gt; branch to have a website with all the features and design I enjoy, but with configuration and content you supply. If this excites you, then you may also wish to look at &lt;a href=&quot;http://octopress.org/&quot; title=&quot;Octopress: A blogging framework for hackers&quot;&gt;Octopress&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Equally important, you can modify my work in-place, in case you find errors or omissions, or you wish to help with the tagging and classification of older pieces of writing. Right now that requires you to be comfortable with git, but I plan to &lt;a href=&quot;https://github.com/pjf/pjf.github.io/issues/11&quot;&gt;add edit buttons&lt;/a&gt; directly on to each article.&lt;/p&gt;
-
-&lt;p&gt;None of what I’m doing here would be possible without the generosity of others doing the same, and so there are a number of thank yous that are very well deserved.&lt;/p&gt;
-
-&lt;p&gt;The design of pjf.id.au is by the amazing &lt;a class='social-link' href='https://twitter.com/n33co'&gt;@n33co&lt;/a&gt; of &lt;a href=&quot;http://html5up.net/&quot; title=&quot;HTML5 UP! Responsive HTML5 and CSS3 Site Templates&quot;&gt;html5up&lt;/a&gt;, who makes beautiful, responsive, and standards-compliant web designs available for free, also under Creative Commons licensing. They are all incredible, and I cannot recommend them enough. If you’re looking at starting your own website, and are in need of a beautiful design, please do visit &lt;a href=&quot;http://html5up.net/&quot; title=&quot;HTML5 UP! Responsive HTML5 and CSS3 Site Templates&quot;&gt;html5up&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;pjf.id.au is powered by &lt;a href=&quot;http://jekyllrb.com/&quot; title=&quot;Jekyll: Simple, blog aware, static sites&quot;&gt;jekyll&lt;/a&gt;, a free, open-source infrastructure engine written in &lt;a href=&quot;https://www.ruby-lang.org/&quot; title=&quot;Ruby Programming Language&quot;&gt;Ruby&lt;/a&gt;. It’s hosted—for free—by &lt;a href=&quot;https://github.com/&quot; title=&quot;GitHub: Build software better, together&quot;&gt;github&lt;/a&gt;, who continuously amaze me with the support and services they provide to the open source community.&lt;/p&gt;
-
-&lt;p&gt;Finally, I want to give a special thanks to &lt;a class='social-link' href='https://github.com/techman83'&gt;Leon Wright&lt;/a&gt;, who has not only created &lt;a href=&quot;http://techman83.me/&quot; title=&quot;techman83: Leon Wright&quot;&gt;his own website&lt;/a&gt; based upon my design, but also sent me numerous patches and features to not only improve my own website, but to allow others to re-use our collective works.&lt;/p&gt;
-
-&lt;p&gt;So please, share and enjoy, and if you like my work I’d love to hear about it below.&lt;/p&gt;
-
-&lt;p&gt;~ Paul&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Edit&lt;/em&gt;: Within a couple of hours of posting this, the amazing &lt;a class='social-link' href='https://github.com/rhunter'&gt;Rob Hunter&lt;/a&gt; &lt;a href=&quot;https://github.com/pjf/pjf.github.io/pull/14&quot;&gt;supplied a patch&lt;/a&gt; adding edit links to the top of all articles! Thanks Rob, you totally rock! ;)&lt;/p&gt;</description>
-				<pubDate>Tue, 21 Jan 2014 00:00:00 +1100</pubDate>
-				<link>http://pjf.id.au//tech/2014/01/21/a-new-website-a-new-philosophy.html</link>
-				<guid isPermaLink="true">http://pjf.id.au//tech/2014/01/21/a-new-website-a-new-philosophy.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Use Markdown Instead Of BBCode With Vimperator</title>
-				<description>&lt;p&gt;I really love the Dwarf Fortress community, and a lot of it is centred around the &lt;a href=&quot;http://www.bay12forums.com/smf/index.php&quot;&gt;bay12 forums&lt;/a&gt;. Unfortunately, I don’t love BBCode (aka phpBB syntax), which is what the bay12 forums require me to write posts in. I’d much rather use &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;markdown&lt;/a&gt;. So I decided to fix that with the help of vimperator, and by writing my own markdown to BBcode parser.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;p&gt;If you install the &lt;a href=&quot;https://metacpan.org/pod/Markdown::phpBB&quot;&gt;Markdown::phpBB&lt;/a&gt; module from the CPAN, you’ll find a nifty little program named &lt;code&gt;md2phpbb&lt;/code&gt;. This is a filter; it takes input in markdown, and emits output in BBcode.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ cpanm Markdown::phpBB     # install using cpanm
-$ cpan  Markdown::phpBB     # install using classic cpan&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you’re editing in vim, you can run &lt;code&gt;:%!md2phpbb&lt;/code&gt; to replace your current buffer (written in markdown) with the equivalent text in BBcode. You can even bind it to a key, as I’ve done in my &lt;code&gt;~/.vimrc&lt;/code&gt; file:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;:nmap &amp;lt;F5&amp;gt; :%!md2phpbb&amp;lt;CR&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you’ve installed md2phpbb into a user (rather than system) directory, then you may find that vimperator won’t have your perl-specific environment variables in place. In that case you can use full paths in your &lt;code&gt;~/.vimrc&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;:nmap &amp;lt;F5&amp;gt; :%!perl -I/home/pjf/perl5/lib/perl5 /home/pjf/perl5/bin/md2phpbb&amp;lt;CR&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you’re using &lt;a href=&quot;http://www.vimperator.org/vimperator&quot;&gt;vimperator&lt;/a&gt; then you can already invoke vim from any textarea by pressing &lt;code&gt;ctrl-i&lt;/code&gt;. However BBcode websites usually bind this to &lt;em&gt;italics&lt;/em&gt;, so you’ll probably want to add an additional key for editing to your &lt;code&gt;~/.vimperatorrc&lt;/code&gt; file. I use &lt;code&gt;ctrl-e&lt;/code&gt;, for edit:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;:inoremap &amp;lt;C-e&amp;gt; &amp;lt;C-i&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now you can use &lt;code&gt;ctrl-e&lt;/code&gt; to open a vim window, write your response in markdown, and then just hit &lt;code&gt;F5&lt;/code&gt; to turn it into BBCode. Best of all, the filter doesn’t change existing BBCode at all, so you can hit &lt;code&gt;F5&lt;/code&gt; as many times as you like, to refresh your text after edits.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;md2phpbb&lt;/code&gt; and supporting libraries are completely free and open source, and can be found on &lt;a href=&quot;https://github.com/pjf/Markdown-phpBB&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;See also: &lt;a href=&quot;http://privacygeek.blogspot.com.au/2013/03/the-worlds-easiest-guide-to-installing.html&quot;&gt;The world’s easiest guide to installing cpanm&lt;/a&gt;&lt;/p&gt;</description>
-				<pubDate>Thu, 16 Jan 2014 00:00:00 +1100</pubDate>
-				<link>http://pjf.id.au//tech/2014/01/16/use-markdown-rather-than-bbcode-with-vimperator.html</link>
-				<guid isPermaLink="true">http://pjf.id.au//tech/2014/01/16/use-markdown-rather-than-bbcode-with-vimperator.html</guid>
-			</item>
-		
-
-                     
-
-                     
-
-                     
-
-                     
-
-                     
-
-                     
-
-                     
-
-                    
-                    
-                    
-
-			<item>
-				<title>Depression—An Update</title>
-				<description>&lt;p&gt;In late 2012 I had a depressive episode. This is well documented; &lt;a href=&quot;2012-11-29-i-have-depression-an-open-letter-by-paul-fenwick.html&quot;&gt;I wrote about it on-line&lt;/a&gt;, and I even &lt;a href=&quot;http://pjf.id.au/talks/2013/07/24/depression-bugs-in-your-brain.html&quot;&gt;gave a talk at OSCON&lt;/a&gt;. My thought processes during that time were broken and cyclical; cognitively I knew that people were great, but emotionally I found myself intensely disliking them. As someone who’s long derived joy and energy from those around me, I seemed to spend all my energy arguing with the emotional part of myself that people &lt;em&gt;were&lt;/em&gt; great… and yet it wouldn’t listen. The situation was exhausting, and I didn’t get anywhere.&lt;/p&gt;
-
-&lt;p&gt;Eventually, I struck a deal. I would admit that perhaps people aren’t as great as I once thought, and that emotional monkey-brain would quieten down and let me think again. It worked, and I’d joke with my role-playing friends I recovered by taking a point in misanthropy.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;p&gt;It was a good deal, because I knew that point in misanthropy could eventually be removed, and because &lt;em&gt;anything&lt;/em&gt; was better than being in the state I was back then.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, the misanthropy stuck around. It’s not as bad as it used to be, but it’s definitely there.&lt;/p&gt;
-
-&lt;p&gt;You might have noticed me at less events in 2013, and part of that’s because the thought of seeing people has often been completely unappealing. Usually when I’m at an event, I &lt;em&gt;am&lt;/em&gt; social and happy, but the misanthropy often comes back as soon as I leave. Sometimes it comes back hard.&lt;/p&gt;
-
-&lt;p&gt;Humans have a knack of making up plausible excuses for our own behaviour, and then believing those excuses to be real¹. We have the same knack when it comes to emotions. We’ll look for things in our environment try to explain why we’re feeling a particular way, and believe they’re &lt;em&gt;actually&lt;/em&gt; the reason we feel that way².&lt;/p&gt;
-
-&lt;p&gt;Consequently, when I’m feeling misanthropic, it’s hard for me to tell which thoughts of mine are actually legitimate, and which thoughts only &lt;em&gt;feel&lt;/em&gt; legitimate because of my emotional state. Often I’m appalled when I look back at some of my thoughts when I feel this way.&lt;/p&gt;
-
-&lt;p&gt;Readers of &lt;a href=&quot;http://hpmor.com/&quot;&gt;HPMOR&lt;/a&gt; will be familiar with assigning labels to the different viewpoints in one’s own head. When I’m feeling misanthropic, my Slytherin brain seems to get a larger share of my think-space. Slytherin brain isn’t evil; instead it’s rational, ethical, and often it pairs up with Ravenclaw brain to provide strong empirical support for its arguments. Slytherin brain is strongly oriented towards achievements and problem-solving; it’s often the reason &lt;em&gt;why&lt;/em&gt; I get stuff done.&lt;/p&gt;
-
-&lt;p&gt;However Slytherin brain has a reduced coefficient-of-concern—not only for others—but also for my own short-term circumstances. It’s acceptable for myself—or other people—to suffer short-term discomfort if it results in long term good.&lt;/p&gt;
-
-&lt;p&gt;When I’m in a peaceful, stable state, Slytherin brain gives great advice. It means I’ll pass on the thing which seems attractive now, but which I know will prove to be a bad choice later on. It’s why I’ll do boring but essential paperwork when I could be looking at pictures of cats on the Internet. Slytherin brain wields executive function like a boss.&lt;/p&gt;
-
-&lt;p&gt;However when I’m misanthropic, Slytherin brain presents all sorts of plans to make &lt;em&gt;me&lt;/em&gt; feel better, but which almost completely ignore the feelings of others. While it acknowledges that being a total jerk isn’t going to make anyone happy, it seem to feel I could be a &lt;em&gt;lot more&lt;/em&gt; of a jerk to get what I want.&lt;/p&gt;
-
-&lt;p&gt;I’m not exactly happy with that.&lt;/p&gt;
-
-&lt;p&gt;While I’m primarily writing this to help quell my thoughts, I’m certainly not above help and assistance. If you do wish to lend a hand, then please encourage me to get out, get involved, and don’t hesitate to introduce me to others face-to-face. I have a good inclination that with enough exposure to fabulous people my misanthropy will reduce. I hope this year I’ll be able to kick it for good.&lt;/p&gt;
-
-&lt;p&gt;Many thanks,&lt;/p&gt;
-
-&lt;p&gt;~ Paul&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;¹ Bargh, John A., and Tanya L. Chartrand. “The Unbearable Automaticity of Being.” American Psychologist 54, no. 7 (1999): 462–479. doi:10.1037/0003-066X.54.7.462.&lt;/p&gt;
-
-&lt;p&gt;² Amongst other things, my talk ”&lt;a href=&quot;http://pjf.id.au/talks/2011/07/29/all-your-brains-suck.html&quot;&gt;All Your Brains Suck&lt;/a&gt;” discusses how we use environmental queues to rationalise thoughts and emotions.&lt;/p&gt;</description>
-				<pubDate>Thu, 02 Jan 2014 00:00:00 +1100</pubDate>
-				<link>http://pjf.id.au//depression/2014/01/02/personal-depression-an-update.html</link>
-				<guid isPermaLink="true">http://pjf.id.au//depression/2014/01/02/personal-depression-an-update.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Do not stifle innovation.</title>
-				<description>&lt;p&gt;Open source software is great. You don’t have to worry about the owner deciding to discontinue it, because someone else can always take over. If there’s a bug that really annoys you—or a feature you really want—you can add it. If you’re concerned about what the software might be doing, you can open it up and take a look. And even if you don’t have the skills or inclination to do all these things, other people will.&lt;/p&gt;
-
-&lt;p&gt;While I’ve always known open source software is great, I’m increasingly starting to appreciate that open source &lt;em&gt;developers&lt;/em&gt; are also great. Many people in open source not only have a tremendous amount of experience with software, but also community management. They’ve seen a lot of the same problems arise many times, and so they have a good idea on how to get code, and people, to work together productively.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;p&gt;One thing that we see, again and again, in both software and the community, is that giving people agency and discretion is fundamental in having a highly successful project. Wikis lowered the barrier to contribution immensely when it came to collating knowledge, Wikipedia wouldn’t exist if it wasn’t so easy to edit. Many of the most successful software projects have been extremely generous with their commit bits, and with distributed version control, the barriers to contribution have been lowered even further.&lt;/p&gt;
-
-&lt;p&gt;The reason this is so essential for success is simple. The vast majority of intelligent, motivated people &lt;em&gt;want&lt;/em&gt; to make the world a better place; putting barriers in their way simply means they’ll go elsewhere. Every permission form that needs to be filled in, every registration process that needs to be jumped through, every legal framework that encumbers creation, every strict power hierarchy that needs to be worked through, they all run the risk of taking someone who may done something great instead deciding it was “too hard”.&lt;/p&gt;
-
-&lt;p&gt;That’s not to say that we won’t need a way to deal with mishaps; even if nobody is malevolent, some people will still be learning, and everyone will make mistakes. Wikis and distributed version control strike a good balance here, they’re designed around the ability to undo changes, or revert to previous revisions if need be. Much of the software that lower the barriers to contribution also lower the risks associated with it.&lt;/p&gt;
-
-&lt;p&gt;And that’s the key here. If you can give people a way of doing something, and that process comes with low or negligible risks, then &lt;em&gt;let them do it&lt;/em&gt;. Even if you think nobody will care, even if you think it’s a terrible idea, &lt;em&gt;let them&lt;/em&gt;. Many great ideas start as terrible ones that are refined over time, and you may be surprised at just how popular some ideas can be.&lt;/p&gt;
-
-&lt;p&gt;But this doesn’t just apply to your software, or your documentation; this applies to the your culture, and the society in which you live.&lt;/p&gt;
-
-&lt;p&gt;Encourage others to be bold. Be generous in what you accept.&lt;/p&gt;
-
-&lt;p&gt;Do not stifle innovation. Do not get in the way of people being great.&lt;/p&gt;
-
-&lt;p&gt;And I know that sometimes it can feel like two steps forward, and one step back; but please, please, don’t stop contributing.&lt;/p&gt;
-
-&lt;p&gt;Thank you.&lt;/p&gt;</description>
-				<pubDate>Sat, 28 Dec 2013 00:00:00 +1100</pubDate>
-				<link>http://pjf.id.au//ethics/2013/12/28/do-not-stifle-innovation.html</link>
-				<guid isPermaLink="true">http://pjf.id.au//ethics/2013/12/28/do-not-stifle-innovation.html</guid>
-			</item>
-		
-
-                    
-                    
-                     
 	</channel>
 </rss>
