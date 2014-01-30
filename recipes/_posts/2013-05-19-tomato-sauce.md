@@ -1,6 +1,6 @@
 ---
 title: Tomato Sauce
-tags: recipe Ellen
+tags: recipes Ellen
 ---
 
 
