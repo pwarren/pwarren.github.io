@@ -12,6 +12,27 @@
                     
 
 			<item>
+				<title>Attempt No.1 to receive Ardusat</title>
+				<description>&lt;p&gt;Today, I built an antenna as specified here:&lt;/p&gt;
+
+&lt;p&gt;http://forums.snapstream.com/vb/showthread.php?t=38708&lt;/p&gt;
+
+&lt;p&gt;here’s what my version looks like:&lt;/p&gt;
+&lt;figure&gt;&lt;a class='fancybox' href='/images/433MHz_yagi_post.jpg' rel='group'&gt;&lt;img src='/images/433MHz_yagi_post.jpg' /&gt;&lt;/a&gt;&lt;figcaption&gt;433 MHz Yagi Antenna&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;I attempted to receive ArduSat-X and ArduSat-1, and I think I saw the CW beacon of ArduSat-X with &lt;a href=&quot;http://gqrx.de&quot;&gt;gqrx&lt;/a&gt; but I hadn’t adjusted for the doppler effect, or something, because it appeared some distance away from 437.000MHz. And I only recorded the last few symbols, not even a full letter of morse.&lt;/p&gt;
+
+&lt;p&gt;Over the next little while, I’ll try to construct a flow graph in GnuRadio that’ll let me see the FFT waterfall, hear where I’m tuned to, and record the raw IQ values for the whole range, so I can come back later and decode the FM CW beacon at the corrected location!&lt;/p&gt;</description>
+				<pubDate>Sun, 02 Feb 2014 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/02/02/Ardusat-contact-attempt1.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/02/02/Ardusat-contact-attempt1.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>RTL-entropy Lightning Talk</title>
 				<description>&lt;div class='video-container'&gt;&lt;iframe height='420' src='http://www.youtube.com/embed/RWn5QJpOBFU?html5=1' width='560'&gt; &lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;&lt;a href='http://www.youtube.com/watch?v=RWn5QJpOBFU'&gt;Watch on YouTube&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;A quick talk I did about my rtl-entropy software: https://github.com/pwarren/rtl-entropy/&lt;/p&gt;
