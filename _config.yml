@@ -60,6 +60,10 @@ sidebar:
   - recipes:
     title: "Recipes"
     url: "/recipes"
+  - coffee:
+    title: "Coffee"
+    url: "/coffee"
+
 
 sitemap:
     file: "/sitemap.xml"
