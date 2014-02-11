@@ -13,11 +13,13 @@
 
 			<item>
 				<title>APRS from RTL-SDR shown in YAAC</title>
-				<description>&lt;p&gt;Today I figured out how to get APRS packets shown on a map with {http://www.findtheater.com/ka2ddo/YAAC.html}(Yet Another APRS Client).&lt;/p&gt;
+				<description>&lt;p&gt;Today I figured out how to get APRS packets shown on a map with &lt;a href=&quot;http://www.findtheater.com/ka2ddo/YAAC.html&quot;&gt;Yet Another APRS Client&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;First up start up rtl_fm and pipe it to multimon-ng:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;  rtl_fm -f 145.1717M -s 22050 | multimon-ng -q -A -a AFSK1200 -t raw - &amp;gt; aprs.txt&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I had to adjust the frequency to correct for my dongle’s innacuracy, in my location APRS is at 145.175MHz, using the various tools to determine its PPM error did not help, as adding the -p flag to rtl_fm did nothing. To get the proper frequency I used &lt;a href=&quot;http://gqrx.de&quot;&gt;gqrx&lt;/a&gt;, the best, actually open source SDR viewing tool out there, to see where the signals were centred according to the Dongle.&lt;/p&gt;
 
 &lt;p&gt;I pipe it to a file so I’ve got a nice lot of packets to test things with. Multimon puts out lines like:&lt;/p&gt;
 
