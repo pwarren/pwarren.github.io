@@ -1,6 +1,6 @@
 ---
 title: APRS from RTL-SDR shown in YAAC
-tags: tech, sdr, radio, aprs, aprs-is
+tags: tech sdr radio aprs aprs-is
 ---
 
 Today I figured out how to get APRS packets shown on a map with {http://www.findtheater.com/ka2ddo/YAAC.html}(Yet Another APRS Client).

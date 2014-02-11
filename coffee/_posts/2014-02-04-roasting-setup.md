@@ -1,6 +1,6 @@
 ---
 Title: My Roasting Setup
-tags: coffee, coretto, roasting
+tags: coffee coretto roasting
 ---
 
 I use an Ozito heatgun with a digital temperature gague, and a beat up Sunbeam Bakehouse breadmaker. I made a fibre-cement top with a hole for the heat gun to sit in, and one for chaff to exit! I've had this setup since December 2011, and it's been awesome, fresh roasted coffee all the time is a big plus!
