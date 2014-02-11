@@ -9,6 +9,8 @@ First up start up rtl_fm and pipe it to multimon-ng:
 
       rtl_fm -f 145.1717M -s 22050 | multimon-ng -q -A -a AFSK1200 -t raw - > aprs.txt
 
+I had to adjust the frequency to correct for my dongle's innacuracy, in my location APRS is at 145.175MHz, using the various tools to determine its PPM error did not help, as adding the -p flag to rtl_fm did nothing.  To get the proper frequency I used {http://gqrx.de}gqrx, the best, actually open source, SDR viewing tool out there, to see where the signals were centred according to the Dongle.
+
 I pipe it to a file so I've got a nice lot of packets to test things with. Multimon puts out lines like:
 
 
