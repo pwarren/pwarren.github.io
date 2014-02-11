@@ -12,6 +12,46 @@
                     
 
 			<item>
+				<title>APRS from RTL-SDR shown in YAAC</title>
+				<description>&lt;p&gt;Today I figured out how to get APRS packets shown on a map with {http://www.findtheater.com/ka2ddo/YAAC.html}(Yet Another APRS Client).&lt;/p&gt;
+
+&lt;p&gt;First up start up rtl_fm and pipe it to multimon-ng:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  rtl_fm -f 145.1717M -s 22050 | multimon-ng -q -A -a AFSK1200 -t raw - &amp;gt; aprs.txt&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I pipe it to a file so I’ve got a nice lot of packets to test things with. Multimon puts out lines like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   APRS: VK2RTZ-1&amp;gt;APNU19,VK2AMW-1*,VK1RGI-1*,WIDE2*:!3256.46SS15130.90E#PHG4430/W2 Digi Mt Sugarloaf
+   APRS: VK2TGB-7&amp;gt;S3T2W3,VK2AMW-1*,VK1RGI-1*,WIDE2*:`N?:l+o&amp;gt;/
+   APRS: VK2HLT-8&amp;gt;S5P8Q1,VK2RWG-1*,VK1RGI-1*,WIDE2-1:'K/il&amp;quot;-j/]&amp;quot;69}Pathfinding R51
+   APRS: VK2AMW-1&amp;gt;APNU19,VK1RGI-1*,WIDE2*:!3433.21SS15037.76E# W2 Digi  Knight's  Hill
+   APRS: VK2RGN-1&amp;gt;APOT30,VK1RGI-1*,WIDE2*:!3445.39S/14941.30E#Goulburn - Echo/IRLP on 147.925 VK2RGN
+   APRS: VK2HLT-8&amp;gt;S5P8Q1,VK2RWG-1*,VK1RGI-1*,WIDE2-1:'K/il&amp;quot;-j/]&amp;quot;6?}Pathfinding R51&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which is not quite what YAAC is expecting, it likes things to be in APRS-IS format, which multimon almost does, just need to remove the “APRS: ” characters from the start, colrm or cut should do the trick. Then pipe that output to netcat, so that YAAC can read it! I had thought that the -q (quiet) flag would do that, but alas, that just omits the copyright notice and available decoders.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  inotail -f aprs.txt | stdbuf -oL cut -c 7- | nc -l 14580&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I had to use inotail and stdbuf as with this many pipes, and small data volumes, pipes don’t get flushed enough for it to work properly. I’ll make a small python script eventually that’ll emulate a APRS-IS server so that a number of clients could connect to it.&lt;/p&gt;
+
+&lt;p&gt;Finally, within YAAC create a new APRS-IS ‘port’ that points to your sever, and watch the packets get displayed! Similarly, anything that can read APRS-IS should be able to read from the netcat port. Beware, netcat doesn’t keep going after you quit, you’ll have to restart it again.&lt;/p&gt;
+
+&lt;p&gt;I’m pretty sure you could do something like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  rtl_fm -f 145.1717M -s 22050 | multimon-ng -q -A -a AFSK1200 -t raw - | stdbuf -oL cut -c 7- | nc -l 14580&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and omit the aprs.txt file, but I’ve not tried it. Hope that’s useful.&lt;/p&gt;</description>
+				<pubDate>Tue, 11 Feb 2014 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/02/11/APRS-to-YAAC.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/02/11/APRS-to-YAAC.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Roasting Setup</title>
 				<description>&lt;p&gt;I use an Ozito heatgun with a digital temperature gague, and a beat up Sunbeam Bakehouse breadmaker. I made a fibre-cement top with a hole for the heat gun to sit in, and one for chaff to exit! I’ve had this setup since December 2011, and it’s been awesome, fresh roasted coffee all the time is a big plus!&lt;/p&gt;
 
