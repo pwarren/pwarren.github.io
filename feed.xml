@@ -12,6 +12,46 @@
                     
 
 			<item>
+				<title>Building GnuRadio from git on Debian 7</title>
+				<description>&lt;p&gt;Okay, so in order to play with some new blocks I found, &lt;a href=&quot;https://github.com/argilo/gr-rds&quot;&gt;gr-rds&lt;/a&gt; in particular. It appears I needed a newer version of gnuradio than I had previously built from git to get the Control Port functions these blocks require.&lt;/p&gt;
+
+&lt;p&gt;So, off I go and&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git pull
+cd build
+rm -rf *
+cmake ../
+make&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and get:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/usr/include/c++/4.7/bits/stl_tree.h:646:9:   required from ‘std::_Rb_tree&amp;lt;_Key, _Val, _KeyOfValue, _Compare, _Alloc&amp;gt;::~_Rb_tree() [with _Key = int; _Val = std::pair&amp;lt;const int, IceInternal::Handle&amp;lt;Ice::Object&amp;gt; &amp;gt;; _KeyOfValue = std::_Select1st&amp;lt;std::pair&amp;lt;const int, IceInternal::Handle&amp;lt;Ice::Object&amp;gt; &amp;gt; &amp;gt;; _Compare = std::less&amp;lt;int&amp;gt;; _Alloc = std::allocator&amp;lt;std::pair&amp;lt;const int, IceInternal::Handle&amp;lt;Ice::Object&amp;gt; &amp;gt; &amp;gt;]’
+/usr/include/c++/4.7/bits/stl_map.h:90:11:   required from here
+/usr/include/Ice/Handle.h:106:13: error: ‘upCast’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+In file included from /usr/include/Ice/Ice.h:30:0,
+             from /home/alc/sdr/gnuradio/v3.6.4.1-946-g7f0d3777-next/gnuradio-core/src/lib/runtime/ice_application_base.h:28,
+             from /home/alc/sdr/gnuradio/v3.6.4.1-946-g7f0d3777-next/gnuradio-core/src/lib/runtime/ice_application_base.cc:23:
+	 /usr/include/Ice/Connection.h:92:29: note: ‘Ice::LocalObject* IceInternal::upCast(Ice::UDPConnectionInfo*)’ declared here, later in the translation unit
+	 make[2]: *** [gnuradio-core/src/lib/CMakeFiles/gnuradio-core.dir/runtime/ice_application_base.cc.o] Error 1
+	 make[1]: *** [gnuradio-core/src/lib/CMakeFiles/gnuradio-core.dir/all] Error 2
+	 make: *** [all] Error 2&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Apparently, the debian build of ZeroC’s Ice lib is bad, simple enough to fix, if you don’t mind stuff accumulating in /usr/local! Go to &lt;a href=&quot;http://www.zeroc.com/download.html#src&quot;&gt;ZeroC’s source download site&lt;/a&gt; and grab the latest tarball, unpack it.&lt;/p&gt;
+
+&lt;p&gt;I edited the cpp/conf/Make.rules to install to /usr/local/, change as you see fit, or leave it at the default.&lt;/p&gt;
+
+&lt;p&gt;Then gnuradio builds fine again!&lt;/p&gt;</description>
+				<pubDate>Mon, 17 Feb 2014 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/02/17/gnuradio-git-debian.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/02/17/gnuradio-git-debian.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>APRS from RTL-SDR shown in YAAC</title>
 				<description>&lt;p&gt;Today I figured out how to get APRS packets shown on a map with &lt;a href=&quot;http://www.findtheater.com/ka2ddo/YAAC.html&quot;&gt;Yet Another APRS Client&lt;/a&gt;.&lt;/p&gt;
 
@@ -287,43 +327,6 @@ cp /boot/efi/EFI/debian/grubx64.efi /boot/efi/EFI/boot/bootx64.efi&lt;/code&gt;&
 
                     
                     
-                    
-
-			<item>
-				<title>Tomato Sauce</title>
-				<description>&lt;ul&gt;
-&lt;li&gt;40 lbs Tomatoes&lt;/li&gt;
-
-&lt;li&gt;6 pints vinegar&lt;/li&gt;
-
-&lt;li&gt;1 tsp Cayenne&lt;/li&gt;
-
-&lt;li&gt;1 oz cloves&lt;/li&gt;
-
-&lt;li&gt;2 oz spice&lt;/li&gt;
-
-&lt;li&gt;1 1/4 lbs salt&lt;/li&gt;
-
-&lt;li&gt;6 lbs green apples&lt;/li&gt;
-
-&lt;li&gt;4 lbs onions&lt;/li&gt;
-
-&lt;li&gt;2 ozs white pepper&lt;/li&gt;
-
-&lt;li&gt;2 ozs whole ginger&lt;/li&gt;
-
-&lt;li&gt;4 ozs garlic&lt;/li&gt;
-
-&lt;li&gt;5 lbs white suger&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Cut up apples, Tomatoes and onions and put int preserving pan with all other ingredients and boil for 2.5 to 3 hours stirring frequently.&lt;/p&gt;
-
-&lt;p&gt;Strain through a fine colander, bottle, cork, seal and label.&lt;/p&gt;</description>
-				<pubDate>Sun, 19 May 2013 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//recipes/2013/05/19/tomato-sauce.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//recipes/2013/05/19/tomato-sauce.html</guid>
-			</item>
-		
+                     
 	</channel>
 </rss>
