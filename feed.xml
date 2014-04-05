@@ -12,6 +12,38 @@
                     
 
 			<item>
+				<title>Rf Probe</title>
+				<description>&lt;p&gt;Well, I started my radio building journey today, buy building an RF probe:&lt;/p&gt;
+&lt;figure&gt;&lt;a class='fancybox' href='/images/rf_probe.jpg' rel='group'&gt;&lt;img src='/images/rf_probe.jpg' /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;p&gt;It was quite tedious to cut the little squares, so I think I’ll get some of the QRPMe &lt;a href=&quot;http://qrpme.com/?p=product&amp;id=MES&quot;&gt;MeSquares&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;or maybe a hole punch from Bunnings :)&lt;/p&gt;
+
+&lt;p&gt;Anyway, it works well, produces about 2v on my multimeter when keying my Baofeng 2m/70cm radio right next to the little antenna. Very pleased :)&lt;/p&gt;</description>
+				<pubDate>Sat, 05 Apr 2014 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/04/05/RF-probe.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/05/RF-probe.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
+				<title>Vk1paw</title>
+				<description>&lt;p&gt;After passing my Standard Assesment, and receiving my Amateur Operator Certificate of Proficiency (Standard) yesterday, I’m now the proud owner of the amateur callsign VK1PAW!&lt;/p&gt;</description>
+				<pubDate>Fri, 04 Apr 2014 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/04/04/vk1paw.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/04/vk1paw.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Satellite Recieved</title>
 				<description>&lt;p&gt;At the local &lt;a href=&quot;http://makehackvoid.com&quot;&gt;hackerspace&lt;/a&gt; tonight, I finally received a morse beacon from a satellite! Hooray! It was FO-29, an Amateur Radio satellite. You can find the wav file (22.05 kHz, mono 16 bit) I recorded of its CW beacon, on 435.795MHz &lt;a href=&quot;/downloads/f029-20140226.wav&quot;&gt;here&lt;/a&gt;. The Morse is too fast for me to even translate it into dots and dashes! If you can keep up, please do let me know what it’s saying!&lt;/p&gt;
 
@@ -266,62 +298,6 @@ cp /boot/efi/EFI/debian/grubx64.efi /boot/efi/EFI/boot/bootx64.efi&lt;/code&gt;&
 				<pubDate>Mon, 21 Oct 2013 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2013/10/21/firefox-i386-on-debian-amd64.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2013/10/21/firefox-i386-on-debian-amd64.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Stories from Ellen</title>
-				<description>&lt;p&gt;Mum very much wanted me to go into kindergartern. So on Mondays on the back of dad’s motorbike down to the river, the ferry didn’t leave until 8, but dad needed to get to his shift by 7:45, so on a rowing boat across the river to the canteen lady at the zinc works.&lt;/p&gt;
-
-&lt;p&gt;Then to Auntie Dolcie and Nelly who had no idea about kids. Of course, on fridays the process was all in reverse.&lt;/p&gt;
-
-&lt;p&gt;A boarder at Auntie Dolcies remarked that he’d never seen such an unhappy 5 year od, so that put paid to Kindergarten. Mostly because I had no one to play with and no houses anywhere near with children.&lt;/p&gt;
-
-&lt;p&gt;Later, I had to walk a mile every day to school from age 6. Jim and others included when they started.&lt;/p&gt;
-
-&lt;p&gt;When Peter was less than 2, he pulled out a toilet roll and put it in the toilet and kpet flushing until it went away! THere was water halfway to the front door, he didn’t really know what was happening, didn’t know it was him doing it all! emptied the storage Tank.&lt;/p&gt;</description>
-				<pubDate>Tue, 21 May 2013 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//family/2013/05/21/Stories-from-Ellen.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//family/2013/05/21/Stories-from-Ellen.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Random Notes</title>
-				<description>&lt;p&gt;Emma Coffee, Born London, migrated to Aus 1920-1922, worked at the Woolwich arsenal during the First War, then worked in the paper shop, her father (James, not certain), was a baker.&lt;/p&gt;
-
-&lt;p&gt;Eileen (Fred’s Sister) told Ellen that when Emma and Arthur were leaving to come to Australia, Emma’s father went to see them off and having never met him before, said “He’ll never support you lass!”, he never did. Knocked her about terribly when drunk, which was often. Died when Fred was 16. that’s why Fred’s brother joined the AIF, not Fred, to support her. Fred came in a later induction where they didn’t look so closely at medical problems, fred had an intermittently discharging ear from his bad pneumonia.&lt;/p&gt;
-
-&lt;p&gt;Fred’s family: Rhona (has a lake named after her in the south west of Tasmania) Eileen, Effie, Fred, Beatrice Louise, Margurita Elizabeth.&lt;/p&gt;
-
-&lt;p&gt;Irish Pharmaceutical diplomas not recognised in Australia so Arthur was a sort of Vet, clients would pay him in grog and send him home blotto, instead of giving him some potatoes to feed the children.&lt;/p&gt;
-
-&lt;p&gt;In amongst 4 births and many miscarriages Emma was the farm’s housekeeper.&lt;/p&gt;
-
-&lt;p&gt;Rhona became an accountant, Eileen and Effie Nurses.&lt;/p&gt;
-
-&lt;p&gt;Fred Had blackouts, once he remembered coming back into the camp gates in the Captains car, who had found him a few miles away wandering about.&lt;/p&gt;
-
-&lt;p&gt;Cousins were watching a movie in a ditch, where’s Fred? Unconscious in the ditch. Insulin shock therapy, made it a lot worse.&lt;/p&gt;
-
-&lt;p&gt;Fred had told me (Paul) that it was shell shock.&lt;/p&gt;
-
-&lt;p&gt;His sisters think it was some sort of abscess in his head from chronic pneumonia he suffered as a child, which does seem more likely!&lt;/p&gt;
-
-&lt;p&gt;At some point during the 70s or 80s, the laws changed, so that if you went into the army without a condition, and came out with a condition, it was classed as “War Caused”. Making fred a TPI War Veteran, and Ellen a War Widow when he passed.&lt;/p&gt;
-
-&lt;p&gt;This made life a lot easier for the Blaydon St Warrens.&lt;/p&gt;</description>
-				<pubDate>Tue, 21 May 2013 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//family/2013/05/21/Random-Notes.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//family/2013/05/21/Random-Notes.html</guid>
 			</item>
 		
 
