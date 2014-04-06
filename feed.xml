@@ -12,8 +12,23 @@
                     
 
 			<item>
+				<title>First Contact!</title>
+				<description>&lt;p&gt;2014-04-06 08:30 VK1JST via the VK1RGI 2m repeater :)&lt;/p&gt;
+
+&lt;p&gt;I tried doing a callback after the WIA broadcast, but wasn’t heard from my in-laws at griffith. I think Red Hill was in the way! but I could hear the broadcast Ok from outside.&lt;/p&gt;</description>
+				<pubDate>Sun, 06 Apr 2014 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/04/06/first-contact.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/06/first-contact.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Rf Probe</title>
-				<description>&lt;p&gt;Well, I started my radio building journey today, buy building an RF probe:&lt;/p&gt;
+				<description>&lt;p&gt;Well, I started my radio building journey today, by building an RF probe:&lt;/p&gt;
 &lt;figure&gt;&lt;a class='fancybox' href='/images/rf_probe.jpg' rel='group'&gt;&lt;img src='/images/rf_probe.jpg' /&gt;&lt;/a&gt;&lt;/figure&gt;
 &lt;p&gt;It was quite tedious to cut the little squares, so I think I’ll get some of the QRPMe &lt;a href=&quot;http://qrpme.com/?p=product&amp;id=MES&quot;&gt;MeSquares&lt;/a&gt;&lt;/p&gt;
 
@@ -264,40 +279,6 @@ cp /boot/efi/EFI/debian/grubx64.efi /boot/efi/EFI/boot/bootx64.efi&lt;/code&gt;&
 				<pubDate>Tue, 17 Dec 2013 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2013/12/17/EFI-single-boot-mac.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2013/12/17/EFI-single-boot-mac.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Firefox i386 on Debian amd64</title>
-				<description>&lt;p&gt;Goto http://getfirefox.com/ and download the latest one.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; tar -jxvf firefox-*.tar.bz2
- sudo mv firefox /opt
- sudo dpkg --add-architecture i386
- sudo apt-get update
-
- sudo apt-get install libc6:i386 libstdc++6:i386 libxrender1:i386 libasound2:i386 libdbus-glib-1-2:i386 libxext6:i386 libgtk2.0-0:i386 libxt6:i386 libcurl3:i386 libnss3:i386 libnspr4:i386 libssl1.0.0:i386&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;After that,&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  /opt/firefox/firefox
-  should work.&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Next get the 32 bit tar.gz file for adobe flash, unpack and copy it to /opt/firefox/browser/plugins/&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; tar -zxvf install_flash_player_11_linux.i386.tar.gz
- mkdir -p /opt/firefox/browser/plugins
-
- cp libflashplayer.so /opt/firefox/browser/plugins&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and you should be good to go!&lt;/p&gt;</description>
-				<pubDate>Mon, 21 Oct 2013 00:00:00 +1100</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2013/10/21/firefox-i386-on-debian-amd64.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2013/10/21/firefox-i386-on-debian-amd64.html</guid>
 			</item>
 		
 
