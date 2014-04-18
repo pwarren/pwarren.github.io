@@ -12,6 +12,25 @@
                     
 
 			<item>
+				<title>Mst2 20m Buildlog Day1</title>
+				<description>&lt;p&gt;In continuation of my radio building, I have started on my &lt;a href=&quot;http://ozqrp.com&quot;&gt;OzQRP&lt;/a&gt; MST2, 20m band SSB radio kit. Ordered on Wednesday, it arrived Thursday afternoon! It helps that I live quite close to where they’re sent from!&lt;/p&gt;
+
+&lt;p&gt;I’ve put together the DDS VFO and the LED S-Meter, my soldering was a bit rusty, but I’ve definitely improved over the two pieces, and the borrowing of a Hakko 936 from &lt;a href=&quot;http://www.makehackvoid.com&quot;&gt;MakeHackVoid&lt;/a&gt;, the local hackerspace, certainly assisted!&lt;/p&gt;
+&lt;figure&gt;&lt;a class='fancybox' href='/images/DDS_VFO_working.jpg' rel='group'&gt;&lt;img src='/images/DDS_VFO_working.jpg' /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;p&gt;I only put 3 components in the wrong spot, but it wasn’t too hard to pull them out and put in the right ones, a bit tedious though! Here’s some detail of the bits.&lt;/p&gt;
+&lt;figure&gt;&lt;a class='fancybox' href='/images/SMeter_detail.jpg' rel='group'&gt;&lt;img src='/images/SMeter_detail.jpg' /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;figure&gt;&lt;a class='fancybox' href='/images/SMeter_reverse_detail.jpg' rel='group'&gt;&lt;img src='/images/SMeter_reverse_detail.jpg' /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;figure&gt;&lt;a class='fancybox' href='/images/DDS_VFO_detail.jpg' rel='group'&gt;&lt;img src='/images/DDS_VFO_detail.jpg' /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;p&gt;Now comes the slightly harder bit, building the radio board! Have to hand wind some RF transformers, at least there’s no SMT soldering! Then the really hard bit, drilling and cutting the enclosure faces and mounting the hardware. Will post as I complete bits!&lt;/p&gt;</description>
+				<pubDate>Sat, 19 Apr 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/04/19/MST2-20m-buildlog-day1.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/19/MST2-20m-buildlog-day1.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>First Contact!</title>
 				<description>&lt;p&gt;2014-04-06 08:30 VK1JST via the VK1RGI 2m repeater :)&lt;/p&gt;
 
@@ -220,65 +239,6 @@ In file included from /usr/include/Ice/Ice.h:30:0,
 				<pubDate>Mon, 27 Jan 2014 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//talks/2014/01/27/rtl-entropy.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//talks/2014/01/27/rtl-entropy.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>EFI single boot on a MacBook Air</title>
-				<description>&lt;p&gt;EFI needs its own smallish partition with a fat32 filesystem&lt;/p&gt;
-
-&lt;p&gt;here’s my layout with just one disk:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;   (parted) print
-   Model: ATA Hitachi HTS54503 (scsi)
-   Disk /dev/sda: 320GB
-   Sector size (logical/physical): 512B/512B
-   Partition Table: gpt
-   
-   Number Start End Size File system Name Flags
-   1 1049kB 512MB 511MB fat32 boot
-   2 512MB 316GB 316GB ext4
-   3 316GB 320GB 4023MB linux-swap(v1)&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now, debian does sort of support UEFI booting with the 7.2 install discs (haven’t tried 7.3 yet but should be good), but there was some extra mucking about I had to do.&lt;/p&gt;
-
-&lt;p&gt;Once you’ve installed, and it boots the flashing folder icon (or question mark, I forget which). Boot into rescue mode, and let debian find the right root partition, and execute a shell in that partition.&lt;/p&gt;
-
-&lt;p&gt;You may have to:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;mount /boot/efi&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;then:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;apt-get install grub-efi-amd64&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Now we’re almost there! the installer for grub-efi-amd64 puts the boot file in /efi/EFI/debian/grub64x64.efi&lt;/p&gt;
-
-&lt;p&gt;And we need to put that in the right place for EFI to load it properly:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;mkdir /boot/efi/EFI/boot
-cp /boot/efi/EFI/debian/grubx64.efi /boot/efi/EFI/boot/bootx64.efi&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;then run:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;update-grub&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;To make sure all the configs are in the right place.&lt;/p&gt;
-
-&lt;p&gt;Then reboot! and you should eventually get into debian :)&lt;/p&gt;
-
-&lt;p&gt;If you have a white screen for ~30s after the boot chime, and you want to get rid of the wait, you’ll have to boot an OS X disk and run:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;bless --device /dev/disk0s1 --setBoot --verbose&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;substituting the proper device node for your boot device of course.&lt;/p&gt;</description>
-				<pubDate>Tue, 17 Dec 2013 00:00:00 +1100</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2013/12/17/EFI-single-boot-mac.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2013/12/17/EFI-single-boot-mac.html</guid>
 			</item>
 		
 
