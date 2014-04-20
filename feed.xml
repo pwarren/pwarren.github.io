@@ -12,6 +12,29 @@
                     
 
 			<item>
+				<title>Mst 20m Buildlog Day2</title>
+				<description>&lt;p&gt;Well, yesterday we continued the oddysey, and got all the capacitors and transistor’s in, finishing off today with the transformers and chokes, pin headers and crystals, so we’re all done for the easy bits!&lt;/p&gt;
+&lt;figure&gt;&lt;a class='fancybox' href='/images/MST2_20m_finished.jpg' rel='group'&gt;&lt;img src='/images/MST2_20m_finished.jpg' /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;p&gt;I had a few oddities, the instructions specified 1.8pF NPO caps, but the kit came with 2pF caps in place. I have a left over 2 pin header (which I just realised should go on the VFO input!), and no 3 pin header for the DDS-VFO power, a bit odd, but easily worked around :)&lt;/p&gt;
+
+&lt;p&gt;Winding the transformers and chokes was easier than I thought, but they don’t look terrible even and neat, hope that doesn’t have too much of an effect on the output!&lt;/p&gt;
+
+&lt;p&gt;My soldering has definitely improved a little over the weekend!&lt;/p&gt;
+
+&lt;p&gt;It powers on and draws the right amount of current, and the oscillator puts out a good sine wave, which is all I had the energy for today, before coming down with a bit of a cold!&lt;/p&gt;
+
+&lt;p&gt;The next bit will have to wait until the pots, connectors and case arrive! Hopefully I’m all better when they arrive :)&lt;/p&gt;</description>
+				<pubDate>Sun, 20 Apr 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/04/20/MST-20m-buildlog-day2.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/20/MST-20m-buildlog-day2.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Mst2 20m Buildlog Day1</title>
 				<description>&lt;p&gt;In continuation of my radio building, I have started on my &lt;a href=&quot;http://ozqrp.com&quot;&gt;OzQRP&lt;/a&gt; MST2, 20m band SSB radio kit. Ordered on Wednesday, it arrived Thursday afternoon! It helps that I live quite close to where they’re sent from!&lt;/p&gt;
 
@@ -224,21 +247,6 @@ In file included from /usr/include/Ice/Ice.h:30:0,
 				<pubDate>Sun, 02 Feb 2014 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/02/02/Ardusat-contact-attempt1.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/02/02/Ardusat-contact-attempt1.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>RTL-entropy Lightning Talk</title>
-				<description>&lt;div class='video-container'&gt;&lt;iframe height='420' src='http://www.youtube.com/embed/RWn5QJpOBFU?html5=1' width='560'&gt; &lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;&lt;a href='http://www.youtube.com/watch?v=RWn5QJpOBFU'&gt;Watch on YouTube&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;A quick talk I did about my rtl-entropy software: https://github.com/pwarren/rtl-entropy/ at LCA 2014 in Perth.&lt;/p&gt;
-&lt;!--more--&gt;</description>
-				<pubDate>Mon, 27 Jan 2014 00:00:00 +1100</pubDate>
-				<link>http://blog.pwarren.id.au//talks/2014/01/27/rtl-entropy.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//talks/2014/01/27/rtl-entropy.html</guid>
 			</item>
 		
 
