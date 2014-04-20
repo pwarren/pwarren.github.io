@@ -1,6 +1,6 @@
 ---
 Title: OzQRP MST2 20m build log, day 1
-tags: tech electronics
+tags: tech electronics buildlog mst2 amatuer radio
 ---
 
 In continuation of my radio building, I have started on my [OzQRP](http://ozqrp.com) MST2, 20m band SSB radio kit. Ordered on Wednesday, it arrived Thursday afternoon! It helps that I live quite close to where they're sent from!
