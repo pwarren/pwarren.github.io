@@ -9,7 +9,7 @@ Well, yesterday we continued the odyssey, and got all the capacitors and transis
 
 I had a few oddities, the instructions specified 1.8pF NPO caps, but the kit came with 2pF caps in place. I have a left over 2 pin header (which I just realised should go on the VFO input!), and no 3 pin header for the DDS-VFO power, a bit odd, but easily worked around :)
 
-Winding the transformers and chokes was easier than I thought, but they don't look terrible even and neat, hope that doesn't have too much of an effect on the output!
+Winding the transformers and chokes was easier than I thought, but they don't look terribly even and neat, hope that doesn't have too much of an effect on the output!
 
 My soldering has definitely improved a little over the weekend!
 
