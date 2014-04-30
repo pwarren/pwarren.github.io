@@ -3,7 +3,7 @@ Title: OzQRP MST2 20m build log, day 2 and 3
 tags: tech electronics buildlog MST2 amateur radio
 ---
 
-Well, yesterday we continued the odyssey, and got all the capacitors and transistor's in, finishing off today with the transformers and chokes, pin headers and crystals, so we're all done for the easy bits!
+Well, yesterday we continued the odyssey, and got all the capacitors and transistors in, finishing off today with the transformers and chokes, pin headers and crystals, so we're all done for the easy bits!
 
 {% fancybox /images/MST2_20m_finished.jpg 800 600 "OzQRP DDS VFO plugged in to power and working" %}
 
