@@ -1,4 +1,4 @@
-This is Paul Warren's for of pjf's personal website. You can fork this repo and use it for your own website if you like, or you can send me patches, corrections, and improvements.
+This is Paul Warren's fork of pjf's personal website. You can fork this repo and use it for your own website if you like, or you can send me patches, corrections, and improvements.
 
 #### Initial Configuration
 
