@@ -142,10 +142,10 @@ to this post.)
 
 <pre><code>   APRS: VK2RTZ-1&gt;APNU19,VK2AMW-1*,VK1RGI-1*,WIDE2*:!3256.46SS15130.90E#PHG4430/W2 Digi Mt Sugarloaf
    APRS: VK2TGB-7&gt;S3T2W3,VK2AMW-1*,VK1RGI-1*,WIDE2*:`N?:l+o&gt;/
-   APRS: VK2HLT-8&gt;S5P8Q1,VK2RWG-1*,VK1RGI-1*,WIDE2-1:'K/il&quot;-j/]&quot;69}Pathfinding R51
-   APRS: VK2AMW-1&gt;APNU19,VK1RGI-1*,WIDE2*:!3433.21SS15037.76E# W2 Digi  Knight's  Hill
+   APRS: VK2HLT-8&gt;S5P8Q1,VK2RWG-1*,VK1RGI-1*,WIDE2-1:&#39;K/il&quot;-j/]&quot;69}Pathfinding R51
+   APRS: VK2AMW-1&gt;APNU19,VK1RGI-1*,WIDE2*:!3433.21SS15037.76E# W2 Digi  Knight&#39;s  Hill
    APRS: VK2RGN-1&gt;APOT30,VK1RGI-1*,WIDE2*:!3445.39S/14941.30E#Goulburn - Echo/IRLP on 147.925 VK2RGN
-   APRS: VK2HLT-8&gt;S5P8Q1,VK2RWG-1*,VK1RGI-1*,WIDE2-1:'K/il&quot;-j/]&quot;6?}Pathfinding R51</code></pre>
+   APRS: VK2HLT-8&gt;S5P8Q1,VK2RWG-1*,VK1RGI-1*,WIDE2-1:&#39;K/il&quot;-j/]&quot;6?}Pathfinding R51</code></pre>
 
 <p>Which is not quite what YAAC is expecting, it likes things to be in APRS-IS format, which multimon almost does, just need to remove the “APRS: ” characters from the start, colrm or cut should do the trick. Then pipe that output to netcat, so that YAAC can read it! I had thought that the -q (quiet) flag would do that, but alas, that just omits the copyright notice and available decoders.</p>
 
@@ -336,6 +336,8 @@ else
 
         <ul>
         
+            <li><a href="/tech/2014/04/30/MST-20m-buildlog-day-something.html">Mst 20m Buildlog Day Something</a>
+        
             <li><a href="/tech/2014/04/20/MST-20m-buildlog-day-2-and-3.html">Mst 20m Buildlog Day 2 And 3</a>
         
             <li><a href="/tech/2014/04/19/MST2-20m-buildlog-day1.html">Mst2 20m Buildlog Day1</a>
@@ -353,8 +355,6 @@ else
             <li><a href="/tech/2014/02/11/APRS-to-YAAC.html">APRS from RTL-SDR shown in YAAC</a>
         
             <li><a href="/coffee/2014/02/04/roasting-setup.html">Roasting Setup</a>
-        
-            <li><a href="/tech/2014/02/02/Ardusat-contact-attempt1.html">Attempt No.1 to receive Ardusat</a>
         
         </ul>
     </section>
