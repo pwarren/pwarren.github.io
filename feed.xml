@@ -12,6 +12,22 @@
                     
 
 			<item>
+				<title>Beach40 Start</title>
+				<description>&lt;p&gt;I’ve started building Peter Parker &lt;a href=&quot;http://vk3ye.com&quot;&gt;VK3YE&lt;/a&gt;’s 40m Dual Side Band transciever, completing the oscillator Manhattan Style:&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40_circuit1.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40_circuit1.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;p&gt;I’ve built it with some 7.2MHz resonators from &lt;a href=&quot;http://minikits.com.au&quot;&gt;MiniKits&lt;/a&gt;, and with the 60-160 pF variable cap I have, it gets me from 6.938MHz to 7.049MHz. Which is not terribly useful for the 20m band (7.0 -&amp;gt; 7.3 MHz). So I’ll have to tweak things and work out how to get more swing from the oscillator.&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40_testing_oscillator.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40_testing_oscillator.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;</description>
+				<pubDate>Thu, 01 May 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/05/01/Beach40-start.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/01/Beach40-start.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Mst 20m Buildlog Day Something</title>
 				<description>&lt;p&gt;Well, after getting my MST2 in an enclosure and looking Ok:&lt;/p&gt;
 &lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/MST2_20m_box.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/MST2_20m_box.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
@@ -229,24 +245,6 @@ In file included from /usr/include/Ice/Ice.h:30:0,
 				<pubDate>Tue, 11 Feb 2014 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/02/11/APRS-to-YAAC.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/02/11/APRS-to-YAAC.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Roasting Setup</title>
-				<description>&lt;p&gt;I use an Ozito heatgun with a digital temperature gague, and a beat up Sunbeam Bakehouse breadmaker. I made a fibre-cement top with a hole for the heat gun to sit in, and one for chaff to exit! I’ve had this setup since December 2011, and it’s been awesome, fresh roasted coffee all the time is a big plus!&lt;/p&gt;
-
-&lt;p&gt;I’ve also got a bathroom exhaust fan stuck in a bucket with salastic, below a drum sieve to cool the beans post roast.&lt;/p&gt;
-
-&lt;p&gt;I’ve yet to sort out the breadmaker properly, it still turns off if I try to do a second roast straight away. Need to work out how to pull it apart and short or remove the temperature sensor!&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/roasting02_post.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/roasting02_post.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Coretto roasting setup with pre drum sieve cooler&lt;/figcaption&gt;&lt;/figure&gt;</description>
-				<pubDate>Tue, 04 Feb 2014 00:00:00 +1100</pubDate>
-				<link>http://blog.pwarren.id.au//coffee/2014/02/04/roasting-setup.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//coffee/2014/02/04/roasting-setup.html</guid>
 			</item>
 		
 
