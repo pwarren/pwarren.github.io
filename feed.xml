@@ -28,6 +28,27 @@
                     
 
 			<item>
+				<title>Mst2 20m Buildlog Day Something</title>
+				<description>&lt;p&gt;Well, after getting my MST2 in an enclosure and looking Ok:&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/MST2_20m_box.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/MST2_20m_box.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;p&gt;I went to a friendly ham’s workshop and started aligning it. The receive slug tuning and mixer balancing went perfectly well. When we got to doing the transmit tuning, things started to go a bit skee-whiff! The MST2 turned off. So we replaced the fuse, which promptly blew, and another!&lt;/p&gt;
+
+&lt;p&gt;After turning the PA bias and mic gain down, and unshorting the PTT line and trying another fuse the magic smoke came out of the MOSFET!&lt;/p&gt;
+
+&lt;p&gt;We then tested the audio generator, and it was putting out 1v peak to peak, instaed of the 50mV we’d set it to, so we figure the MOSFET was being overdriven for a significant period of time (10 minutes or so!), and decided it had had enough of that, and gave up the ghost :(&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/MST2_20m_blown_final.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/MST2_20m_blown_final.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;p&gt;So, now to find a source of IRF510 MOSFETs!&lt;/p&gt;</description>
+				<pubDate>Wed, 30 Apr 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/04/30/MST2-20m-buildlog-day-something.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/30/MST2-20m-buildlog-day-something.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Mst 20m Buildlog Day Something</title>
 				<description>&lt;p&gt;Well, after getting my MST2 in an enclosure and looking Ok:&lt;/p&gt;
 &lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/MST2_20m_box.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/MST2_20m_box.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
@@ -41,6 +62,29 @@
 				<pubDate>Wed, 30 Apr 2014 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/04/30/MST-20m-buildlog-day-something.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/30/MST-20m-buildlog-day-something.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
+				<title>Mst2 20m Buildlog Day 2 And 3</title>
+				<description>&lt;p&gt;Well, yesterday we continued the odyssey, and got all the capacitors and transistors in, finishing off today with the transformers and chokes, pin headers and crystals, so we’re all done for the easy bits!&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/MST2_20m_finished.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/MST2_20m_finished.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;p&gt;I had a few oddities, the instructions specified 1.8pF NPO caps, but the kit came with 2pF caps in place. I have a left over 2 pin header (which I just realised should go on the VFO input!), and no 3 pin header for the DDS-VFO power, a bit odd, but easily worked around :)&lt;/p&gt;
+
+&lt;p&gt;Winding the transformers and chokes was easier than I thought, but they don’t look terribly even and neat, hope that doesn’t have too much of an effect on the output!&lt;/p&gt;
+
+&lt;p&gt;My soldering has definitely improved a little over the weekend!&lt;/p&gt;
+
+&lt;p&gt;It powers on and draws the right amount of current, and the oscillator puts out a good sine wave, which is all I had the energy for today, before coming down with a bit of a cold!&lt;/p&gt;
+
+&lt;p&gt;The next bit will have to wait until the pots, connectors and case arrive! Hopefully I’m all better when they arrive :)&lt;/p&gt;</description>
+				<pubDate>Sun, 20 Apr 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/04/20/MST2-20m-buildlog-day-2-and-3.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/20/MST2-20m-buildlog-day-2-and-3.html</guid>
 			</item>
 		
 
@@ -163,88 +207,6 @@ IIIT&amp;lt;......_.&amp;gt;&amp;lt;ERR_9&amp;gt; I&amp;lt;ERR_7&amp;gt;&amp;lt;
 				<pubDate>Wed, 26 Feb 2014 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/02/26/Satellite-Recieved.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/02/26/Satellite-Recieved.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Building GnuRadio from git on Debian 7</title>
-				<description>&lt;p&gt;Okay, so in order to play with some new blocks I found, &lt;a href=&quot;https://github.com/argilo/gr-rds&quot;&gt;gr-rds&lt;/a&gt; in particular. It appears I needed a newer version of gnuradio than I had previously built from git to get the Control Port functions these blocks require.&lt;/p&gt;
-
-&lt;p&gt;So, off I go and&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git pull
-cd build
-rm -rf *
-cmake ../
-make&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and get:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;/usr/include/c++/4.7/bits/stl_tree.h:646:9:   required from ‘std::_Rb_tree&amp;lt;_Key, _Val, _KeyOfValue, _Compare, _Alloc&amp;gt;::~_Rb_tree() [with _Key = int; _Val = std::pair&amp;lt;const int, IceInternal::Handle&amp;lt;Ice::Object&amp;gt; &amp;gt;; _KeyOfValue = std::_Select1st&amp;lt;std::pair&amp;lt;const int, IceInternal::Handle&amp;lt;Ice::Object&amp;gt; &amp;gt; &amp;gt;; _Compare = std::less&amp;lt;int&amp;gt;; _Alloc = std::allocator&amp;lt;std::pair&amp;lt;const int, IceInternal::Handle&amp;lt;Ice::Object&amp;gt; &amp;gt; &amp;gt;]’
-/usr/include/c++/4.7/bits/stl_map.h:90:11:   required from here
-/usr/include/Ice/Handle.h:106:13: error: ‘upCast’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
-In file included from /usr/include/Ice/Ice.h:30:0,
-             from /home/alc/sdr/gnuradio/v3.6.4.1-946-g7f0d3777-next/gnuradio-core/src/lib/runtime/ice_application_base.h:28,
-             from /home/alc/sdr/gnuradio/v3.6.4.1-946-g7f0d3777-next/gnuradio-core/src/lib/runtime/ice_application_base.cc:23:
-	 /usr/include/Ice/Connection.h:92:29: note: ‘Ice::LocalObject* IceInternal::upCast(Ice::UDPConnectionInfo*)’ declared here, later in the translation unit
-	 make[2]: *** [gnuradio-core/src/lib/CMakeFiles/gnuradio-core.dir/runtime/ice_application_base.cc.o] Error 1
-	 make[1]: *** [gnuradio-core/src/lib/CMakeFiles/gnuradio-core.dir/all] Error 2
-	 make: *** [all] Error 2&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Apparently, the debian build of ZeroC’s Ice lib is bad, simple enough to fix, if you don’t mind stuff accumulating in /usr/local! Go to &lt;a href=&quot;http://www.zeroc.com/download.html#src&quot;&gt;ZeroC’s source download site&lt;/a&gt; and grab the latest tarball, unpack it.&lt;/p&gt;
-
-&lt;p&gt;I edited the cpp/conf/Make.rules to install to /usr/local/, change as you see fit, or leave it at the default.&lt;/p&gt;
-
-&lt;p&gt;Then gnuradio builds fine again!&lt;/p&gt;</description>
-				<pubDate>Mon, 17 Feb 2014 00:00:00 +1100</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/02/17/gnuradio-git-debian.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/02/17/gnuradio-git-debian.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>APRS from RTL-SDR shown in YAAC</title>
-				<description>&lt;p&gt;Today I figured out how to get APRS packets shown on a map with &lt;a href=&quot;http://www.findtheater.com/ka2ddo/YAAC.html&quot;&gt;Yet Another APRS Client&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;First up start up rtl_fm and pipe it to multimon-ng:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  rtl_fm -f 145.1717M -s 22050 | multimon-ng -q -A -a AFSK1200 -t raw - &amp;gt; aprs.txt&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I had to adjust the frequency to correct for my dongle’s innacuracy, in my location APRS is at 145.175MHz, using the various tools to determine its PPM error did not help, as adding the -p flag to rtl_fm did nothing. To get the proper frequency I used &lt;a href=&quot;http://gqrx.de&quot;&gt;gqrx&lt;/a&gt;, the best, actually open source SDR viewing tool out there, to see where the signals were centred according to the Dongle.&lt;/p&gt;
-
-&lt;p&gt;I pipe it to a file so I’ve got a nice lot of packets to test things with. Multimon puts out lines like:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;   APRS: VK2RTZ-1&amp;gt;APNU19,VK2AMW-1*,VK1RGI-1*,WIDE2*:!3256.46SS15130.90E#PHG4430/W2 Digi Mt Sugarloaf
-   APRS: VK2TGB-7&amp;gt;S3T2W3,VK2AMW-1*,VK1RGI-1*,WIDE2*:`N?:l+o&amp;gt;/
-   APRS: VK2HLT-8&amp;gt;S5P8Q1,VK2RWG-1*,VK1RGI-1*,WIDE2-1:&amp;#39;K/il&amp;quot;-j/]&amp;quot;69}Pathfinding R51
-   APRS: VK2AMW-1&amp;gt;APNU19,VK1RGI-1*,WIDE2*:!3433.21SS15037.76E# W2 Digi  Knight&amp;#39;s  Hill
-   APRS: VK2RGN-1&amp;gt;APOT30,VK1RGI-1*,WIDE2*:!3445.39S/14941.30E#Goulburn - Echo/IRLP on 147.925 VK2RGN
-   APRS: VK2HLT-8&amp;gt;S5P8Q1,VK2RWG-1*,VK1RGI-1*,WIDE2-1:&amp;#39;K/il&amp;quot;-j/]&amp;quot;6?}Pathfinding R51&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Which is not quite what YAAC is expecting, it likes things to be in APRS-IS format, which multimon almost does, just need to remove the “APRS: ” characters from the start, colrm or cut should do the trick. Then pipe that output to netcat, so that YAAC can read it! I had thought that the -q (quiet) flag would do that, but alas, that just omits the copyright notice and available decoders.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  inotail -f aprs.txt | stdbuf -oL cut -c 7- | nc -l 14580&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I had to use inotail and stdbuf as with this many pipes, and small data volumes, pipes don’t get flushed enough for it to work properly. I’ll make a small python script eventually that’ll emulate a APRS-IS server so that a number of clients could connect to it.&lt;/p&gt;
-
-&lt;p&gt;Finally, within YAAC create a new APRS-IS ‘port’ that points to your sever, and watch the packets get displayed! Similarly, anything that can read APRS-IS should be able to read from the netcat port. Beware, netcat doesn’t keep going after you quit, you’ll have to restart it again.&lt;/p&gt;
-
-&lt;p&gt;I’m pretty sure you could do something like:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  rtl_fm -f 145.1717M -s 22050 | multimon-ng -q -A -a AFSK1200 -t raw - | stdbuf -oL cut -c 7- | nc -l 14580&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and omit the aprs.txt file, but I’ve not tried it. Hope that’s useful.&lt;/p&gt;</description>
-				<pubDate>Tue, 11 Feb 2014 00:00:00 +1100</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/02/11/APRS-to-YAAC.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/02/11/APRS-to-YAAC.html</guid>
 			</item>
 		
 
