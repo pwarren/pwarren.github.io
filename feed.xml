@@ -12,6 +12,27 @@
                     
 
 			<item>
+				<title>Beach40 Better Coverage!</title>
+				<description>&lt;p&gt;Well, after some help from the &lt;a href=&quot;https://groups.yahoo.com/neo/groups/Minimalist_QRP_Transceivers/info&quot;&gt;Minimalist-QRP&lt;/a&gt; yahoo group and members of the #technest freenode irc channel, I’ve got my oscillator going a bit better!&lt;/p&gt;
+
+&lt;p&gt;It now covers from 7.0041 MHz to 7.2405 MHz, a much more useful range of the 40m band!&lt;/p&gt;
+
+&lt;p&gt;In the end I used two 7.2 MHz ceramic resonators in parallel, with the O leg of a jaycar varicap and a 1 µH inductor in series with that.&lt;/p&gt;
+
+&lt;p&gt;The wave form does look a bit wonky down the low end, but is a lovely sinusoid at about 1vp-p from about 7.08 up.&lt;/p&gt;
+
+&lt;p&gt;Will have to wait until payday to get the next lot of bits from Jaycar to continue building, but it’s been fun so far :)&lt;/p&gt;</description>
+				<pubDate>Mon, 12 May 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/05/12/Beach40-Better-Coverage%21.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/12/Beach40-Better-Coverage%21.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Beach40 Start</title>
 				<description>&lt;p&gt;I’ve started building Peter Parker &lt;a href=&quot;http://vk3ye.com&quot;&gt;VK3YE&lt;/a&gt;’s 40m Dual Side Band transciever, completing the oscillator Manhattan Style:&lt;/p&gt;
 &lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40_circuit1.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40_circuit1.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
@@ -174,39 +195,6 @@
 				<pubDate>Fri, 04 Apr 2014 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/04/04/vk1paw.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/04/vk1paw.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Satellite Recieved</title>
-				<description>&lt;p&gt;At the local &lt;a href=&quot;http://makehackvoid.com&quot;&gt;hackerspace&lt;/a&gt; tonight, I finally received a morse beacon from a satellite! Hooray! It was FO-29, an Amateur Radio satellite. You can find the wav file (22.05 kHz, mono 16 bit) I recorded of its CW beacon, on 435.795MHz &lt;a href=&quot;/downloads/f029-20140226.wav&quot;&gt;here&lt;/a&gt;. The Morse is too fast for me to even translate it into dots and dashes! If you can keep up, please do let me know what it’s saying!&lt;/p&gt;
-
-&lt;p&gt;This:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;...._._.._..._.__._.....___._...&amp;gt;EI&amp;lt;......_.&amp;gt;&amp;lt;ERR_15&amp;gt;L&amp;lt;......_..______...&amp;gt;
-&amp;lt;ERR_32&amp;gt;&amp;lt;ERR_32&amp;gt;&amp;lt;.............._____.............&amp;gt;E&amp;lt;ERR_32&amp;gt;IHSIII&amp;lt;ERR_6&amp;gt;
-IIIT&amp;lt;......_.&amp;gt;&amp;lt;ERR_9&amp;gt; I&amp;lt;ERR_7&amp;gt;&amp;lt;ERR_9&amp;gt;&amp;lt;ERR_22&amp;gt;&amp;lt;ERR_14&amp;gt;IF &amp;lt;.._....&amp;gt;C
-&amp;lt;_..._._...._._.&amp;gt;&amp;lt;_........._..&amp;gt;H ENCN&amp;lt;.....__.&amp;gt;&amp;lt;___._._&amp;gt;
-&amp;lt;.__.._._......_........__&amp;gt;GEER&amp;lt;...._..&amp;gt;&amp;lt;....._&amp;gt;
-&amp;lt;......_..__....._...............&amp;gt;B&amp;lt;ERR_32&amp;gt;&amp;lt;ERR_18&amp;gt;&amp;lt;ERR_32&amp;gt;E&amp;lt;ERR_11&amp;gt;5I
-&amp;lt;ERR_7&amp;gt;5I&amp;lt;ERR_6&amp;gt;&amp;lt;......_&amp;gt;EB IH &amp;lt;__._...._._.&amp;gt;&amp;lt;_._..___.&amp;gt;
-&amp;lt;.__..._...._......&amp;gt;D&amp;lt;.._..._._._..__...._.__.._......&amp;gt;&amp;lt;ERR_32&amp;gt;&amp;lt;ERR_19&amp;gt;
-&amp;lt;ERR_32&amp;gt;&amp;lt;ERR_29&amp;gt;&amp;lt;ERR_21&amp;gt;&amp;lt;ERR_32&amp;gt;EHIII EEOÜ&amp;lt;__.._.._&amp;gt;&amp;lt;........_.....&amp;gt;
-&amp;lt;.___.....__&amp;gt;&amp;lt;_._._&amp;gt;&amp;lt;..____....._._.__....._.._.&amp;gt;I
-&amp;lt;.......__.......................&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;is what multimon-ng makes of it. with similar output from fldigi. Next time I’ll set my filters a bit wider, or work out a better method of changing frequencies to keep up with the doppler shift.&lt;/p&gt;
-
-&lt;p&gt;To record the wav file, I used gqrx on my debian laptop, with a fc0012 + rtl2832u rtl-sdr dongle, then converted to mono at 22.05 kHz&lt;/p&gt;
-
-&lt;p&gt;My thanks go to &lt;a href=&quot;https://github.com/devdsp&quot;&gt;devdsp&lt;/a&gt; for holding the laptop and getting bitten by mosquitos while I pointed the &lt;a href=&quot;/tech/2014/02/02/Ardusat-contact-attempt1.html&quot;&gt;antenna&lt;/a&gt;!&lt;/p&gt;</description>
-				<pubDate>Wed, 26 Feb 2014 00:00:00 +1100</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/02/26/Satellite-Recieved.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/02/26/Satellite-Recieved.html</guid>
 			</item>
 		
 
