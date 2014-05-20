@@ -7,7 +7,7 @@
 -->
 <html lang="en">
     <head prefix="og: http://ogp.me/ns#">
-        <title>Building GnuRadio from git on Debian 7</title>
+        <title>First Proper Hf Contact</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
         
@@ -17,8 +17,8 @@
     <link rel="image_src"        href="http://blog.pwarren.id.au/images/grr_square.jpg"  />
 
 
-<meta property="og:title" content="Building GnuRadio from git on Debian 7"  />
-<meta property="og:url"   content="http://blog.pwarren.id.au/tech/2014/02/17/gnuradio-git-debian.html" />
+<meta property="og:title" content="First Proper Hf Contact"  />
+<meta property="og:url"   content="http://blog.pwarren.id.au/tech/2014/05/20/First-proper-HF-contact.html" />
 
 <!-- This should be expanded to allow for 'article' types -->
 <meta property="og:type"  content="website" />
@@ -26,7 +26,7 @@
 
 
 
-    <meta name="keywords" content="tech, yak, shaving, gnuradio, debian, libice" />
+    <meta name="keywords" content="tech, electronics, MST2, amateur, radio" />
 
 
 
@@ -94,13 +94,13 @@
 
 <article class="is-post">
     <header>
-    <h2>Building GnuRadio from git on Debian 7</h2>
+    <h2>First Proper Hf Contact</h2>
     
         <!-- This makes G+ bots happy -->
         <span class="byline">By Paul Warren</span>
     
     <p class="edit-post">
-(You can <a href="https://github.com/pwarren/pwarren.github.io/edit/build/tech/_posts/2014-02-17-gnuradio-git-debian.md">suggest changes</a>
+(You can <a href="https://github.com/pwarren/pwarren.github.io/edit/build/tech/_posts/2014-05-20-First-proper-HF-contact.md">suggest changes</a>
 to this post.)
 </p>
 
@@ -109,8 +109,8 @@ to this post.)
 
     <div class="info">
     
-    <span class="date"> <span class="month">Feb</span>
-        <span class="day">17</span> <span
+    <span class="date"> <span class="month">May</span>
+        <span class="day">20</span> <span
             class="year"><span>,</span> 2014</span>
     </span>
 
@@ -130,43 +130,26 @@ to this post.)
 
     
 
-    <p>Okay, so in order to play with some new blocks I found, <a href="https://github.com/argilo/gr-rds">gr-rds</a> in particular. It appears I needed a newer version of gnuradio than I had previously built from git to get the Control Port functions these blocks require.</p>
+    <p>Today I’m at home watching the kids, and I decided to try some 20m contacts. After mucking about a bit with end fed half wave antennas, and not being happy with it, I decided to make the wire as per the instructions for the L-Match tuner I built (based on Peter, VK3YE’s HF Portable youtube series), and 22m of wire appears to work much better than the 12m I did have.</p>
 
-<p>So, off I go and</p>
+<p>I made a contact with Ron, VK3AFW portable 4, as he was doing a SOTA activation on VK4/SE105, which is a distance of 1249.8 km from home and I got a report of 5 and 7, which I hope isn’t too bad with my 5 watts output.</p>
 
-<pre><code>git pull
-cd build
-rm -rf *
-cmake ../
-make</code></pre>
+<p>Yay :)</p>
+<!--more-->
+<p>I strung the 22m wire up as an inverted V with the peak about 9m up the Chinese Elm in the back yard.</p>
 
-<p>and get:</p>
+<p>The max RF field strength is no longer on the far edge of the varicap’s range and signals are a little easier to detect. The only issue I’m having is that the power meter in the radio gets pegged at maximum even with no voice being transmitted, just a carrier. This didn’t happen with VK1GH’s tuned dipole, on that I got peaks in cadence with my voice. I got a contact, so it mustn’t be too much of an issue!</p>
 
-<pre><code>/usr/include/c++/4.7/bits/stl_tree.h:646:9:   required from ‘std::_Rb_tree&lt;_Key, _Val, _KeyOfValue, _Compare, _Alloc&gt;::~_Rb_tree() [with _Key = int; _Val = std::pair&lt;const int, IceInternal::Handle&lt;Ice::Object&gt; &gt;; _KeyOfValue = std::_Select1st&lt;std::pair&lt;const int, IceInternal::Handle&lt;Ice::Object&gt; &gt; &gt;; _Compare = std::less&lt;int&gt;; _Alloc = std::allocator&lt;std::pair&lt;const int, IceInternal::Handle&lt;Ice::Object&gt; &gt; &gt;]’
-/usr/include/c++/4.7/bits/stl_map.h:90:11:   required from here
-/usr/include/Ice/Handle.h:106:13: error: ‘upCast’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
-In file included from /usr/include/Ice/Ice.h:30:0,
-             from /home/alc/sdr/gnuradio/v3.6.4.1-946-g7f0d3777-next/gnuradio-core/src/lib/runtime/ice_application_base.h:28,
-             from /home/alc/sdr/gnuradio/v3.6.4.1-946-g7f0d3777-next/gnuradio-core/src/lib/runtime/ice_application_base.cc:23:
-	 /usr/include/Ice/Connection.h:92:29: note: ‘Ice::LocalObject* IceInternal::upCast(Ice::UDPConnectionInfo*)’ declared here, later in the translation unit
-	 make[2]: *** [gnuradio-core/src/lib/CMakeFiles/gnuradio-core.dir/runtime/ice_application_base.cc.o] Error 1
-	 make[1]: *** [gnuradio-core/src/lib/CMakeFiles/gnuradio-core.dir/all] Error 2
-	 make: *** [all] Error 2</code></pre>
-
-<p>Apparently, the debian build of ZeroC’s Ice lib is bad, simple enough to fix, if you don’t mind stuff accumulating in /usr/local! Go to <a href="http://www.zeroc.com/download.html#src">ZeroC’s source download site</a> and grab the latest tarball, unpack it.</p>
-
-<p>I edited the cpp/conf/Make.rules to install to /usr/local/, change as you see fit, or leave it at the default.</p>
-
-<p>Then gnuradio builds fine again!</p>
+<p>Over the next weekend I’ll turn the 12m of wire into a 20m dipole I’ll string up at home in a more permanent fashion. I’m borrowing the clubs antenna tuner so I should be able to trim that nicely.</p>
 
     <div class="share-container">
     <div class="share-buttons">
         <p>Share:</p>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.pwarren.id.au/tech/2014/02/17/gnuradio-git-debian.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-        <a href="https://twitter.com/intent/tweet?text=Building GnuRadio from git on Debian 7 (by @pawarren):&amp;url=http://blog.pwarren.id.au/tech/2014/02/17/gnuradio-git-debian.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
-        <a href="https://www.linkedin.com/shareArticle?url=http://blog.pwarren.id.au/tech/2014/02/17/gnuradio-git-debian.html" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
-        <a href="https://plus.google.com/share?url=http://blog.pwarren.id.au/tech/2014/02/17/gnuradio-git-debian.html&amp;hl=en-GB" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
-        <a href="http://pinterest.com/pin/create/button/?url=http://blog.pwarren.id.au/tech/2014/02/17/gnuradio-git-debian.html&amp;description=&amp;media=http://blog.pwarren.id.au" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.pwarren.id.au/tech/2014/05/20/First-proper-HF-contact.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+        <a href="https://twitter.com/intent/tweet?text=First Proper Hf Contact (by @pawarren):&amp;url=http://blog.pwarren.id.au/tech/2014/05/20/First-proper-HF-contact.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?url=http://blog.pwarren.id.au/tech/2014/05/20/First-proper-HF-contact.html" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        <a href="https://plus.google.com/share?url=http://blog.pwarren.id.au/tech/2014/05/20/First-proper-HF-contact.html&amp;hl=en-GB" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+        <a href="http://pinterest.com/pin/create/button/?url=http://blog.pwarren.id.au/tech/2014/05/20/First-proper-HF-contact.html&amp;description=&amp;media=http://blog.pwarren.id.au" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
     </div>
     <div class="share-buttons pull-right">
         <p>Subscribe:</p>
@@ -192,7 +175,7 @@ In file included from /usr/include/Ice/Ice.h:30:0,
         If you wish to support me making creative works and giving them away for free, then I welcome tips on
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VQJ9E7ZGDDF8A">PayPal</a>,
         <a href="https://gittip.com/pwarren">GitTip</a>,
-        <a href="https://flattr.com/submit/auto?user_id=pwarren&amp;url=http://blog.pwarren.id.au/tech/2014/02/17/gnuradio-git-debian.html&amp;title=Building GnuRadio from git on Debian 7">Flattr</a>,
+        <a href="https://flattr.com/submit/auto?user_id=pwarren&amp;url=http://blog.pwarren.id.au/tech/2014/05/20/First-proper-HF-contact.html&amp;title=First Proper Hf Contact">Flattr</a>,
         or <a href="litecoin:Lbwnx4GoocEBbTimdQDhRhTg6mthCzBU7R">Litecoin</a> (Lbwnx4GoocEBbTimdQDhRhTg6mthCzBU7R).
     </p>
 </div>
@@ -205,9 +188,9 @@ In file included from /usr/include/Ice/Ice.h:30:0,
 <script type="text/javascript">
 
     var disqus_shortname  = "aloeblog"; 
-    var disqus_identifier = "/tech/2014/02/17/gnuradio-git-debian.html";
-    var disqus_title      = "Building GnuRadio from git on Debian 7";
-    var disqus_url        = "http://blog.pwarren.id.au/tech/2014/02/17/gnuradio-git-debian.html";
+    var disqus_identifier = "/tech/2014/05/20/First-proper-HF-contact.html";
+    var disqus_title      = "First Proper Hf Contact";
+    var disqus_url        = "http://blog.pwarren.id.au/tech/2014/05/20/First-proper-HF-contact.html";
 
     /* Make sure that once disqus renders, we trigger any events that
      * need to happen on page resize. Otherwise our left-bar looks funny. */
