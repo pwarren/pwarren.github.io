@@ -40,7 +40,7 @@
 
 &lt;p&gt;It now covers from 7.0041 MHz to 7.2405 MHz, a much more useful range of the 40m band!&lt;/p&gt;
 
-&lt;p&gt;In the end I used two 7.2 MHz ceramic resonators in parallel, with the O leg of a jaycar varicap and a 1 µH inductor in series with that.&lt;/p&gt;
+&lt;p&gt;In the end I used two 7.2 MHz ceramic resonators in parallel, with the O leg of a jaycar varicap and a 1 µH inductor in series with that.&lt;br /&gt;&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;The wave form does look a bit wonky down the low end, but is a lovely sinusoid at about 1vp-p from about 7.08 up.&lt;/p&gt;
 
@@ -59,7 +59,7 @@
 				<title>Beach40 Start</title>
 				<description>&lt;p&gt;I’ve started building Peter Parker &lt;a href=&quot;http://vk3ye.com&quot;&gt;VK3YE&lt;/a&gt;’s 40m Dual Side Band transciever, completing the oscillator Manhattan Style:&lt;/p&gt;
 &lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40_circuit1.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40_circuit1.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
-&lt;p&gt;I’ve built it with some 7.2MHz resonators from &lt;a href=&quot;http://minikits.com.au&quot;&gt;MiniKits&lt;/a&gt;, and with the 60-160 pF variable cap I have, it gets me from 6.938MHz to 7.049MHz. Which is not terribly useful for the 20m band (7.0 -&amp;gt; 7.3 MHz). So I’ll have to tweak things and work out how to get more swing from the oscillator.&lt;/p&gt;
+&lt;p&gt;I’ve built it with some 7.2MHz resonators from &lt;a href=&quot;http://minikits.com.au&quot;&gt;MiniKits&lt;/a&gt;, and with the 60-160 pF variable cap I have, it gets me from 6.938MHz to 7.049MHz. Which is not terribly useful for the 20m band (7.0 -&amp;gt; 7.3 MHz). So I’ll have to tweak things and work out how to get more swing from the oscillator. &lt;!--more--&gt;&lt;/p&gt;
 &lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40_testing_oscillator.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40_testing_oscillator.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;</description>
 				<pubDate>Thu, 01 May 2014 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/05/01/Beach40-start.html</link>
@@ -76,7 +76,7 @@
 				<description>&lt;p&gt;Well, after getting my MST2 in an enclosure and looking Ok:&lt;/p&gt;
 &lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/MST2_20m_box.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/MST2_20m_box.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
 &lt;p&gt;I went to a friendly ham’s workshop and started aligning it. The receive slug tuning and mixer balancing went perfectly well. When we got to doing the transmit tuning, things started to go a bit skee-whiff! The MST2 turned off. So we replaced the fuse, which promptly blew, and another!&lt;/p&gt;
-
+&lt;!--more--&gt;
 &lt;p&gt;After turning the PA bias and mic gain down, and unshorting the PTT line and trying another fuse the magic smoke came out of the MOSFET!&lt;/p&gt;
 
 &lt;p&gt;We then tested the audio generator, and it was putting out 1v peak to peak, instaed of the 50mV we’d set it to, so we figure the MOSFET was being overdriven for a significant period of time (10 minutes or so!), and decided it had had enough of that, and gave up the ghost :(&lt;/p&gt;
@@ -93,33 +93,10 @@
                     
 
 			<item>
-				<title>Mst 20m Buildlog Day Something</title>
-				<description>&lt;p&gt;Well, after getting my MST2 in an enclosure and looking Ok:&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/MST2_20m_box.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/MST2_20m_box.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
-&lt;p&gt;I went to a friendly ham’s workshop and started aligning it. The receive slug tuning and mixer balancing went perfectly well. When we got to doing the transmit tuning, things started to go a bit skee-whiff! The MST2 turned off. So we replaced the fuse, which promptly blew, and another!&lt;/p&gt;
-
-&lt;p&gt;After turning the PA bias and mic gain down, and unshorting the PTT line and trying another fuse the magic smoke came out of the MOSFET!&lt;/p&gt;
-
-&lt;p&gt;We then tested the audio generator, and it was putting out 1v peak to peak, instaed of the 50mV we’d set it to, so we figure the MOSFET was being overdriven for a significant period of time (10 minutes or so!), and decided it had had enough of that, and gave up the ghost :(&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/MST2_20m_blown_final.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/MST2_20m_blown_final.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
-&lt;p&gt;So, now to find a source of IRF510 MOSFETs!&lt;/p&gt;</description>
-				<pubDate>Wed, 30 Apr 2014 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/04/30/MST-20m-buildlog-day-something.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/30/MST-20m-buildlog-day-something.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
 				<title>Mst2 20m Buildlog Day 2 And 3</title>
 				<description>&lt;p&gt;Well, yesterday we continued the odyssey, and got all the capacitors and transistors in, finishing off today with the transformers and chokes, pin headers and crystals, so we’re all done for the easy bits!&lt;/p&gt;
 &lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/MST2_20m_finished.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/MST2_20m_finished.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
-&lt;p&gt;I had a few oddities, the instructions specified 1.8pF NPO caps, but the kit came with 2pF caps in place. I have a left over 2 pin header (which I just realised should go on the VFO input!), and no 3 pin header for the DDS-VFO power, a bit odd, but easily worked around :)&lt;/p&gt;
-
-&lt;p&gt;Winding the transformers and chokes was easier than I thought, but they don’t look terribly even and neat, hope that doesn’t have too much of an effect on the output!&lt;/p&gt;
+&lt;p&gt;I had a few oddities, the instructions specified 1.8pF NPO caps, but the kit came with 2pF caps in place. I have a left over 2 pin header (which I just realised should go on the VFO input!), and no 3 pin header for the DDS-VFO power, a bit odd, but easily worked around :) &lt;!--more--&gt; Winding the transformers and chokes was easier than I thought, but they don’t look terribly even and neat, hope that doesn’t have too much of an effect on the output!&lt;/p&gt;
 
 &lt;p&gt;My soldering has definitely improved a little over the weekend!&lt;/p&gt;
 
@@ -129,29 +106,6 @@
 				<pubDate>Sun, 20 Apr 2014 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/04/20/MST2-20m-buildlog-day-2-and-3.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/20/MST2-20m-buildlog-day-2-and-3.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Mst 20m Buildlog Day 2 And 3</title>
-				<description>&lt;p&gt;Well, yesterday we continued the odyssey, and got all the capacitors and transistors in, finishing off today with the transformers and chokes, pin headers and crystals, so we’re all done for the easy bits!&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/MST2_20m_finished.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/MST2_20m_finished.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
-&lt;p&gt;I had a few oddities, the instructions specified 1.8pF NPO caps, but the kit came with 2pF caps in place. I have a left over 2 pin header (which I just realised should go on the VFO input!), and no 3 pin header for the DDS-VFO power, a bit odd, but easily worked around :)&lt;/p&gt;
-
-&lt;p&gt;Winding the transformers and chokes was easier than I thought, but they don’t look terribly even and neat, hope that doesn’t have too much of an effect on the output!&lt;/p&gt;
-
-&lt;p&gt;My soldering has definitely improved a little over the weekend!&lt;/p&gt;
-
-&lt;p&gt;It powers on and draws the right amount of current, and the oscillator puts out a good sine wave, which is all I had the energy for today, before coming down with a bit of a cold!&lt;/p&gt;
-
-&lt;p&gt;The next bit will have to wait until the pots, connectors and case arrive! Hopefully I’m all better when they arrive :)&lt;/p&gt;</description>
-				<pubDate>Sun, 20 Apr 2014 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/04/20/MST-20m-buildlog-day-2-and-3.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/20/MST-20m-buildlog-day-2-and-3.html</guid>
 			</item>
 		
 
@@ -205,6 +159,52 @@
 				<pubDate>Sat, 05 Apr 2014 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/04/05/RF-probe.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/05/RF-probe.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
+				<title>Vk1paw</title>
+				<description>&lt;p&gt;After passing my Standard Assesment, and receiving my Amateur Operator Certificate of Proficiency (Standard) yesterday, I’m now the proud owner of the amateur callsign VK1PAW!&lt;/p&gt;</description>
+				<pubDate>Fri, 04 Apr 2014 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/04/04/vk1paw.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/04/vk1paw.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
+				<title>Satellite Recieved</title>
+				<description>&lt;p&gt;At the local &lt;a href=&quot;http://makehackvoid.com&quot;&gt;hackerspace&lt;/a&gt; tonight, I finally received a morse beacon from a satellite! Hooray! It was FO-29, an Amateur Radio satellite. You can find the wav file (22.05 kHz, mono 16 bit) I recorded of its CW beacon, on 435.795MHz &lt;a href=&quot;/downloads/f029-20140226.wav&quot;&gt;here&lt;/a&gt;. The Morse is too fast for me to even translate it into dots and dashes! If you can keep up, please do let me know what it’s saying!&lt;/p&gt;
+
+&lt;p&gt;This:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;...._._.._..._.__._.....___._...&amp;gt;EI&amp;lt;......_.&amp;gt;&amp;lt;ERR_15&amp;gt;L&amp;lt;......_..______...&amp;gt;
+&amp;lt;ERR_32&amp;gt;&amp;lt;ERR_32&amp;gt;&amp;lt;.............._____.............&amp;gt;E&amp;lt;ERR_32&amp;gt;IHSIII&amp;lt;ERR_6&amp;gt;
+IIIT&amp;lt;......_.&amp;gt;&amp;lt;ERR_9&amp;gt; I&amp;lt;ERR_7&amp;gt;&amp;lt;ERR_9&amp;gt;&amp;lt;ERR_22&amp;gt;&amp;lt;ERR_14&amp;gt;IF &amp;lt;.._....&amp;gt;C
+&amp;lt;_..._._...._._.&amp;gt;&amp;lt;_........._..&amp;gt;H ENCN&amp;lt;.....__.&amp;gt;&amp;lt;___._._&amp;gt;
+&amp;lt;.__.._._......_........__&amp;gt;GEER&amp;lt;...._..&amp;gt;&amp;lt;....._&amp;gt;
+&amp;lt;......_..__....._...............&amp;gt;B&amp;lt;ERR_32&amp;gt;&amp;lt;ERR_18&amp;gt;&amp;lt;ERR_32&amp;gt;E&amp;lt;ERR_11&amp;gt;5I
+&amp;lt;ERR_7&amp;gt;5I&amp;lt;ERR_6&amp;gt;&amp;lt;......_&amp;gt;EB IH &amp;lt;__._...._._.&amp;gt;&amp;lt;_._..___.&amp;gt;
+&amp;lt;.__..._...._......&amp;gt;D&amp;lt;.._..._._._..__...._.__.._......&amp;gt;&amp;lt;ERR_32&amp;gt;&amp;lt;ERR_19&amp;gt;
+&amp;lt;ERR_32&amp;gt;&amp;lt;ERR_29&amp;gt;&amp;lt;ERR_21&amp;gt;&amp;lt;ERR_32&amp;gt;EHIII EEOÜ&amp;lt;__.._.._&amp;gt;&amp;lt;........_.....&amp;gt;
+&amp;lt;.___.....__&amp;gt;&amp;lt;_._._&amp;gt;&amp;lt;..____....._._.__....._.._.&amp;gt;I
+&amp;lt;.......__.......................&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;is what multimon-ng makes of it. with similar output from fldigi. Next time I’ll set my filters a bit wider, or work out a better method of changing frequencies to keep up with the doppler shift.&lt;/p&gt;
+
+&lt;p&gt;To record the wav file, I used gqrx on my debian laptop, with a fc0012 + rtl2832u rtl-sdr dongle, then converted to mono at 22.05 kHz&lt;/p&gt;
+
+&lt;p&gt;My thanks go to &lt;a href=&quot;https://github.com/devdsp&quot;&gt;devdsp&lt;/a&gt; for holding the laptop and getting bitten by mosquitos while I pointed the &lt;a href=&quot;/tech/2014/02/02/Ardusat-contact-attempt1.html&quot;&gt;antenna&lt;/a&gt;!&lt;/p&gt;</description>
+				<pubDate>Wed, 26 Feb 2014 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/02/26/Satellite-Recieved.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/02/26/Satellite-Recieved.html</guid>
 			</item>
 		
 
