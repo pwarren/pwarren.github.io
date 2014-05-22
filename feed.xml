@@ -12,6 +12,25 @@
                     
 
 			<item>
+				<title>Beach40 Buildlog More Progress</title>
+				<description>&lt;p&gt;Stuffed a few more bits on the beach40. Got the ring mixer in, and the first transformer. Also managed to solder a SOIC-8 chip to a MePad :)&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40_2014-05-22.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40_2014-05-22.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;!--more--&gt;
+&lt;p&gt;Slowly slowly! But it shouldn’t be too long before I have at least a reciever!&lt;/p&gt;
+
+&lt;p&gt;Yes my copper is getting a bit dirty, will give it a good clean before soldering much more on!&lt;/p&gt;
+
+&lt;p&gt;I think the weekend will be spent building up a digital interface with VOX circuit for my MST2, and will be able to be used on the Beach40 when it gets there!&lt;/p&gt;</description>
+				<pubDate>Thu, 22 May 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/05/22/Beach40-buildlog-more-progress.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/22/Beach40-buildlog-more-progress.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>First Proper Hf Contact</title>
 				<description>&lt;p&gt;Today I’m at home watching the kids, and I decided to try some 20m contacts. After mucking about a bit with end fed half wave antennas, and not being happy with it, I decided to make the wire as per the instructions for the L-Match tuner I built (based on Peter, VK3YE’s HF Portable youtube series), and 22m of wire appears to work much better than the 12m I did have.&lt;/p&gt;
 
@@ -172,39 +191,6 @@
 				<pubDate>Fri, 04 Apr 2014 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/04/04/vk1paw.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/04/vk1paw.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Satellite Recieved</title>
-				<description>&lt;p&gt;At the local &lt;a href=&quot;http://makehackvoid.com&quot;&gt;hackerspace&lt;/a&gt; tonight, I finally received a morse beacon from a satellite! Hooray! It was FO-29, an Amateur Radio satellite. You can find the wav file (22.05 kHz, mono 16 bit) I recorded of its CW beacon, on 435.795MHz &lt;a href=&quot;/downloads/f029-20140226.wav&quot;&gt;here&lt;/a&gt;. The Morse is too fast for me to even translate it into dots and dashes! If you can keep up, please do let me know what it’s saying!&lt;/p&gt;
-
-&lt;p&gt;This:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;...._._.._..._.__._.....___._...&amp;gt;EI&amp;lt;......_.&amp;gt;&amp;lt;ERR_15&amp;gt;L&amp;lt;......_..______...&amp;gt;
-&amp;lt;ERR_32&amp;gt;&amp;lt;ERR_32&amp;gt;&amp;lt;.............._____.............&amp;gt;E&amp;lt;ERR_32&amp;gt;IHSIII&amp;lt;ERR_6&amp;gt;
-IIIT&amp;lt;......_.&amp;gt;&amp;lt;ERR_9&amp;gt; I&amp;lt;ERR_7&amp;gt;&amp;lt;ERR_9&amp;gt;&amp;lt;ERR_22&amp;gt;&amp;lt;ERR_14&amp;gt;IF &amp;lt;.._....&amp;gt;C
-&amp;lt;_..._._...._._.&amp;gt;&amp;lt;_........._..&amp;gt;H ENCN&amp;lt;.....__.&amp;gt;&amp;lt;___._._&amp;gt;
-&amp;lt;.__.._._......_........__&amp;gt;GEER&amp;lt;...._..&amp;gt;&amp;lt;....._&amp;gt;
-&amp;lt;......_..__....._...............&amp;gt;B&amp;lt;ERR_32&amp;gt;&amp;lt;ERR_18&amp;gt;&amp;lt;ERR_32&amp;gt;E&amp;lt;ERR_11&amp;gt;5I
-&amp;lt;ERR_7&amp;gt;5I&amp;lt;ERR_6&amp;gt;&amp;lt;......_&amp;gt;EB IH &amp;lt;__._...._._.&amp;gt;&amp;lt;_._..___.&amp;gt;
-&amp;lt;.__..._...._......&amp;gt;D&amp;lt;.._..._._._..__...._.__.._......&amp;gt;&amp;lt;ERR_32&amp;gt;&amp;lt;ERR_19&amp;gt;
-&amp;lt;ERR_32&amp;gt;&amp;lt;ERR_29&amp;gt;&amp;lt;ERR_21&amp;gt;&amp;lt;ERR_32&amp;gt;EHIII EEOÜ&amp;lt;__.._.._&amp;gt;&amp;lt;........_.....&amp;gt;
-&amp;lt;.___.....__&amp;gt;&amp;lt;_._._&amp;gt;&amp;lt;..____....._._.__....._.._.&amp;gt;I
-&amp;lt;.......__.......................&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;is what multimon-ng makes of it. with similar output from fldigi. Next time I’ll set my filters a bit wider, or work out a better method of changing frequencies to keep up with the doppler shift.&lt;/p&gt;
-
-&lt;p&gt;To record the wav file, I used gqrx on my debian laptop, with a fc0012 + rtl2832u rtl-sdr dongle, then converted to mono at 22.05 kHz&lt;/p&gt;
-
-&lt;p&gt;My thanks go to &lt;a href=&quot;https://github.com/devdsp&quot;&gt;devdsp&lt;/a&gt; for holding the laptop and getting bitten by mosquitos while I pointed the &lt;a href=&quot;/tech/2014/02/02/Ardusat-contact-attempt1.html&quot;&gt;antenna&lt;/a&gt;!&lt;/p&gt;</description>
-				<pubDate>Wed, 26 Feb 2014 00:00:00 +1100</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/02/26/Satellite-Recieved.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/02/26/Satellite-Recieved.html</guid>
 			</item>
 		
 
