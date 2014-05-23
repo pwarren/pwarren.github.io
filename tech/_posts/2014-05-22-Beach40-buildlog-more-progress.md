@@ -5,7 +5,7 @@ tags: tech electronics buildlog Beach40 amateur radio
 
 Stuffed a few more bits on the beach40. Got the ring mixer in, and the first transformer.  Also managed to solder a SOIC-8 chip to a MePad :)
 
-{% fancybox /images/beach40_2014-05-22.jpg 1024 768 "Beach 40 with ring mixer and audio amp" %}
+{% fancybox /images/beach40_2014-05-22.jpg 800x600 "Beach 40 with ring mixer and audio amp" %}
 
 <!--more-->
 Slowly slowly! But it shouldn't be too long before I have at least a reciever!
