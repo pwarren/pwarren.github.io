@@ -7,7 +7,7 @@
 -->
 <html lang="en">
     <head prefix="og: http://ogp.me/ns#">
-        <title>Random Notes</title>
+        <title>Compiling Wsjtx On Debian X64</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
         
@@ -17,8 +17,8 @@
     <link rel="image_src"        href="http://blog.pwarren.id.au/images/grr_square.jpg"  />
 
 
-<meta property="og:title" content="Random Notes"  />
-<meta property="og:url"   content="http://blog.pwarren.id.au/family/2013/05/21/Random-Notes.html" />
+<meta property="og:title" content="Compiling Wsjtx On Debian X64"  />
+<meta property="og:url"   content="http://blog.pwarren.id.au/tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html" />
 
 <!-- This should be expanded to allow for 'article' types -->
 <meta property="og:type"  content="website" />
@@ -26,7 +26,7 @@
 
 
 
-    <meta name="keywords" content="family" />
+    <meta name="keywords" content="tech, amateur, radio" />
 
 
 
@@ -94,13 +94,13 @@
 
 <article class="is-post">
     <header>
-    <h2>Random Notes</h2>
+    <h2>Compiling Wsjtx On Debian X64</h2>
     
         <!-- This makes G+ bots happy -->
         <span class="byline">By Paul Warren</span>
     
     <p class="edit-post">
-(You can <a href="https://github.com/pwarren/pwarren.github.io/edit/build/family/_posts/2013-05-21-Random-Notes.md">suggest changes</a>
+(You can <a href="https://github.com/pwarren/pwarren.github.io/edit/build/tech/_posts/2014-05-26-Compiling-WSJTX-on-debian-x64.md">suggest changes</a>
 to this post.)
 </p>
 
@@ -110,8 +110,8 @@ to this post.)
     <div class="info">
     
     <span class="date"> <span class="month">May</span>
-        <span class="day">21</span> <span
-            class="year"><span>,</span> 2013</span>
+        <span class="day">27</span> <span
+            class="year"><span>,</span> 2014</span>
     </span>
 
 
@@ -130,38 +130,43 @@ to this post.)
 
     
 
-    <p>Emma Coffee, Born London, migrated to Aus 1920-1922, worked at the Woolwich arsenal during the First War, then worked in the paper shop, her father (James, not certain), was a baker.</p>
+    <pre><code>dpkg -add-architecture i386
 
-<p>Eileen (Fred’s Sister) told Ellen that when Emma and Arthur were leaving to come to Australia, Emma’s father went to see them off and having never met him before, said “He’ll never support you lass!”, he never did. Knocked her about terribly when drunk, which was often. Died when Fred was 16. that’s why Fred’s brother joined the AIF, not Fred, to support her. Fred came in a later induction where they didn’t look so closely at medical problems, fred had an intermittently discharging ear from his bad pneumonia.</p>
+sudo apt-get install  gcc g++ gfortran make libfftw3-dev \
+libpulse-dev libhamlib-dev qtbase5-dev  pulseaudio subversion \
+libgfortran3:i386 libc6-i386 libqt5multimedia5-plugins \
+qtmultimedia5-dev
 
-<p>Fred’s family: Rhona (has a lake named after her in the south west of Tasmania) Eileen, Effie, Fred, Beatrice Louise, Margurita Elizabeth.</p>
+svn co svn://svn.berlios.de/wsjt/branches/wsjtx
 
-<p>Irish Pharmaceutical diplomas not recognised in Australia so Arthur was a sort of Vet, clients would pay him in grog and send him home blotto, instead of giving him some potatoes to feed the children.</p>
+cd wsjtx
 
-<p>In amongst 4 births and many miscarriages Emma was the farm’s housekeeper.</p>
+mkdir build
 
-<p>Rhona became an accountant, Eileen and Effie Nurses.</p>
+cd wsjtx
 
-<p>Fred Had blackouts, once he remembered coming back into the camp gates in the Captains car, who had found him a few miles away wandering about.</p>
+cmake ../
 
-<p>Cousins were watching a movie in a ditch, where’s Fred? Unconscious in the ditch. Insulin shock therapy, made it a lot worse.</p>
+make -j4
 
-<p>Fred had told me (Paul) that it was shell shock.</p>
+cp ../*.dat ../*.txt ./
 
-<p>His sisters think it was some sort of abscess in his head from chronic pneumonia he suffered as a child, which does seem more likely!</p>
+cp -R ../Palettes ../samples ./
 
-<p>At some point during the 70s or 80s, the laws changed, so that if you went into the army without a condition, and came out with a condition, it was classed as “War Caused”. Making fred a TPI War Veteran, and Ellen a War Widow when he passed.</p>
+chmod +x contrib/kvasd
 
-<p>This made life a lot easier for the Blaydon St Warrens.</p>
+ln -s lib/jt9 ./
+
+./wsjtx</code></pre>
 
     <div class="share-container">
     <div class="share-buttons">
         <p>Share:</p>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.pwarren.id.au/family/2013/05/21/Random-Notes.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-        <a href="https://twitter.com/intent/tweet?text=Random Notes (by @pawarren):&amp;url=http://blog.pwarren.id.au/family/2013/05/21/Random-Notes.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
-        <a href="https://www.linkedin.com/shareArticle?url=http://blog.pwarren.id.au/family/2013/05/21/Random-Notes.html" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
-        <a href="https://plus.google.com/share?url=http://blog.pwarren.id.au/family/2013/05/21/Random-Notes.html&amp;hl=en-GB" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
-        <a href="http://pinterest.com/pin/create/button/?url=http://blog.pwarren.id.au/family/2013/05/21/Random-Notes.html&amp;description=&amp;media=http://blog.pwarren.id.au" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.pwarren.id.au/tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+        <a href="https://twitter.com/intent/tweet?text=Compiling Wsjtx On Debian X64 (by @pawarren):&amp;url=http://blog.pwarren.id.au/tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?url=http://blog.pwarren.id.au/tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        <a href="https://plus.google.com/share?url=http://blog.pwarren.id.au/tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html&amp;hl=en-GB" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+        <a href="http://pinterest.com/pin/create/button/?url=http://blog.pwarren.id.au/tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html&amp;description=&amp;media=http://blog.pwarren.id.au" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
     </div>
     <div class="share-buttons pull-right">
         <p>Subscribe:</p>
@@ -187,7 +192,7 @@ to this post.)
         If you wish to support me making creative works and giving them away for free, then I welcome tips on
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VQJ9E7ZGDDF8A">PayPal</a>,
         <a href="https://gittip.com/pwarren">GitTip</a>,
-        <a href="https://flattr.com/submit/auto?user_id=pwarren&amp;url=http://blog.pwarren.id.au/family/2013/05/21/Random-Notes.html&amp;title=Random Notes">Flattr</a>,
+        <a href="https://flattr.com/submit/auto?user_id=pwarren&amp;url=http://blog.pwarren.id.au/tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html&amp;title=Compiling Wsjtx On Debian X64">Flattr</a>,
         or <a href="litecoin:Lbwnx4GoocEBbTimdQDhRhTg6mthCzBU7R">Litecoin</a> (Lbwnx4GoocEBbTimdQDhRhTg6mthCzBU7R).
     </p>
 </div>
@@ -200,9 +205,9 @@ to this post.)
 <script type="text/javascript">
 
     var disqus_shortname  = "aloeblog"; 
-    var disqus_identifier = "/family/2013/05/21/Random-Notes.html";
-    var disqus_title      = "Random Notes";
-    var disqus_url        = "http://blog.pwarren.id.au/family/2013/05/21/Random-Notes.html";
+    var disqus_identifier = "/tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html";
+    var disqus_title      = "Compiling Wsjtx On Debian X64";
+    var disqus_url        = "http://blog.pwarren.id.au/tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html";
 
     /* Make sure that once disqus renders, we trigger any events that
      * need to happen on page resize. Otherwise our left-bar looks funny. */

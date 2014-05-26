@@ -12,6 +12,46 @@
                     
 
 			<item>
+				<title>Compiling Wsjtx On Debian X64</title>
+				<description>&lt;pre&gt;&lt;code&gt;dpkg -add-architecture i386
+
+sudo apt-get install  gcc g++ gfortran make libfftw3-dev \
+libpulse-dev libhamlib-dev qtbase5-dev  pulseaudio subversion \
+libgfortran3:i386 libc6-i386 libqt5multimedia5-plugins \
+qtmultimedia5-dev
+
+svn co svn://svn.berlios.de/wsjt/branches/wsjtx
+
+cd wsjtx
+
+mkdir build
+
+cd wsjtx
+
+cmake ../
+
+make -j4
+
+cp ../*.dat ../*.txt ./
+
+cp -R ../Palettes ../samples ./
+
+chmod +x contrib/kvasd
+
+ln -s lib/jt9 ./
+
+./wsjtx&lt;/code&gt;&lt;/pre&gt;</description>
+				<pubDate>Tue, 27 May 2014 02:45:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Dipole Up!</title>
 				<description>&lt;p&gt;My legs are now a bit stiff and sore from going up and down a ladder for a few hours yesterday afternoon. Made a homebrew dipole with some cut and drilled $2 shop polyethylene chopping board and some cheap coax and wire from Jaycar. I used coax wound around a little toroid as a common mode choke&lt;/p&gt;
 &lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/dipole_centre.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/dipole_centre.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;!--more--&gt;
@@ -23,7 +63,7 @@
 
 &lt;p&gt;It appears to work well, have received WSPR from Europe and NZ with it, with audio going to my PC via an isolated attunuator, more on this in a future post! Hopefully I’ll be able to get a few contacts on it this weekend!&lt;/p&gt;
 &lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/dipole.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/dipole.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;</description>
-				<pubDate>Mon, 26 May 2014 00:00:00 +1000</pubDate>
+				<pubDate>Mon, 26 May 2014 21:40:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/05/26/Dipole-Up%21.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/26/Dipole-Up%21.html</guid>
 			</item>
@@ -181,25 +221,6 @@
 				<pubDate>Sun, 06 Apr 2014 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/04/06/first-contact.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/06/first-contact.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Rf Probe</title>
-				<description>&lt;p&gt;Well, I started my radio building journey today, by building an RF probe:&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/rf_probe.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/rf_probe.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
-&lt;p&gt;It was quite tedious to cut the little squares, so I think I’ll get some of the QRPMe &lt;a href=&quot;http://qrpme.com/?p=product&amp;id=MES&quot;&gt;MeSquares&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;or maybe a hole punch from Bunnings :)&lt;/p&gt;
-
-&lt;p&gt;Anyway, it works well, produces about 2v on my multimeter when keying my Baofeng 2m/70cm radio right next to the little antenna. Very pleased :)&lt;/p&gt;</description>
-				<pubDate>Sat, 05 Apr 2014 00:00:00 +1100</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/04/05/RF-probe.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/05/RF-probe.html</guid>
 			</item>
 		
 
