@@ -7,7 +7,7 @@
 -->
 <html lang="en">
     <head prefix="og: http://ogp.me/ns#">
-        <title>Mst2 20m Buildlog Day Something</title>
+        <title>Vox Working</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
         
@@ -17,8 +17,8 @@
     <link rel="image_src"        href="http://blog.pwarren.id.au/images/grr_square.jpg"  />
 
 
-<meta property="og:title" content="Mst2 20m Buildlog Day Something"  />
-<meta property="og:url"   content="http://blog.pwarren.id.au/tech/2014/04/30/MST2-20m-buildlog-day-something.html" />
+<meta property="og:title" content="Vox Working"  />
+<meta property="og:url"   content="http://blog.pwarren.id.au/tech/2014/05/31/VOX-Working.html" />
 
 <!-- This should be expanded to allow for 'article' types -->
 <meta property="og:type"  content="website" />
@@ -26,7 +26,7 @@
 
 
 
-    <meta name="keywords" content="tech, electronics, buildlog, MST2, amateur, radio" />
+    <meta name="keywords" content="tech, amateur, radio" />
 
 
 
@@ -94,13 +94,13 @@
 
 <article class="is-post">
     <header>
-    <h2>Mst2 20m Buildlog Day Something</h2>
+    <h2>Vox Working</h2>
     
         <!-- This makes G+ bots happy -->
         <span class="byline">By Paul Warren</span>
     
     <p class="edit-post">
-(You can <a href="https://github.com/pwarren/pwarren.github.io/edit/build/tech/_posts/2014-04-30-MST2-20m-buildlog-day-something.md">suggest changes</a>
+(You can <a href="https://github.com/pwarren/pwarren.github.io/edit/build/tech/_posts/2014-05-30-VOX-Working.md">suggest changes</a>
 to this post.)
 </p>
 
@@ -109,8 +109,8 @@ to this post.)
 
     <div class="info">
     
-    <span class="date"> <span class="month">Apr</span>
-        <span class="day">30</span> <span
+    <span class="date"> <span class="month">May</span>
+        <span class="day">31</span> <span
             class="year"><span>,</span> 2014</span>
     </span>
 
@@ -130,24 +130,26 @@ to this post.)
 
     
 
-    <p>Well, after getting my MST2 in an enclosure and looking Ok:</p>
-<figure><a class='fancybox' href='/images/MST2_20m_box.jpg' rel='group'><img src='/images/MST2_20m_box.jpg' /></a></figure>
-<p>I went to a friendly ham’s workshop and started aligning it. The receive slug tuning and mixer balancing went perfectly well. When we got to doing the transmit tuning, things started to go a bit skee-whiff! The MST2 turned off. So we replaced the fuse, which promptly blew, and another!</p>
-<!--more-->
-<p>After turning the PA bias and mic gain down, and unshorting the PTT line and trying another fuse the magic smoke came out of the MOSFET!</p>
+    <p>Well, after a week or so of experimentation, I’ve got a VOX circuit that works with my <a href="http://ozqrp.com">OzQRP MST2</a>! In addition to the below VOX circuit, I put in isolation transformers and 40dB attenuators for the MST2’s speaker out to my sound card’s microphone input, and similarly for the revrse: sound card speaker out to MST2 microphone in.</p>
+<figure><a class='fancybox' href='/images/vox_cct.png' rel='group'><img src='/images/vox_cct.png' /></a></figure><!--more-->
+<p>I had to adapt various circuits I found on the web, as they didn’t exactly suit what I needed to do, But I’ve finally got there! Now I just need to make a contact with it! I’ll try for some PSK contacts over the weekend, and finally attempt some <a href="http:/freedv.org">FreeDV</a> contacts too.</p>
 
-<p>We then tested the audio generator, and it was putting out 1v peak to peak, instaed of the 50mV we’d set it to, so we figure the MOSFET was being overdriven for a significant period of time (10 minutes or so!), and decided it had had enough of that, and gave up the ghost :(</p>
-<figure><a class='fancybox' href='/images/MST2_20m_blown_final.jpg' rel='group'><img src='/images/MST2_20m_blown_final.jpg' /></a></figure>
-<p>So, now to find a source of IRF510 MOSFETs!</p>
+<p>Here’s what it looks like hooked up to the MST2 (but not to USB as I was packing up and thought I better take a snap or two!)</p>
+<figure><a class='fancybox' href='/images/vox_built.jpg' rel='group'><img src='/images/vox_built.jpg' /></a></figure>
+<p>I’m using a 4 pin microphone socket on the soundcard end, with PTT and microphone level audio going to the MST2 via shielded 4 core audio cable and some 4 pin mic plugs. Next time I’ll do that a bit differently, maybe soldering the sound card end directly in, instead of another plug and socket.</p>
+
+<p>Here’s a bit of a closer look at the electrically finished circuit.</p>
+<figure><a class='fancybox' href='/images/vox_built2.jpg' rel='group'><img src='/images/vox_built2.jpg' /></a></figure>
+<p>Next step, after getting some contacts will be to find a suitable box for it!</p>
 
     <div class="share-container">
     <div class="share-buttons">
         <p>Share:</p>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.pwarren.id.au/tech/2014/04/30/MST2-20m-buildlog-day-something.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-        <a href="https://twitter.com/intent/tweet?text=Mst2 20m Buildlog Day Something (by @pawarren):&amp;url=http://blog.pwarren.id.au/tech/2014/04/30/MST2-20m-buildlog-day-something.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
-        <a href="https://www.linkedin.com/shareArticle?url=http://blog.pwarren.id.au/tech/2014/04/30/MST2-20m-buildlog-day-something.html" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
-        <a href="https://plus.google.com/share?url=http://blog.pwarren.id.au/tech/2014/04/30/MST2-20m-buildlog-day-something.html&amp;hl=en-GB" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
-        <a href="http://pinterest.com/pin/create/button/?url=http://blog.pwarren.id.au/tech/2014/04/30/MST2-20m-buildlog-day-something.html&amp;description=&amp;media=http://blog.pwarren.id.au" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.pwarren.id.au/tech/2014/05/31/VOX-Working.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+        <a href="https://twitter.com/intent/tweet?text=Vox Working (by @pawarren):&amp;url=http://blog.pwarren.id.au/tech/2014/05/31/VOX-Working.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?url=http://blog.pwarren.id.au/tech/2014/05/31/VOX-Working.html" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        <a href="https://plus.google.com/share?url=http://blog.pwarren.id.au/tech/2014/05/31/VOX-Working.html&amp;hl=en-GB" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+        <a href="http://pinterest.com/pin/create/button/?url=http://blog.pwarren.id.au/tech/2014/05/31/VOX-Working.html&amp;description=&amp;media=http://blog.pwarren.id.au" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
     </div>
     <div class="share-buttons pull-right">
         <p>Subscribe:</p>
@@ -173,7 +175,7 @@ to this post.)
         If you wish to support me making creative works and giving them away for free, then I welcome tips on
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VQJ9E7ZGDDF8A">PayPal</a>,
         <a href="https://gittip.com/pwarren">GitTip</a>,
-        <a href="https://flattr.com/submit/auto?user_id=pwarren&amp;url=http://blog.pwarren.id.au/tech/2014/04/30/MST2-20m-buildlog-day-something.html&amp;title=Mst2 20m Buildlog Day Something">Flattr</a>,
+        <a href="https://flattr.com/submit/auto?user_id=pwarren&amp;url=http://blog.pwarren.id.au/tech/2014/05/31/VOX-Working.html&amp;title=Vox Working">Flattr</a>,
         or <a href="litecoin:Lbwnx4GoocEBbTimdQDhRhTg6mthCzBU7R">Litecoin</a> (Lbwnx4GoocEBbTimdQDhRhTg6mthCzBU7R).
     </p>
 </div>
@@ -186,9 +188,9 @@ to this post.)
 <script type="text/javascript">
 
     var disqus_shortname  = "aloeblog"; 
-    var disqus_identifier = "/tech/2014/04/30/MST2-20m-buildlog-day-something.html";
-    var disqus_title      = "Mst2 20m Buildlog Day Something";
-    var disqus_url        = "http://blog.pwarren.id.au/tech/2014/04/30/MST2-20m-buildlog-day-something.html";
+    var disqus_identifier = "/tech/2014/05/31/VOX-Working.html";
+    var disqus_title      = "Vox Working";
+    var disqus_url        = "http://blog.pwarren.id.au/tech/2014/05/31/VOX-Working.html";
 
     /* Make sure that once disqus renders, we trigger any events that
      * need to happen on page resize. Otherwise our left-bar looks funny. */

@@ -12,6 +12,29 @@
                     
 
 			<item>
+				<title>Vox Working</title>
+				<description>&lt;p&gt;Well, after a week or so of experimentation, I’ve got a VOX circuit that works with my &lt;a href=&quot;http://ozqrp.com&quot;&gt;OzQRP MST2&lt;/a&gt;! In addition to the below VOX circuit, I put in isolation transformers and 40dB attenuators for the MST2’s speaker out to my sound card’s microphone input, and similarly for the revrse: sound card speaker out to MST2 microphone in.&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/vox_cct.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/vox_cct.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;!--more--&gt;
+&lt;p&gt;I had to adapt various circuits I found on the web, as they didn’t exactly suit what I needed to do, But I’ve finally got there! Now I just need to make a contact with it! I’ll try for some PSK contacts over the weekend, and finally attempt some &lt;a href=&quot;http:/freedv.org&quot;&gt;FreeDV&lt;/a&gt; contacts too.&lt;/p&gt;
+
+&lt;p&gt;Here’s what it looks like hooked up to the MST2 (but not to USB as I was packing up and thought I better take a snap or two!)&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/vox_built.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/vox_built.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;p&gt;I’m using a 4 pin microphone socket on the soundcard end, with PTT and microphone level audio going to the MST2 via shielded 4 core audio cable and some 4 pin mic plugs. Next time I’ll do that a bit differently, maybe soldering the sound card end directly in, instead of another plug and socket.&lt;/p&gt;
+
+&lt;p&gt;Here’s a bit of a closer look at the electrically finished circuit.&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/vox_built2.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/vox_built2.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;p&gt;Next step, after getting some contacts will be to find a suitable box for it!&lt;/p&gt;</description>
+				<pubDate>Sat, 31 May 2014 02:40:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/05/31/VOX-Working.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/31/VOX-Working.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Compiling Wsjtx On Debian X64</title>
 				<description>&lt;pre&gt;&lt;code&gt;dpkg -add-architecture i386
 
@@ -206,21 +229,6 @@ ln -s lib/jt9 ./
 				<pubDate>Sat, 19 Apr 2014 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/04/19/MST2-20m-buildlog-day1.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/19/MST2-20m-buildlog-day1.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>First Contact!</title>
-				<description>&lt;p&gt;2014-04-06 08:30 VK1JST via the VK1RGI 2m repeater :)&lt;/p&gt;
-
-&lt;p&gt;I tried doing a callback after the WIA broadcast, but wasn’t heard from my in-laws at griffith. I think Red Hill was in the way! but I could hear the broadcast Ok from outside.&lt;/p&gt;</description>
-				<pubDate>Sun, 06 Apr 2014 00:00:00 +1100</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/04/06/first-contact.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/06/first-contact.html</guid>
 			</item>
 		
 
