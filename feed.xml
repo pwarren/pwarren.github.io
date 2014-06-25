@@ -12,6 +12,21 @@
                     
 
 			<item>
+				<title>Audio Amp Done</title>
+				<description>&lt;p&gt;Got the audio amp done!&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40-2014-06-25.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40-2014-06-25.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;!--more--&gt;
+&lt;p&gt;Even manages to amplify a 50Hz hum to audible levels when I accidentally touched the diode ring with my finger :)&lt;/p&gt;</description>
+				<pubDate>Wed, 25 Jun 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/06/25/audio-amp-done.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/06/25/audio-amp-done.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Lesson Learnt 001</title>
 				<description>&lt;p&gt;Well, I finally collected all the extra bits I needed, and had an hour or two to proceed further with my Beach40 build, and got my recieve audio amplifier circuit built:&lt;/p&gt;
 &lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40-2014-06-24.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40-2014-06-24.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;!--more--&gt;
@@ -210,27 +225,6 @@ ln -s lib/jt9 ./
 				<pubDate>Wed, 30 Apr 2014 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/04/30/MST2-20m-buildlog-day-something.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/30/MST2-20m-buildlog-day-something.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Mst2 20m Buildlog Day 2 And 3</title>
-				<description>&lt;p&gt;Well, yesterday we continued the odyssey, and got all the capacitors and transistors in, finishing off today with the transformers and chokes, pin headers and crystals, so we’re all done for the easy bits!&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/MST2_20m_finished.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/MST2_20m_finished.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
-&lt;p&gt;I had a few oddities, the instructions specified 1.8pF NPO caps, but the kit came with 2pF caps in place. I have a left over 2 pin header (which I just realised should go on the VFO input!), and no 3 pin header for the DDS-VFO power, a bit odd, but easily worked around :) &lt;!--more--&gt; Winding the transformers and chokes was easier than I thought, but they don’t look terribly even and neat, hope that doesn’t have too much of an effect on the output!&lt;/p&gt;
-
-&lt;p&gt;My soldering has definitely improved a little over the weekend!&lt;/p&gt;
-
-&lt;p&gt;It powers on and draws the right amount of current, and the oscillator puts out a good sine wave, which is all I had the energy for today, before coming down with a bit of a cold!&lt;/p&gt;
-
-&lt;p&gt;The next bit will have to wait until the pots, connectors and case arrive! Hopefully I’m all better when they arrive :)&lt;/p&gt;</description>
-				<pubDate>Sun, 20 Apr 2014 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/04/20/MST2-20m-buildlog-day-2-and-3.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/04/20/MST2-20m-buildlog-day-2-and-3.html</guid>
 			</item>
 		
 
