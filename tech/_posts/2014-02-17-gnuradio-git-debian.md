@@ -1,6 +1,6 @@
 ---
 title: Building GnuRadio from git on Debian 7
-tags: tech yak shaving gnuradio debian libice
+tags: tech yakshaving gnuradio debian libice
 ---
 
 Okay, so in order to play with some new blocks I found, [gr-rds] (https://github.com/argilo/gr-rds) in particular. It appears I needed a newer version of gnuradio than I had previously built from git to get the Control Port functions these blocks require.

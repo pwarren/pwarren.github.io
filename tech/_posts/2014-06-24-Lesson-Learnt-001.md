@@ -1,6 +1,6 @@
 ---
 Title: Lesson Learnt 001
-tags: tech amateur radio
+tags: tech amateur radio Beach40
 ---
 
 Well, I finally collected all the extra bits I needed, and had an hour or two to proceed further with my Beach40 build, and got my recieve audio amplifier circuit built:

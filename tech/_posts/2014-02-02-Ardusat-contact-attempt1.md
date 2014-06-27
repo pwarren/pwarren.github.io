@@ -1,6 +1,6 @@
 ---
 title: Attempt No.1 to receive Ardusat
-tags: tech, ham, antenna
+tags: tech ham antenna
 ---
 
 
