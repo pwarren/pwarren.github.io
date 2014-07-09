@@ -1,5 +1,5 @@
 ---
-Title: Beach40 Transmitting!
+Title: Beach40 Finished!
 tags: tech amateur radio Beach40
 ---
 
