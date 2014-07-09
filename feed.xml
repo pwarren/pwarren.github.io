@@ -12,6 +12,26 @@
                     
 
 			<item>
+				<title>Beach40 Finished</title>
+				<description>&lt;p&gt;Well, the soldering is finished anyway! Still have to find a box, get all the connecting hardware, shield the oscillator, and build the L-Match circuit (and maybe the fine tuning circuit, and RF pre-amp).&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40-2014-07-09.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40-2014-07-09.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;!--more--&gt;
+&lt;p&gt;TX was working fine as I put the driver circuit in, will test the RF AMP after I build a dummy load.&lt;/p&gt;
+
+&lt;p&gt;RX on the other hand, does not appear to be going so well! There is a large difference on the scope at various points along the RX chain between when my 20m 1/2 wave dipole antenna is connected vs without, but there appears to be no change in the audio output at the headphones. I’ve tried having the phones in series and parallel, little difference.&lt;/p&gt;
+
+&lt;p&gt;Here’s the circuit, tho it’s hard to see all the details. I’ll have to check the schematic and make sure I’ve got it all together properly!&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40-2014-07-09-02.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40-2014-07-09-02.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;</description>
+				<pubDate>Tue, 08 Jul 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/07/08/Beach40-Finished.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/07/08/Beach40-Finished.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Beach40 Transmitting!</title>
 				<description>&lt;p&gt;Have got my Beach40’s mic amplifier in, and tweaked the carrier suppression via the balance pot and cap. I’m managing a carrier suppression of 24 dB, which i don’t think is too bad for a first time homebrew build, but I do need to get some non-capacitative flathead drivers, would make these things a bit easier!&lt;/p&gt;
 &lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40-2014-07-02-1.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40-2014-07-02-1.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;!--more--&gt;
@@ -205,22 +225,6 @@ ln -s lib/jt9 ./
 				<pubDate>Mon, 12 May 2014 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/05/12/Beach40-Better-Coverage%21.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/12/Beach40-Better-Coverage%21.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Beach40 Start</title>
-				<description>&lt;p&gt;I’ve started building Peter Parker &lt;a href=&quot;http://vk3ye.com&quot;&gt;VK3YE&lt;/a&gt;’s 40m Dual Side Band transciever, completing the oscillator Manhattan Style:&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40_circuit1.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40_circuit1.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
-&lt;p&gt;I’ve built it with some 7.2MHz resonators from &lt;a href=&quot;http://minikits.com.au&quot;&gt;MiniKits&lt;/a&gt;, and with the 60-160 pF variable cap I have, it gets me from 6.938MHz to 7.049MHz. Which is not terribly useful for the 20m band (7.0 -&amp;gt; 7.3 MHz). So I’ll have to tweak things and work out how to get more swing from the oscillator. &lt;!--more--&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40_testing_oscillator.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40_testing_oscillator.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;</description>
-				<pubDate>Thu, 01 May 2014 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/05/01/Beach40-start.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/01/Beach40-start.html</guid>
 			</item>
 		
 
