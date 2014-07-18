@@ -12,6 +12,20 @@
                     
 
 			<item>
+				<title>Boxed And Ready To Go</title>
+				<description>&lt;p&gt;Well, the Beach40 is boxed up and ready to test! Just working out what else I need to check before putting it on the air! Hopefully I’ll be set up at 04:00 UTC tomorrow (2014-07-08), listen out somewhere between 7.007 and 7.230 :)&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/Beach40-2014-07-18-01.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/Beach40-2014-07-18-01.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;!--more--&gt;&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/Beach40-2014-07-18-02.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/Beach40-2014-07-18-02.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/Beach40-2014-07-18-03.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/Beach40-2014-07-18-03.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;</description>
+				<pubDate>Fri, 18 Jul 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/07/18/Boxed-and-Ready-to-Go.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/07/18/Boxed-and-Ready-to-Go.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Weekend&#39;s Efforts</title>
 				<description>&lt;p&gt;Had a bit of a quiet weekend, didn’t get a huge amount of radio stuff done, instead mostly housework, looking after the kids and on call work!&lt;/p&gt;
 
@@ -210,29 +224,6 @@ ln -s lib/jt9 ./
 				<pubDate>Thu, 22 May 2014 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/05/22/Beach40-buildlog-more-progress.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/22/Beach40-buildlog-more-progress.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>First Proper Hf Contact</title>
-				<description>&lt;p&gt;Today I’m at home watching the kids, and I decided to try some 20m contacts. After mucking about a bit with end fed half wave antennas, and not being happy with it, I decided to make the wire as per the instructions for the L-Match tuner I built (based on Peter, VK3YE’s HF Portable youtube series), and 22m of wire appears to work much better than the 12m I did have.&lt;/p&gt;
-
-&lt;p&gt;I made a contact with Ron, VK3AFW portable 4, as he was doing a SOTA activation on VK4/SE105, which is a distance of 1249.8 km from home and I got a report of 5 and 7, which I hope isn’t too bad with my 5 watts output.&lt;/p&gt;
-
-&lt;p&gt;Yay :)&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;p&gt;I strung the 22m wire up as an inverted V with the peak about 9m up the Chinese Elm in the back yard.&lt;/p&gt;
-
-&lt;p&gt;The max RF field strength is no longer on the far edge of the varicap’s range and signals are a little easier to detect. The only issue I’m having is that the power meter in the radio gets pegged at maximum even with no voice being transmitted, just a carrier. This didn’t happen with VK1GH’s tuned dipole, on that I got peaks in cadence with my voice. I got a contact, so it mustn’t be too much of an issue!&lt;/p&gt;
-
-&lt;p&gt;Over the next weekend I’ll turn the 12m of wire into a 20m dipole I’ll string up at home in a more permanent fashion. I’m borrowing the clubs antenna tuner so I should be able to trim that nicely.&lt;/p&gt;</description>
-				<pubDate>Tue, 20 May 2014 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/05/20/First-proper-HF-contact.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/20/First-proper-HF-contact.html</guid>
 			</item>
 		
 
