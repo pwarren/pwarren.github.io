@@ -25,7 +25,7 @@ Time|Frequency|Mode|Call|Summit|Notes
 00:47|14.305MHz|SSB|VK1EM/P|VK1/AC-043|S59R59 Thanks!
 
 
-40m was where it was at, with some of the other guys getting over 60 contacts! So, for next time, I'd better get the
+40m was where it was at, with some of the other guys getting over 60 contacts! So, for next time, I'd better get the beach40 fixed, or figure out a different way to get the band up!
 
 
 
