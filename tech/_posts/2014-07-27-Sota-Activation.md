@@ -2,7 +2,7 @@
 Title: SOTA Activation!
 tags: amateur radio MST2
 ---
-Today was the VK1 (And most of the rest of VK!) [SOTA](http://sota.org.uk) party, and I activated Mt Ainslie, VK1/AC-040, and had a bit of fun!  I learnt just how far down the hill the activation zone starts, 25m altitude is a bit further than I thought!
+Today was the VK1 (And most of the rest of VK!) [SOTA](http://sota.org.uk) party, and I did my first ever activation on Mt Ainslie, VK1/AC-040, and had a bit of fun!  I learnt just how far down the hill the activation zone starts, 25m altitude is a bit further than I thought!
 
 Here's my chair at the summit pole, the end fed antenna is strung up in the trees to the left.
 
