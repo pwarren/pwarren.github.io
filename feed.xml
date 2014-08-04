@@ -12,6 +12,19 @@
                     
 
 			<item>
+				<title>New Callsign</title>
+				<description>&lt;p&gt;After passing my Advanced exam a few weeks ago, I’m now known as VK1ATP! Hope to hear you over the air!&lt;/p&gt;</description>
+				<pubDate>Mon, 04 Aug 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/08/04/New-Callsign.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/08/04/New-Callsign.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Sota Activation</title>
 				<description>&lt;p&gt;Today was the VK1 (And most of the rest of VK!) &lt;a href=&quot;http://sota.org.uk&quot;&gt;SOTA&lt;/a&gt; party, and I did my first ever activation on Mt Ainslie, VK1/AC-040, and had a bit of fun! I learnt just how far down the hill the activation zone starts, 25m altitude is a bit further than I thought!&lt;/p&gt;
 
@@ -22,11 +35,11 @@
 &lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:10&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;439.000MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2FAJW/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-038&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Andrew!&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:12&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.320MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1RX/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-025&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Al!&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:15&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1DI/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-023&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Ian!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:16&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td colspan=&quot;2&quot; style=&quot;text-align: left;&quot;&gt;VK1DSH&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Dale!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:17&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1NAM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-032&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Andrew!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:33&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1MA/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-042&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:35&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td colspan=&quot;2&quot; style=&quot;text-align: left;&quot;&gt;VK8MA/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S57R52 Thanks Greg!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:47&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.305MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1EM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-043&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:16&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1DSH&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Dale!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:17&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1NAM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-032&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Andrew!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:33&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1MA/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-042&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:35&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK8MA/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S57R52 Thanks Greg!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:47&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.305MHz&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1EM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-043&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
 &lt;p&gt;40m was where it was at, with some of the other guys getting over 60 contacts! So, for next time, I’d better get the beach40 fixed, or figure out a different way to get the band up!&lt;/p&gt;</description>
 				<pubDate>Sun, 27 Jul 2014 00:00:00 +1000</pubDate>
@@ -211,28 +224,6 @@ ln -s lib/jt9 ./
 				<pubDate>Tue, 27 May 2014 02:45:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Dipole Up!</title>
-				<description>&lt;p&gt;My legs are now a bit stiff and sore from going up and down a ladder for a few hours yesterday afternoon. Made a homebrew dipole with some cut and drilled $2 shop polyethylene chopping board and some cheap coax and wire from Jaycar. I used coax wound around a little toroid as a common mode choke&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/dipole_centre.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/dipole_centre.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;!--more--&gt;
-&lt;p&gt;Managed to get it up about 10m above ground, and only smashed one tile in the process! Have some plastic over the hole, and will be back up to fix that next weekend.&lt;/p&gt;
-
-&lt;p&gt;I had to go up a few times as I was tuning it, too long to start with, then not quite short enough, then too short, finally got it! It has a 1.2SWR between 14.000 and 14.75MHz, which I think is good enough for now. I ended up with close to 9.52m of wire, as recommended by various hams, I’ve reduced the length by folding back about 70cm on each end.&lt;/p&gt;
-
-&lt;p&gt;I don’t get the S-Meter pegging that I see with the end fed antenna. Which I think may be to RF energy getting in to the Mic leads. Will investigate!&lt;/p&gt;
-
-&lt;p&gt;It appears to work well, have received WSPR from Europe and NZ with it, with audio going to my PC via an isolated attunuator, more on this in a future post! Hopefully I’ll be able to get a few contacts on it this weekend!&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/dipole.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/dipole.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;</description>
-				<pubDate>Mon, 26 May 2014 21:40:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/05/26/Dipole-Up%21.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/26/Dipole-Up%21.html</guid>
 			</item>
 		
 
