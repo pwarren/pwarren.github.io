@@ -1,5 +1,5 @@
 ---
-Title: Beach40 Finished!
+Title: New Callsign
 tags: tech amateur radio 
 ---
 
