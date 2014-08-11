@@ -12,6 +12,25 @@
                     
 
 			<item>
+				<title>70cm Yagi</title>
+				<description>&lt;p&gt;Now that I know a bit more about antennas and why using a dipole in a yagi isn’t so good, I decided to build a new one, following the WA5VJB’s designs found on his &lt;a href=&quot;http://www.wa5vjb.com/yagi-pdf/cheapyagi.pdf&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Took me about an hour to stick it together&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-08-11-70cm_yagi.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-08-11-70cm_yagi.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;p&gt;Unfortuantely, the SWR is a minimum at 2 bars of SWR on an FT817, at 443.5MHz, a bit off the design frequency of 432.2MHz where the FT-817 shows 7 bars :(&lt;/p&gt;
+
+&lt;p&gt;I’ll have to have another crack at the folded dipole. I think I know what the problem is, I started folding the wire round a 1/2 inch former at the wrong spot.&lt;/p&gt;</description>
+				<pubDate>Mon, 11 Aug 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/08/11/70cm-Yagi.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/08/11/70cm-Yagi.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>New Callsign</title>
 				<description>&lt;p&gt;After passing my Advanced exam a few weeks ago, I’m now known as VK1ATP! Hope to hear you over the air!&lt;/p&gt;</description>
 				<pubDate>Mon, 04 Aug 2014 00:00:00 +1000</pubDate>
@@ -35,11 +54,11 @@
 &lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:10&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;439.000MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2FAJW/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-038&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Andrew!&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:12&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.320MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1RX/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-025&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Al!&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:15&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1DI/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-023&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Ian!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:16&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1DSH&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Dale!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:17&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1NAM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-032&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Andrew!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:33&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1MA/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-042&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:35&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK8MA/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S57R52 Thanks Greg!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:47&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.305MHz&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1EM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-043&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:16&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td colspan=&quot;2&quot; style=&quot;text-align: left;&quot;&gt;VK1DSH&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Dale!&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:17&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1NAM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-032&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Andrew!&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:33&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1MA/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-042&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:35&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td colspan=&quot;2&quot; style=&quot;text-align: left;&quot;&gt;VK8MA/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S57R52 Thanks Greg!&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:47&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.305MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1EM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-043&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
 &lt;p&gt;40m was where it was at, with some of the other guys getting over 60 contacts! So, for next time, I’d better get the beach40 fixed, or figure out a different way to get the band up!&lt;/p&gt;</description>
 				<pubDate>Sun, 27 Jul 2014 00:00:00 +1000</pubDate>
@@ -184,46 +203,6 @@
 				<pubDate>Sat, 31 May 2014 02:40:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/05/31/VOX-Working.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/31/VOX-Working.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Compiling Wsjtx On Debian X64</title>
-				<description>&lt;pre&gt;&lt;code&gt;dpkg -add-architecture i386
-
-sudo apt-get install  gcc g++ gfortran make libfftw3-dev \
-libpulse-dev libhamlib-dev qtbase5-dev  pulseaudio subversion \
-libgfortran3:i386 libc6-i386 libqt5multimedia5-plugins \
-qtmultimedia5-dev
-
-svn co svn://svn.berlios.de/wsjt/branches/wsjtx
-
-cd wsjtx
-
-mkdir build
-
-cd wsjtx
-
-cmake ../
-
-make -j4
-
-cp ../*.dat ../*.txt ./
-
-cp -R ../Palettes ../samples ./
-
-chmod +x contrib/kvasd
-
-ln -s lib/jt9 ./
-
-./wsjtx&lt;/code&gt;&lt;/pre&gt;</description>
-				<pubDate>Tue, 27 May 2014 02:45:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/27/Compiling-WSJTX-on-debian-x64.html</guid>
 			</item>
 		
 
