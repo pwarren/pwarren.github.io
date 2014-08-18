@@ -12,6 +12,35 @@
                     
 
 			<item>
+				<title>Rd_contest_and_new_radio</title>
+				<description>&lt;p&gt;I had a bit of fun on Saturday with the wia’s &lt;a href=&quot;http://www.wia.org.au/members/contests/rdcontest/&quot;&gt;Remeberance Day&lt;/a&gt; amateur radio contest.&lt;/p&gt;
+
+&lt;p&gt;I have recently acquired an ft817 radio, along with an LDG z817H auto-tuner, which makes like a whole lot easier! I didn’t realise how much of a limit being stuck on 20m was. This late in the solar cycle 20m is not as impressive as it can be, but 40m was where it was at, of 22 contacts I made as a QRP station, 2 were on 20m.&lt;/p&gt;
+
+&lt;p&gt;In order to get the antenna tuner to cope with my 40m end fed half wave antenna, I had to build a 4:1 transformer balun, which was relatively easy in the end, and seemed to work very well!&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-08-17-RD-Setup.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-08-17-RD-Setup.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;p&gt;I’ve since boxed up the BALUN, and it looks quite nice, an is potentially useful as a balun for a QRP OCF too, tho the tuner can cope with end fed on pretty much all bands 40m and up, tho I’ve only confirmed that it works on 40 and 20, with no other stations to contact on other bands that I could hear!&lt;/p&gt;
+&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-08-17-BALUN.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-08-17-BALUN.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;p&gt;I bought the gear to be my main SOTA portable station, so setting up the contest station in the back yard was a good poving ground for it all.&lt;/p&gt;
+
+&lt;p&gt;The next items to sort out are a decent battery pack and a squidpole, then I’ll be fully ready for extended SOTA activations. Then I’ll just need to improve my fitness so I can walk up the hills.&lt;/p&gt;
+
+&lt;p&gt;I’ll put it out there: My goal is to activate Booroomba Rocks by the end of the year. This involves an hour bushwalk, the first 30 minutes on a walking track, then overland to the summit, carrying all the aforementioned gear, staying for some hours, and then walking back again!&lt;/p&gt;
+
+&lt;p&gt;I’ll be doing some other activations that are a bit easier to get to, some with carparks at the top before then, to practice my radio operation, and de-bug equipment.&lt;/p&gt;
+
+&lt;p&gt;I’ll be heading to Tassie in October, hope the association is up and running when I get there :)&lt;/p&gt;</description>
+				<pubDate>Sun, 17 Aug 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/08/17/RD_Contest_and_new_radio.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/08/17/RD_Contest_and_new_radio.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>70cm Yagi</title>
 				<description>&lt;p&gt;Now that I know a bit more about antennas and why using a dipole in a yagi isn’t so good, I decided to build a new one, following the WA5VJB’s designs found on his &lt;a href=&quot;http://www.wa5vjb.com/yagi-pdf/cheapyagi.pdf&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
 
@@ -54,11 +83,11 @@
 &lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:10&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;439.000MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2FAJW/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-038&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Andrew!&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:12&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.320MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1RX/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-025&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Al!&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:15&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1DI/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-023&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Ian!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:16&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td colspan=&quot;2&quot; style=&quot;text-align: left;&quot;&gt;VK1DSH&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Dale!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:17&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1NAM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-032&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Andrew!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:33&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1MA/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-042&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:35&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td colspan=&quot;2&quot; style=&quot;text-align: left;&quot;&gt;VK8MA/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S57R52 Thanks Greg!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:47&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.305MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1EM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-043&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:16&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1DSH&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Dale!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:17&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1NAM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-032&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Andrew!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:33&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1MA/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-042&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:35&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK8MA/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S57R52 Thanks Greg!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:47&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.305MHz&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1EM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-043&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
 &lt;p&gt;40m was where it was at, with some of the other guys getting over 60 contacts! So, for next time, I’d better get the beach40 fixed, or figure out a different way to get the band up!&lt;/p&gt;</description>
 				<pubDate>Sun, 27 Jul 2014 00:00:00 +1000</pubDate>
@@ -180,29 +209,6 @@
 				<pubDate>Tue, 24 Jun 2014 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/06/24/Lesson-Learnt-001.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/06/24/Lesson-Learnt-001.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Vox Working</title>
-				<description>&lt;p&gt;Well, after a week or so of experimentation, I’ve got a VOX circuit that works with my &lt;a href=&quot;http://ozqrp.com&quot;&gt;OzQRP MST2&lt;/a&gt;! In addition to the below VOX circuit, I put in isolation transformers and 40dB attenuators for the MST2’s speaker out to my sound card’s microphone input, and similarly for the revrse: sound card speaker out to MST2 microphone in.&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/vox_cct.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/vox_cct.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;!--more--&gt;
-&lt;p&gt;I had to adapt various circuits I found on the web, as they didn’t exactly suit what I needed to do, But I’ve finally got there! Now I just need to make a contact with it! I’ll try for some PSK contacts over the weekend, and finally attempt some &lt;a href=&quot;http:/freedv.org&quot;&gt;FreeDV&lt;/a&gt; contacts too.&lt;/p&gt;
-
-&lt;p&gt;Here’s what it looks like hooked up to the MST2 (but not to USB as I was packing up and thought I better take a snap or two!)&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/vox_built.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/vox_built.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
-&lt;p&gt;I’m using a 4 pin microphone socket on the soundcard end, with PTT and microphone level audio going to the MST2 via shielded 4 core audio cable and some 4 pin mic plugs. Next time I’ll do that a bit differently, maybe soldering the sound card end directly in, instead of another plug and socket.&lt;/p&gt;
-
-&lt;p&gt;Here’s a bit of a closer look at the electrically finished circuit.&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/vox_built2.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/vox_built2.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
-&lt;p&gt;Next step, after getting some contacts will be to find a suitable box for it!&lt;/p&gt;</description>
-				<pubDate>Sat, 31 May 2014 02:40:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/05/31/VOX-Working.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/05/31/VOX-Working.html</guid>
 			</item>
 		
 
