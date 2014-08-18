@@ -3,7 +3,7 @@ Title: RD Contest and new Radio
 tags: tech amateur radio SOTA
 ---
 
-I had a bit of fun on Saturday with the wia's [Remeberance Day](http://www.wia.org.au/members/contests/rdcontest/) amateur radio contest.
+I had a bit of fun on Saturday with the wia's [Rememberance Day](http://www.wia.org.au/members/contests/rdcontest/) amateur radio contest.
 
 I have recently acquired an ft817 radio, along with an LDG z817H auto-tuner, which makes like a whole lot easier! I didn't realise how much of a limit being stuck on 20m was. This late in the solar cycle 20m is not as impressive as it can be, but 40m was where it was at, of 22 contacts I made as a QRP station, 2 were on 20m.  
 
