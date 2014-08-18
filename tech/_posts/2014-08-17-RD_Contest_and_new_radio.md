@@ -9,11 +9,11 @@ I have recently acquired an ft817 radio, along with an LDG z817H auto-tuner, whi
 
 In order to get the antenna tuner to cope with my 40m end fed half wave antenna, I had to build a 4:1 transformer balun, which was relatively easy in the end, and seemed to work very well!
 
-{% fancybox /images/2014-08-17-RD-Setup.png 1024x768 "My Remeberance Day contest setup" %}
+{% fancybox /images/2014-08-17-RD-Setup.png 768x1024 "My Rememberance Day contest setup" %}
 
 I've since boxed up the BALUN, and it looks quite nice, an is potentially useful as a balun for a QRP OCF too, tho the tuner can cope with end fed on pretty much all bands 40m and up, tho I've only confirmed that it works on 40 and 20, with no other stations to contact on other bands that I could hear!
 
-<% fancybox /images/2014-08-17-BALUN.png 1024x768 "4:1 Transformer Balun" %>
+{% fancybox /images/2014-08-17-BALUN.png 1024x768 "4:1 Transformer Balun" %}
 
 I bought the gear to be my main SOTA portable station, so setting up the  contest station in the back yard was a good poving ground for it all.
 
