@@ -12,6 +12,23 @@
                     
 
 			<item>
+				<title>5w Dx!</title>
+				<description>&lt;p&gt;Woooo! Pretty excited, i had a day off yesterday, and in the afternoon thought I’d have a bit of a play with radios, and finally got a good DX SSB contact with m5 5W OzQRP MST2. I managed to get to Europe, Coray France to be a bit more precise. It was with Frank, F5PAU, he’s running 1KW into a yagi, a pretty impressive setup!&lt;/p&gt;
+
+&lt;p&gt;I could read Frank a good 5 x 10 over 9 with my dipole, and I received a 5 x 1, tho had to repeat my callsign a bit for it to be copyable! But once that was done, Frank did not seem to have trouble understanding me!&lt;/p&gt;
+
+&lt;p&gt;So, it’s true 5W can get you to the world :)&lt;/p&gt;</description>
+				<pubDate>Thu, 28 Aug 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2014/08/28/5W-DX%21.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/08/28/5W-DX%21.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Rd Contest And New Radio</title>
 				<description>&lt;p&gt;I had a bit of fun on Saturday with the wia’s &lt;a href=&quot;http://www.wia.org.au/members/contests/rdcontest/&quot;&gt;Rememberance Day&lt;/a&gt; amateur radio contest.&lt;/p&gt;
 
@@ -188,27 +205,6 @@
 				<pubDate>Wed, 25 Jun 2014 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//tech/2014/06/25/audio-amp-done.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/06/25/audio-amp-done.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Lesson Learnt 001</title>
-				<description>&lt;p&gt;Well, I finally collected all the extra bits I needed, and had an hour or two to proceed further with my Beach40 build, and got my recieve audio amplifier circuit built:&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40-2014-06-24.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40-2014-06-24.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;!--more--&gt;
-&lt;p&gt;The more experienced of you can probably see exactly what I’ve done wrong there. That photo is from after I’d removed the broken bits!&lt;/p&gt;
-
-&lt;p&gt;The lesson I learnt was, always double check the pinout of your chip :) I had thought the pins were numbered down each side, but they are in fact numbered in a circular fasion. So I had +12V going in to the audio out pin of the lm386.&lt;/p&gt;
-
-&lt;p&gt;Needless to say, this didn’t end well! The input voltage resistor went pop, started glowing white, and let out the magic smoke, there’s also some damage to the packaging of the lm386 chip.&lt;/p&gt;
-
-&lt;p&gt;Luckily I have a spare lm386 in my junque box, so I’ll stick that in tomorrow, and see how I go!&lt;/p&gt;</description>
-				<pubDate>Tue, 24 Jun 2014 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//tech/2014/06/24/Lesson-Learnt-001.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2014/06/24/Lesson-Learnt-001.html</guid>
 			</item>
 		
 
