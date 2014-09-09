@@ -7,7 +7,7 @@
 -->
 <html lang="en">
     <head prefix="og: http://ogp.me/ns#">
-        <title>70cm Yagi</title>
+        <title>Ocf Dipole Up!</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
         
@@ -17,8 +17,8 @@
     <link rel="image_src"        href="http://blog.pwarren.id.au/images/grr_square.jpg"  />
 
 
-<meta property="og:title" content="70cm Yagi"  />
-<meta property="og:url"   content="http://blog.pwarren.id.au/tech/2014/08/11/70cm-Yagi.html" />
+<meta property="og:title" content="Ocf Dipole Up!"  />
+<meta property="og:url"   content="http://blog.pwarren.id.au/tech/2014/09/09/OCF-Dipole-Up%21.html" />
 
 <!-- This should be expanded to allow for 'article' types -->
 <meta property="og:type"  content="website" />
@@ -94,13 +94,13 @@
 
 <article class="is-post">
     <header>
-    <h2>70cm Yagi</h2>
+    <h2>Ocf Dipole Up!</h2>
     
         <!-- This makes G+ bots happy -->
         <span class="byline">By Paul Warren</span>
     
     <p class="edit-post">
-(You can <a href="https://github.com/pwarren/pwarren.github.io/edit/build/tech/_posts/2014-08-11-70cm-Yagi.md">suggest changes</a>
+(You can <a href="https://github.com/pwarren/pwarren.github.io/edit/build/tech/_posts/2014-09-09-OCF-Dipole-Up!.md">suggest changes</a>
 to this post.)
 </p>
 
@@ -109,8 +109,8 @@ to this post.)
 
     <div class="info">
     
-    <span class="date"> <span class="month">Aug</span>
-        <span class="day">11</span> <span
+    <span class="date"> <span class="month">Sep</span>
+        <span class="day"> 9</span> <span
             class="year"><span>,</span> 2014</span>
     </span>
 
@@ -130,22 +130,60 @@ to this post.)
 
     
 
-    <p>Now that I know a bit more about antennas and why using a dipole in a yagi isn’t so good, I decided to build a new one, following the WA5VJB’s designs found on his <a href="http://www.wa5vjb.com/yagi-pdf/cheapyagi.pdf">website</a>.</p>
+    <p>I’ve managed to string up an 80m Off Centre Fed Dipole over the weekend, I managed a contact to Kentucky, USA, on 20m, and got a 59 report with my 100W and his gigantic yagi of doom! Also had a half dozen SOTA contacts on 40m and 20m over Sunday afternoon, so it’s fair to say it works!</p>
 
-<p>Took me about an hour to stick it together</p>
-<figure><a class='fancybox' href='/images/2014-08-11-70cm_yagi.png' rel='group'><img src='/images/2014-08-11-70cm_yagi.png' /></a></figure>
-<p>Unfortuantely, the SWR is a minimum at 2 bars of SWR on an FT817, at 443.5MHz, a bit off the design frequency of 432.2MHz where the FT-817 shows 8 bars :(</p>
+<p>I had taken some photos, but it’s actually really hard to see it in them! It’s just some wires running through the trees.</p>
 
-<p>I’ll have to have another crack at the folded dipole. I think I know what the problem is, I started folding the wire round a 1/2 inch former at the wrong spot.</p>
+<p>Last night I spent some time with the local club’s MFJ analyser (Thanks Gilbert!) and got an SWR graph of the antenna as installed:</p>
+<figure><a class='fancybox' href='/images/ocf_swr.png' rel='group'><img src='/images/ocf_swr.png' /></a></figure><!--more-->
+<p>Spreadsheet available on <a href="https://docs.google.com/spreadsheets/d/1HkWkwKKXdAVkZsj5o_kiEOkqZ5DnnjBpoTTgiWST81U/edit?usp=sharing">google drive</a>.</p>
+
+<p>Salient points: Lowest frequency minimum SWR: 1.9 @ 3.455MHz</p>
+
+<p>Other minimums:</p>
+
+<ul>
+<li>1.8 @ 7.133 MHz</li>
+
+<li>1.2 @ 14.494 MHz</li>
+
+<li>1.4 @ 18.046 MHz</li>
+
+<li>1.3 @ 25.252 MHz</li>
+
+<li>1.5 @ 29.006 MHz</li>
+</ul>
+
+<p>Is that telling me I should shorten it a touch, to get the lowest frequency dip up into the 80m band a bit more?</p>
+
+<p>I’m running my Kenwood TS-140S to it through an MFJ 986 manual tuner, which is able to get it to 1:1 SWR on 80, 40 20, 17, 12 and 10m without much difficulty, so I may just leave it as is!</p>
+
+<p>I Haven’t tried 15 and 30m yet, is that going to be possible?</p>
+
+<p>I’d also managed to put a station ground in a few weekends ago, which has reduced the RFI to my PC’s audio system, but, my house alarm still goes off if I try any mode other than SSB voice. FM, AM and JT65 modes, will set it off at varying power levels, FM and AM only at full output power, nominally 50W, and JT65, even at 10W.</p>
+
+<p>I’m told there are a few options to attempt remedying this:</p>
+
+<ul>
+<li>Put common mode chokes on the wires of the alarm system that go to the various devices around the house, 10 turns around one or two t130-2s</li>
+
+<li>Put capacitors between the signal wire and the alarm board</li>
+
+<li>replace cables with screened ones.</li>
+</ul>
+
+<p>Having further thoughts, it may be 433MHz reciever for the key fobs being overloaded, as you can set off the lights and sirens by pressing all the buttons on the fob, and from the keypad, but it’s a special mode, not set off by sensors.</p>
+
+<p>May have to ring the installer, see if he’s got any tips!</p>
 
     <div class="share-container">
     <div class="share-buttons">
         <p>Share:</p>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.pwarren.id.au/tech/2014/08/11/70cm-Yagi.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-        <a href="https://twitter.com/intent/tweet?text=70cm Yagi (by @pawarren):&amp;url=http://blog.pwarren.id.au/tech/2014/08/11/70cm-Yagi.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
-        <a href="https://www.linkedin.com/shareArticle?url=http://blog.pwarren.id.au/tech/2014/08/11/70cm-Yagi.html" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
-        <a href="https://plus.google.com/share?url=http://blog.pwarren.id.au/tech/2014/08/11/70cm-Yagi.html&amp;hl=en-GB" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
-        <a href="http://pinterest.com/pin/create/button/?url=http://blog.pwarren.id.au/tech/2014/08/11/70cm-Yagi.html&amp;description=&amp;media=http://blog.pwarren.id.au" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.pwarren.id.au/tech/2014/09/09/OCF-Dipole-Up%21.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+        <a href="https://twitter.com/intent/tweet?text=Ocf Dipole Up! (by @pawarren):&amp;url=http://blog.pwarren.id.au/tech/2014/09/09/OCF-Dipole-Up%21.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?url=http://blog.pwarren.id.au/tech/2014/09/09/OCF-Dipole-Up%21.html" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        <a href="https://plus.google.com/share?url=http://blog.pwarren.id.au/tech/2014/09/09/OCF-Dipole-Up%21.html&amp;hl=en-GB" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+        <a href="http://pinterest.com/pin/create/button/?url=http://blog.pwarren.id.au/tech/2014/09/09/OCF-Dipole-Up%21.html&amp;description=&amp;media=http://blog.pwarren.id.au" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
     </div>
     <div class="share-buttons pull-right">
         <p>Subscribe:</p>
@@ -171,7 +209,7 @@ to this post.)
         If you wish to support me making creative works and giving them away for free, then I welcome tips on
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VQJ9E7ZGDDF8A">PayPal</a>,
         <a href="https://gittip.com/pwarren">GitTip</a>,
-        <a href="https://flattr.com/submit/auto?user_id=pwarren&amp;url=http://blog.pwarren.id.au/tech/2014/08/11/70cm-Yagi.html&amp;title=70cm Yagi">Flattr</a>,
+        <a href="https://flattr.com/submit/auto?user_id=pwarren&amp;url=http://blog.pwarren.id.au/tech/2014/09/09/OCF-Dipole-Up%21.html&amp;title=Ocf Dipole Up!">Flattr</a>,
         or <a href="litecoin:Lbwnx4GoocEBbTimdQDhRhTg6mthCzBU7R">Litecoin</a> (Lbwnx4GoocEBbTimdQDhRhTg6mthCzBU7R).
     </p>
 </div>
@@ -184,9 +222,9 @@ to this post.)
 <script type="text/javascript">
 
     var disqus_shortname  = "aloeblog"; 
-    var disqus_identifier = "/tech/2014/08/11/70cm-Yagi.html";
-    var disqus_title      = "70cm Yagi";
-    var disqus_url        = "http://blog.pwarren.id.au/tech/2014/08/11/70cm-Yagi.html";
+    var disqus_identifier = "/tech/2014/09/09/OCF-Dipole-Up%21.html";
+    var disqus_title      = "Ocf Dipole Up!";
+    var disqus_url        = "http://blog.pwarren.id.au/tech/2014/09/09/OCF-Dipole-Up%21.html";
 
     /* Make sure that once disqus renders, we trigger any events that
      * need to happen on page resize. Otherwise our left-bar looks funny. */
