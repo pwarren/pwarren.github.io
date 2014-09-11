@@ -50,14 +50,13 @@ disqus:
 sidebar:
   - tech:
     title: "Technology"
-    url: "/tech"
+    url: "/tag/tech"
   - radio:
     title: "Radio"
-    url: "/tags/radio"
+    url: "/tag/radio"
   - coffee:
     title: "Coffee"
-    url: "/coffee"
-
+    url: "/tag/coffee"
 
 sitemap:
     file: "/sitemap.xml"
