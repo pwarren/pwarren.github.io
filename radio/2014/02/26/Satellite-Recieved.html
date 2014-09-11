@@ -1,0 +1,21 @@
+<p>At the local <a href="http://makehackvoid.com">hackerspace</a> tonight, I finally received a morse beacon from a satellite! Hooray! It was FO-29, an Amateur Radio satellite. You can find the wav file (22.05 kHz, mono 16 bit) I recorded of its CW beacon, on 435.795MHz <a href="/downloads/f029-20140226.wav">here</a>. The Morse is too fast for me to even translate it into dots and dashes! If you can keep up, please do let me know what it’s saying!</p>
+
+<p>This:</p>
+
+<pre><code>&lt;...._._.._..._.__._.....___._...&gt;EI&lt;......_.&gt;&lt;ERR_15&gt;L&lt;......_..______...&gt;
+&lt;ERR_32&gt;&lt;ERR_32&gt;&lt;.............._____.............&gt;E&lt;ERR_32&gt;IHSIII&lt;ERR_6&gt;
+IIIT&lt;......_.&gt;&lt;ERR_9&gt; I&lt;ERR_7&gt;&lt;ERR_9&gt;&lt;ERR_22&gt;&lt;ERR_14&gt;IF &lt;.._....&gt;C
+&lt;_..._._...._._.&gt;&lt;_........._..&gt;H ENCN&lt;.....__.&gt;&lt;___._._&gt;
+&lt;.__.._._......_........__&gt;GEER&lt;...._..&gt;&lt;....._&gt;
+&lt;......_..__....._...............&gt;B&lt;ERR_32&gt;&lt;ERR_18&gt;&lt;ERR_32&gt;E&lt;ERR_11&gt;5I
+&lt;ERR_7&gt;5I&lt;ERR_6&gt;&lt;......_&gt;EB IH &lt;__._...._._.&gt;&lt;_._..___.&gt;
+&lt;.__..._...._......&gt;D&lt;.._..._._._..__...._.__.._......&gt;&lt;ERR_32&gt;&lt;ERR_19&gt;
+&lt;ERR_32&gt;&lt;ERR_29&gt;&lt;ERR_21&gt;&lt;ERR_32&gt;EHIII EEOÜ&lt;__.._.._&gt;&lt;........_.....&gt;
+&lt;.___.....__&gt;&lt;_._._&gt;&lt;..____....._._.__....._.._.&gt;I
+&lt;.......__.......................&gt;</code></pre>
+
+<p>is what multimon-ng makes of it. with similar output from fldigi. Next time I’ll set my filters a bit wider, or work out a better method of changing frequencies to keep up with the doppler shift.</p>
+
+<p>To record the wav file, I used gqrx on my debian laptop, with a fc0012 + rtl2832u rtl-sdr dongle, then converted to mono at 22.05 kHz</p>
+
+<p>My thanks go to <a href="https://github.com/devdsp">devdsp</a> for holding the laptop and getting bitten by mosquitos while I pointed the <a href="/tech/2014/02/02/Ardusat-contact-attempt1.html">antenna</a>!</p>
