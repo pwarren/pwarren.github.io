@@ -1,7 +1,7 @@
 timezone: Australia/Canberra
 name: Paul Warren
 shortname: pwarren
-description: "A geek of various shades"
+description: "An Internaught"
 github_repo: https://github.com/pwarren/pwarren.github.io
 avatar: grr_square.jpg
 copyright: 2014 Paul Warren
@@ -48,18 +48,12 @@ disqus:
   shortname: aloeblog
 
 sidebar:
-  - talks:
-    title: "Talks"
-    url: "/talks"
   - tech:
     title: "Technology"
     url: "/tech"
-  - family:
-    title: "Family Stories"
-    url: "/family"
-  - recipes:
-    title: "Recipes"
-    url: "/recipes"
+  - radio:
+    title: "Radio"
+    url: "/tags/radio"
   - coffee:
     title: "Coffee"
     url: "/coffee"

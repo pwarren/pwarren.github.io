@@ -79,7 +79,7 @@
       </header>
       <ul class="inline">
       {% for category in site.tags %}
-      <li style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 50}}%">
+      <li style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 10}}%">
         <a href="/tag/{{ category | first | slugize }}/">
           {{ category | first }}
         </a>
