@@ -26,3 +26,4 @@ I then had a crack at 20m!  I thought 40m was busy, I could hardly find a spot o
 
 By that time I was getting a bit cool, a stiff westerly had come up and the sun had just about gone!  All up 11 QSOs, in 1h45m on the hill. Thanks to all the chasers!
 
+Sillily, I didn't take any photos this time! Too busy thinking about radios! Next time I'll try and remember!
