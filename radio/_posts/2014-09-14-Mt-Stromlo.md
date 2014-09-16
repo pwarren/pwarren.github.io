@@ -10,11 +10,11 @@ Given the Ok by my wife, I drove to the hill! I parked at the rocks and locked g
 
 I first tried my newly built 2m Yagi:
 
-{% fancybox /images/2m_yagi.png 768x1024 "3 element yagi antenna for 2m band" %}
+{% fancybox /images/2m_yagi.png 768x1024 "3 element yagi antenna for 2m band, Banana for scale" %}
 
 and managed to contact VK1EM and VK1MA, proving that the antenna 'works', I'll give it a bit more of a workout on the next VHF field day I hope!
 
-After calling for another 15 minutes with no luck, I set up for HF with the also new squidpole from [Haverfords](http://www.haverfords.com.au), they'd run out of the heavy duty ones, so I have a 9m medium duty pole, it seems to do the trick! My HF antenna is an end fed wire 22m long, with a 4:1 balun and counterpoise, and has worked in the back yard very well over the last month or so!
+After calling for another 15 minutes with no luck, I set up for HF with the also new squidpole from [Haverfords](http://www.haverford.com.au), they'd run out of the heavy duty ones, so I have a 9m medium duty pole, it seems to do the trick! My HF antenna is an end fed wire 22m long, with a 4:1 balun and counterpoise, and has worked in the back yard very well over the last month or so!
 
 I had it just about ready to go, and the squidpole fell over. Note for next time, take two, or perhaps three ties to attach the pole to a handy tree!
 
