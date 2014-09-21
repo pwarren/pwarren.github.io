@@ -12,6 +12,33 @@
                     
 
 			<item>
+				<title>SOTA Activation of Black Mountain</title>
+				<description>&lt;p&gt;Got out to another SOTA summit today, VK1/AC-042. Started off on 2m and got VK1MA, booming in strong as always, not much further luck on 2m, so attempted to get going on HF, but there were problems!&lt;/p&gt;
+&lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-09-21-sota_01.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-09-21-sota_01.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Telecom (not Telstra, damnit!) Tower&lt;/figcaption&gt;&lt;/figure&gt;&lt;!-- more --&gt;
+&lt;p&gt;I called for a little while, and heard nothing come back, sent a spot to sotawatch, and then heard quite a few come in, but I had very poor signal reports, and VK1MA suggested something was very wrong as I was only signal strength 1, line of sight to his QTH, I should be some dB over strength 9! Tweaking things around a bit, I found that the patch lead I repaired last week, is still no good :( If I look at it in the right tone of voice, and hold it just right, it works, but it’s flakey!&lt;/p&gt;
+
+&lt;p&gt;After some debugging on 2m, and moving the FT-817 off the metal rail to improve 2m SWR and signal reports, I got 2 more contacts and a summit to summit with VK1NAM on Mt Taylor.&lt;/p&gt;
+&lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-09-21-sota_02.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-09-21-sota_02.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;SOTA station nearly packed up&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;After that I tried the end fed wire straight into the LDG 817H tuner, without the 4:1 transformer, which worked fine! Tuned up 1:1 without issue on 40 and 20m. I proceeded to catch 15 more contacts, including 2 summit to summit on 40m with a much improved signal report of 58 to 59 for the most part! I also managed my first contact to England, with a single summit to summit on 20m to 2E0YYY which was very cool!&lt;/p&gt;
+
+&lt;p&gt;I did remember photos this time, but only after I’d started packing up!&lt;/p&gt;
+
+&lt;p&gt;That’s the end of the easy summits in Canberra, next one I’ll have to walk a bit further! I’m not sure that I’ll have time to activate next weekend, but I’ll try out the other bands in the back yard with just the tuner, and see how I go.&lt;/p&gt;
+
+&lt;p&gt;Next Monday I’m in Tassie, hoping that the associatin is live so I can activate down there, fingers crossed!&lt;/p&gt;
+
+&lt;p&gt;(And yay, I finally figured out a bit more about the fancybox plugin for jekyll!)&lt;/p&gt;</description>
+				<pubDate>Sun, 21 Sep 2014 00:00:00 +1000</pubDate>
+				<link>http://blog.pwarren.id.au//radio/2014/09/21/Black-Mt.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/09/21/Black-Mt.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>SOTA Activation of Mt Stromlo</title>
 				<description>&lt;p&gt;Well, I got my second SOTA activation done yesterday on Mt Stromlo, VK1/AC-043. I wanted to test out my gear, and make sure everything works, before I head to Tasmania in a few weeks, hopefully arriving after the SOTA association for VK7 goes live!&lt;/p&gt;
 
@@ -243,26 +270,6 @@
 				<pubDate>Mon, 14 Jul 2014 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2014/07/14/Weekend%27s-Efforts.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/07/14/Weekend%27s-Efforts.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Beach40 Finished</title>
-				<description>&lt;p&gt;Well, the soldering is finished anyway! Still have to find a box, get all the connecting hardware, shield the oscillator, and build the L-Match circuit (and maybe the fine tuning circuit, and RF pre-amp).&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40-2014-07-09.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40-2014-07-09.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;!--more--&gt;
-&lt;p&gt;TX was working fine as I put the driver circuit in, will test the RF AMP after I build a dummy load.&lt;/p&gt;
-
-&lt;p&gt;RX on the other hand, does not appear to be going so well! There is a large difference on the scope at various points along the RX chain between when my 20m 1/2 wave dipole antenna is connected vs without, but there appears to be no change in the audio output at the headphones. I’ve tried having the phones in series and parallel, little difference.&lt;/p&gt;
-
-&lt;p&gt;Here’s the circuit, tho it’s hard to see all the details. I’ll have to check the schematic and make sure I’ve got it all together properly!&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/beach40-2014-07-09-02.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/beach40-2014-07-09-02.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;</description>
-				<pubDate>Tue, 08 Jul 2014 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//radio/2014/07/08/Beach40-Finished.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/07/08/Beach40-Finished.html</guid>
 			</item>
 		
 
