@@ -3,7 +3,7 @@ title: VK7 Inaugural Activation
 tags:  amateur radio SOTA
 ---
 
-I've just got back from 2 weeks in Tassie, mostly to visit my Grandmother, and to celebrate her 90th birthday, which we did in some style at Stillwater in Launcenston!
+I've just got back from 2 weeks in Tassie, mostly to visit my Grandmother, and to celebrate her 90th birthday, which we did in some style at Stillwater in Launceston!
 {% fancybox right larger /images/2014-10-01-carpark.jpg "Car parked, ready for the summit!" %}
 
 Before getting to Launnie, I'd planned to stay at Bicheno for a few days.  This happened to co-incide with the start of the VK7 SOTA association, so I conferred with Justin, VK7TW, the SOTA manager for VK7, confirmed the starting dates, and the list of SOTA summits that would be available.  VK7 is fairly mountanous, and ended up with 695 peaks that are available for SOTA!
@@ -26,7 +26,7 @@ There are a lot of dead and felled trees, many burnt logs and lots of burnt tea-
 
 {% fancybox pull-right larger /images/2014-10-01-dead_tree.jpg "Dead tree on the walk up" %}
 
-Theres been a good bit of recovery, the trees that survived have a good amount of leaves. Pretty much all the The Tea Tree is dead, and there's a lot of it, and would be problematic to walk through if it was live! 
+Theres been a good bit of recovery, the trees that survived have a good amount of leaves. Pretty much all the Tea Tree is dead, and there's a lot of it, and would be problematic to walk through if it was live! 
 
 There are some lovely views of the east coast on the way up and at the summit, if you can find a spot without trees!
 
