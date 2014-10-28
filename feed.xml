@@ -18,11 +18,7 @@
 
 &lt;p&gt;Hooked up the sweep-out of the generator to channel 1 of the scope, and the filter output into channel 2, set the trigger to channel 1 and positioned it for a good view. For the 7 MHz low pass filter of my Beach40 transciever, I set the generator to 12MHz and 10MHz width, and got a nice look at the filter.&lt;/p&gt;
 
-<<<<<<< HEAD
 &lt;p&gt;For the crystal filter in my MST2, I set it to 10MHz with about a 40 kHz width, and also got a pretty picture of the filter response!&lt;/p&gt;
-=======
-&lt;p&gt;For the crystal filter in my MST2, I set it to 10MHz with about a 100 kHz width, and also got a pretty picture of the filter response!&lt;/p&gt;
->>>>>>> 1eefdbcd11d0888a578be4d2037ebf6fe783fff9
 &lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-10-27-3kHz_crystal.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-10-27-3kHz_crystal.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;3kHz Crystal filter sweep&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;I think there are some wierd effects from my lack of 50 ohm terimnation on the scope, but they kind of look like I’d expect them to, a bit of fun :)&lt;/p&gt;
 
