@@ -12,6 +12,40 @@
                     
 
 			<item>
+				<title>Filters and stuff</title>
+				<description>&lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-10-27-7MHz_lowpass.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-10-27-7MHz_lowpass.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;7MHz low pass filter sweep&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;I recently bought an HP 8601 sweep generator from a local ham’s shack clearout, and thought I’d have a look at some filters and see what happens.&lt;/p&gt;
+
+&lt;p&gt;Hooked up the sweep-out of the generator to channel 1 of the scope, and the filter output into channel 2, set the trigger to channel 1 and positioned it for a good view. For the 7 MHz low pass filter of my Beach40 transciever, I set the generator to 12MHz and 10MHz width, and got a nice look at the filter.&lt;/p&gt;
+
+&lt;p&gt;For the crystal filter in my MST2, I set it to 10MHz with about a 40 kHz width, and also got a pretty picture of the filter response!&lt;/p&gt;
+&lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-10-27-3kHz_crystal.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-10-27-3kHz_crystal.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;3kHz Crystal filter sweep&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;I think there are some wierd effects from my lack of 50 ohm terimnation on the scope, but they kind of look like I’d expect them to, a bit of fun :)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+				<pubDate>Mon, 27 Oct 2014 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//radio/2014/10/27/Filters-and-stuff.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/10/27/Filters-and-stuff.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>SOTA activation of Mt Barrow</title>
 				<description>&lt;p&gt;While I was in Tassie, I had an opportunity to get a second activation done around Launceston. I asked my Dad which would be the easiest of the 10 pointers around, and he said Mt Barrow, 45 minute drive, and easy walk to the summit :)&lt;/p&gt;
 
@@ -286,34 +320,6 @@
 				<pubDate>Mon, 04 Aug 2014 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2014/08/04/New-Callsign.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/08/04/New-Callsign.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Sota Activation</title>
-				<description>&lt;p&gt;Today was the VK1 (And most of the rest of VK!) &lt;a href=&quot;http://sota.org.uk&quot;&gt;SOTA&lt;/a&gt; party, and I did my first ever activation on Mt Ainslie, VK1/AC-040, and had a bit of fun! I learnt just how far down the hill the activation zone starts, 25m altitude is a bit further than I thought!&lt;/p&gt;
-
-&lt;p&gt;Here’s my chair at the summit pole, the end fed antenna is strung up in the trees to the left.&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/SOTA-2014-07-27.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/SOTA-2014-07-27.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;!--more--&gt;
-&lt;p&gt;I didn’t get my Beach40 working in time, so I was on 20m, 2m and 70cm. Managed 9 contacts, 7 of which were Summit 2 Summit:&lt;/p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Frequency&lt;/th&gt;&lt;th&gt;Mode&lt;/th&gt;&lt;th&gt;Call&lt;/th&gt;&lt;th&gt;Summit&lt;/th&gt;&lt;th&gt;Notes&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:01&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;439.000MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1RW/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-035&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Rob!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:10&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;439.000MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2FAJW/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-038&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Andrew!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:12&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.320MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1RX/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-025&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Al!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:15&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1DI/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-023&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Ian!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:16&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1DSH&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Dale!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:17&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1NAM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-032&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks Andrew!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:33&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1MA/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-042&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:35&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK8MA/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S57R52 Thanks Greg!&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:47&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.305MHz&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1EM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1/AC-043&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;p&gt;40m was where it was at, with some of the other guys getting over 60 contacts! So, for next time, I’d better get the beach40 fixed, or figure out a different way to get the band up!&lt;/p&gt;</description>
-				<pubDate>Sun, 27 Jul 2014 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//radio/2014/07/27/Sota-Activation.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/07/27/Sota-Activation.html</guid>
 			</item>
 		
 
