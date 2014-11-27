@@ -12,6 +12,27 @@
                     
 
 			<item>
+				<title>WIA Spring VHF-UHF Field Day</title>
+				<description>&lt;p&gt;After complaining about trying to hold a yagi, the microphone and write down contact details at the same time on SOTA summits, and receiving much advice, I set out to convert my 70cm beam to work on a squid pole! Relatively simple, drill holes for the u-bolt, and put on a coax socket so I can have an extended run of coax up the pole from the radio. And then the use of some PVC pipe so the squidpole doesn’t get smooshed!&lt;/p&gt;
+&lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-11-27-yagi_up_a_pole.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-11-27-yagi_up_a_pole.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Homebrew 70cm yagi up a squidpole&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;So having done that I got set up ready for the midday start of the &lt;a href=&quot;http://www.wia.org.au/members/contests/vhfuhf/&quot;&gt;VHF-UHF Field Day&lt;/a&gt;. It was a relatively quiet contest, I heard 5 stations total, and contacted a few of them multiple times to get myself 335 points. Furthest distance was 49km to VK2UL near Yass.&lt;/p&gt;
+
+&lt;p&gt;The few stations I did manage to contact appear to call on 2m, then go to other bands as they can. I think for the next one, I’ll build a bigger 2m yagi so I can hear and be heard better on 2m. Perhaps some sort of amp, or a 100W rig might also be in order, as my 5w is really quite low for this stuff.&lt;/p&gt;
+
+&lt;p&gt;I also have dreams of getting onto the 23cm band, and maybe 10GHz at some point too, but the higher you go in GHz, the more expensive, and homebrew you have to get!&lt;/p&gt;
+
+&lt;p&gt;All in all, a bit of fun! I’m travelling back from &lt;a href=&quot;http://lca2015.linux.org.au&quot;&gt;LCA2015&lt;/a&gt; for the summer field day, but I hope to be able to actually get out in the field for the winter field day.&lt;/p&gt;</description>
+				<pubDate>Thu, 27 Nov 2014 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//radio/2014/11/27/Field-Day.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/11/27/Field-Day.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>SOTA activation of Tuggeranong Hill</title>
 				<description>&lt;p&gt;Finally had a morning where I could get out and climb a hill! Decided to try Mt Tuggeranong VK1/AC-038, an easy walk and not too far a drive. Parked at the substation on Callister St in Theodore, as most people have in the past!&lt;/p&gt;
 
@@ -343,25 +364,6 @@
 				<pubDate>Sun, 17 Aug 2014 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2014/08/17/RD-Contest-and-new-radio.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/08/17/RD-Contest-and-new-radio.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>70cm Yagi</title>
-				<description>&lt;p&gt;Now that I know a bit more about antennas and why using a dipole in a yagi isn’t so good, I decided to build a new one, following the WA5VJB’s designs found on his &lt;a href=&quot;http://www.wa5vjb.com/yagi-pdf/cheapyagi.pdf&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Took me about an hour to stick it together&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-08-11-70cm_yagi.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-08-11-70cm_yagi.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
-&lt;p&gt;Unfortuantely, the SWR is a minimum at 2 bars of SWR on an FT817, at 443.5MHz, a bit off the design frequency of 432.2MHz where the FT-817 shows 8 bars :(&lt;/p&gt;
-
-&lt;p&gt;I’ll have to have another crack at the folded dipole. I think I know what the problem is, I started folding the wire round a 1/2 inch former at the wrong spot.&lt;/p&gt;</description>
-				<pubDate>Mon, 11 Aug 2014 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//radio/2014/08/11/70cm-Yagi.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/08/11/70cm-Yagi.html</guid>
 			</item>
 		
 
