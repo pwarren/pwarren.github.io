@@ -14,7 +14,7 @@ I followed their recommendations and drove down Harvey's Farm Road, at the fork,
 
 Walked along the track about 500m, then started hiking up the hill.  It took me about an hour to get to the summit, many rest stops, and a good amount of water drunk!
 
-{% fancybox pull-right larged /images/2014-10-01-SOTA-station.jpg "SOTA station set up on the summit" %}
+{% fancybox pull-right larger /images/2014-10-01-SOTA-station.jpg "SOTA station set up on the summit" %}
 
  Took a breather and set up the station.  SWR wasn't too good on the first go at 40m, but I got 15 contacts. After 5 minutes or so of no further contacts heard, I adjusted the position of the station and jumped to 20m, where I got another 6 contacts with much better reports and an improved SWR, back to 40m, much better SWR and got two more contacts.
 
