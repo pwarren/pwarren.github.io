@@ -12,6 +12,24 @@
                     
 
 			<item>
+				<title>6m Delta loop</title>
+				<description>&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-12-30-6m-delta-loop.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-12-30-6m-delta-loop.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-12-30-6m-delta-loop-rolled.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-12-30-6m-delta-loop-rolled.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;p&gt;In preperation for the next VHF/UHF field day, and for the 2015 SOTA challenge, I thought I’d build a proper antenna for 6m.&lt;/p&gt;
+
+&lt;p&gt;After some googling, a delta loop looked easy enough to build, so according to the instructions from &lt;a href=&quot;http://www.gw7aav.com/main-index/antenna-index/antenna-design/6m-delta&quot;&gt;GW7AAV&lt;/a&gt;, I built myself one with bits I had lying around, and managed to fit it to the squidpole for SOTA ops.&lt;/p&gt;
+
+&lt;p&gt;So for the new year UTC rollover, I was up at Booroomba Rocks, VK1/AC-026, and had a few contacts on 6m, furthest I think was to Longbeach NSW, about 113km. Not to bad for a first effort I reckon!&lt;/p&gt;</description>
+				<pubDate>Tue, 30 Dec 2014 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//radio/2014/12/30/6m-Delta-Loop.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/12/30/6m-Delta-Loop.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>WIA Spring VHF-UHF Field Day</title>
 				<description>&lt;p&gt;After complaining about trying to hold a yagi, the microphone and write down contact details at the same time on SOTA summits, and receiving much advice, I set out to convert my 70cm beam to work on a squid pole! Relatively simple, drill holes for the u-bolt, and put on a coax socket so I can have an extended run of coax up the pole from the radio. And then the use of some PVC pipe so the squidpole doesn’t get smooshed!&lt;/p&gt;
 &lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-11-27-yagi_up_a_pole.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-11-27-yagi_up_a_pole.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Homebrew 70cm yagi up a squidpole&lt;/figcaption&gt;&lt;/figure&gt;
@@ -164,7 +182,7 @@
 &lt;p&gt;I followed their recommendations and drove down Harvey’s Farm Road, at the fork, went right, parked next to the blocked track past the damn wall, sometimes this track is open, and you can get further in. The summit, and I believe the track are within the Coles Bay Conservation Area.&lt;/p&gt;
 
 &lt;p&gt;Walked along the track about 500m, then started hiking up the hill. It took me about an hour to get to the summit, many rest stops, and a good amount of water drunk!&lt;/p&gt;
-&lt;figure class=&#39;right larged&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-10-01-SOTA-station.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-10-01-SOTA-station.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;SOTA station set up on the summit&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-10-01-SOTA-station.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-10-01-SOTA-station.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;SOTA station set up on the summit&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;Took a breather and set up the station. SWR wasn’t too good on the first go at 40m, but I got 15 contacts. After 5 minutes or so of no further contacts heard, I adjusted the position of the station and jumped to 20m, where I got another 6 contacts with much better reports and an improved SWR, back to 40m, much better SWR and got two more contacts.&lt;/p&gt;
 
 &lt;p&gt;All up I had 24 contacts, including a Summit to Summit with Ian VK1DI on Black Mountain in Canberra.&lt;/p&gt;
@@ -335,35 +353,6 @@
 				<pubDate>Thu, 28 Aug 2014 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2014/08/28/5W-DX%21.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/08/28/5W-DX%21.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Rd Contest And New Radio</title>
-				<description>&lt;p&gt;I had a bit of fun on Saturday with the wia’s &lt;a href=&quot;http://www.wia.org.au/members/contests/rdcontest/&quot;&gt;Rememberance Day&lt;/a&gt; amateur radio contest.&lt;/p&gt;
-
-&lt;p&gt;I have recently acquired an ft817 radio, along with an LDG z817H auto-tuner, which makes like a whole lot easier! I didn’t realise how much of a limit being stuck on 20m was. This late in the solar cycle 20m is not as impressive as it can be, but 40m was where it was at, of 22 contacts I made as a QRP station, 2 were on 20m.&lt;/p&gt;
-
-&lt;p&gt;In order to get the antenna tuner to cope with my 40m end fed half wave antenna, I had to build a 4:1 transformer balun, which was relatively easy in the end, and seemed to work very well!&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-08-17-RD-Setup.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-08-17-RD-Setup.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
-&lt;p&gt;I’ve since boxed up the BALUN, and it looks quite nice, an is potentially useful as a balun for a QRP OCF too, tho the tuner can cope with end fed on pretty much all bands 40m and up, tho I’ve only confirmed that it works on 40 and 20, with no other stations to contact on other bands that I could hear!&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-08-17-BALUN.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-08-17-BALUN.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
-&lt;p&gt;I bought the gear to be my main SOTA portable station, so setting up the contest station in the back yard was a good poving ground for it all.&lt;/p&gt;
-
-&lt;p&gt;The next items to sort out are a decent battery pack and a squidpole, then I’ll be fully ready for extended SOTA activations. Then I’ll just need to improve my fitness so I can walk up the hills.&lt;/p&gt;
-
-&lt;p&gt;I’ll put it out there: My goal is to activate Booroomba Rocks by the end of the year. This involves an hour bushwalk, the first 30 minutes on a walking track, then overland to the summit, carrying all the aforementioned gear, staying for some hours, and then walking back again!&lt;/p&gt;
-
-&lt;p&gt;I’ll be doing some other activations that are a bit easier to get to, some with carparks at the top before then, to practice my radio operation, and de-bug equipment.&lt;/p&gt;
-
-&lt;p&gt;I’ll be heading to Tassie in October, hope the association is up and running when I get there :)&lt;/p&gt;</description>
-				<pubDate>Sun, 17 Aug 2014 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//radio/2014/08/17/RD-Contest-and-new-radio.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/08/17/RD-Contest-and-new-radio.html</guid>
 			</item>
 		
 

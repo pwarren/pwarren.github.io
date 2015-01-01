@@ -7,7 +7,7 @@
 -->
 <html lang="en">
     <head prefix="og: http://ogp.me/ns#">
-        <title>EFI single boot on a MacBook Air</title>
+        <title>6m Delta loop</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
         
@@ -17,23 +17,16 @@
     <link rel="image_src"        href="http://blog.pwarren.id.au/images/grr_square.jpg"  />
 
 
-<meta property="og:title" content="EFI single boot on a MacBook Air"  />
-<meta property="og:url"   content="http://blog.pwarren.id.au/tech/2013/12/17/EFI-single-boot-mac.html" />
+<meta property="og:title" content="6m Delta loop"  />
+<meta property="og:url"   content="http://blog.pwarren.id.au/radio/2014/12/30/6m-Delta-Loop.html" />
 
 <!-- This should be expanded to allow for 'article' types -->
 <meta property="og:type"  content="website" />
 
 
 
-    <meta name="description"        content="How I got my MacBook air to single boot Debian" />
-    <meta property="og:description" content="How I got my MacBook air to single boot Debian" />
 
-
-
-
-
-
-    <meta name="keywords" content="open-source, tech" />
+    <meta name="keywords" content="amateur, radio" />
 
 
 
@@ -101,13 +94,13 @@
 
 <article class="is-post">
     <header>
-    <h2>EFI single boot on a MacBook Air</h2>
+    <h2>6m Delta loop</h2>
     
         <!-- This makes G+ bots happy -->
         <span class="byline">By Paul Warren</span>
     
     <p class="edit-post">
-(You can <a href="https://github.com/pwarren/pwarren.github.io/edit/build/tech/_posts/2013-12-17-EFI-single-boot-mac.md">suggest changes</a>
+(You can <a href="https://github.com/pwarren/pwarren.github.io/edit/build/radio/_posts/2014-12-30-6m-Delta-Loop.md">suggest changes</a>
 to this post.)
 </p>
 
@@ -117,8 +110,8 @@ to this post.)
     <div class="info">
     
     <span class="date"> <span class="month">Dec</span>
-        <span class="day">17</span> <span
-            class="year"><span>,</span> 2013</span>
+        <span class="day">30</span> <span
+            class="year"><span>,</span> 2014</span>
     </span>
 
 
@@ -137,62 +130,21 @@ to this post.)
 
     
 
-    <p>EFI needs its own smallish partition with a fat32 filesystem</p>
+    <figure class='right smaller'><a class='fancybox' href='/images/2014-12-30-6m-delta-loop.jpg' rel='group'><img src='/images/2014-12-30-6m-delta-loop.jpg' /></a></figure><figure class='right smaller'><a class='fancybox' href='/images/2014-12-30-6m-delta-loop-rolled.jpg' rel='group'><img src='/images/2014-12-30-6m-delta-loop-rolled.jpg' /></a></figure>
+<p>In preperation for the next VHF/UHF field day, and for the 2015 SOTA challenge, I thought I’d build a proper antenna for 6m.</p>
 
-<p>here’s my layout with just one disk:</p>
+<p>After some googling, a delta loop looked easy enough to build, so according to the instructions from <a href="http://www.gw7aav.com/main-index/antenna-index/antenna-design/6m-delta">GW7AAV</a>, I built myself one with bits I had lying around, and managed to fit it to the squidpole for SOTA ops.</p>
 
-<pre><code>   (parted) print
-   Model: ATA Hitachi HTS54503 (scsi)
-   Disk /dev/sda: 320GB
-   Sector size (logical/physical): 512B/512B
-   Partition Table: gpt
-   
-   Number Start End Size File system Name Flags
-   1 1049kB 512MB 511MB fat32 boot
-   2 512MB 316GB 316GB ext4
-   3 316GB 320GB 4023MB linux-swap(v1)</code></pre>
-
-<p>Now, debian does sort of support UEFI booting with the 7.2 install discs (haven’t tried 7.3 yet but should be good), but there was some extra mucking about I had to do.</p>
-
-<p>Once you’ve installed, and it boots the flashing folder icon (or question mark, I forget which). Boot into rescue mode, and let debian find the right root partition, and execute a shell in that partition.</p>
-
-<p>You may have to:</p>
-
-<p><code>mount /boot/efi</code></p>
-
-<p>then:</p>
-
-<p><code>apt-get install grub-efi-amd64</code></p>
-
-<p>Now we’re almost there! the installer for grub-efi-amd64 puts the boot file in /efi/EFI/debian/grub64x64.efi</p>
-
-<p>And we need to put that in the right place for EFI to load it properly:</p>
-
-<p><code>mkdir /boot/efi/EFI/boot
-cp /boot/efi/EFI/debian/grubx64.efi /boot/efi/EFI/boot/bootx64.efi</code></p>
-
-<p>then run:</p>
-
-<p><code>update-grub</code></p>
-
-<p>To make sure all the configs are in the right place.</p>
-
-<p>Then reboot! and you should eventually get into debian :)</p>
-
-<p>If you have a white screen for ~30s after the boot chime, and you want to get rid of the wait, you’ll have to boot an OS X disk and run:</p>
-
-<p><code>bless --device /dev/disk0s1 --setBoot --verbose</code></p>
-
-<p>substituting the proper device node for your boot device of course.</p>
+<p>So for the new year UTC rollover, I was up at Booroomba Rocks, VK1/AC-026, and had a few contacts on 6m, furthest I think was to Longbeach NSW, about 113km. Not to bad for a first effort I reckon!</p>
 
     <div class="share-container">
     <div class="share-buttons">
         <p>Share:</p>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.pwarren.id.au/tech/2013/12/17/EFI-single-boot-mac.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-        <a href="https://twitter.com/intent/tweet?text=EFI single boot on a MacBook Air (by @pawarren):&amp;url=http://blog.pwarren.id.au/tech/2013/12/17/EFI-single-boot-mac.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
-        <a href="https://www.linkedin.com/shareArticle?url=http://blog.pwarren.id.au/tech/2013/12/17/EFI-single-boot-mac.html" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
-        <a href="https://plus.google.com/share?url=http://blog.pwarren.id.au/tech/2013/12/17/EFI-single-boot-mac.html&amp;hl=en-GB" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
-        <a href="http://pinterest.com/pin/create/button/?url=http://blog.pwarren.id.au/tech/2013/12/17/EFI-single-boot-mac.html&amp;description=How I got my MacBook air to single boot Debian&amp;media=http://blog.pwarren.id.au" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.pwarren.id.au/radio/2014/12/30/6m-Delta-Loop.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+        <a href="https://twitter.com/intent/tweet?text=6m Delta loop (by @pawarren):&amp;url=http://blog.pwarren.id.au/radio/2014/12/30/6m-Delta-Loop.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?url=http://blog.pwarren.id.au/radio/2014/12/30/6m-Delta-Loop.html" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        <a href="https://plus.google.com/share?url=http://blog.pwarren.id.au/radio/2014/12/30/6m-Delta-Loop.html&amp;hl=en-GB" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+        <a href="http://pinterest.com/pin/create/button/?url=http://blog.pwarren.id.au/radio/2014/12/30/6m-Delta-Loop.html&amp;description=&amp;media=http://blog.pwarren.id.au" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
     </div>
     <div class="share-buttons pull-right">
         <p>Subscribe:</p>
@@ -218,7 +170,7 @@ cp /boot/efi/EFI/debian/grubx64.efi /boot/efi/EFI/boot/bootx64.efi</code></p>
         If you wish to support me making creative works and giving them away for free, then I welcome tips on
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VQJ9E7ZGDDF8A">PayPal</a>,
         <a href="https://gittip.com/pwarren">GitTip</a>,
-        <a href="https://flattr.com/submit/auto?user_id=pwarren&amp;url=http://blog.pwarren.id.au/tech/2013/12/17/EFI-single-boot-mac.html&amp;title=EFI single boot on a MacBook Air">Flattr</a>,
+        <a href="https://flattr.com/submit/auto?user_id=pwarren&amp;url=http://blog.pwarren.id.au/radio/2014/12/30/6m-Delta-Loop.html&amp;title=6m Delta loop">Flattr</a>,
         or <a href="litecoin:Lbwnx4GoocEBbTimdQDhRhTg6mthCzBU7R">Litecoin</a> (Lbwnx4GoocEBbTimdQDhRhTg6mthCzBU7R).
     </p>
 </div>
@@ -231,9 +183,9 @@ cp /boot/efi/EFI/debian/grubx64.efi /boot/efi/EFI/boot/bootx64.efi</code></p>
 <script type="text/javascript">
 
     var disqus_shortname  = "aloeblog"; 
-    var disqus_identifier = "/tech/2013/12/17/EFI-single-boot-mac.html";
-    var disqus_title      = "EFI single boot on a MacBook Air";
-    var disqus_url        = "http://blog.pwarren.id.au/tech/2013/12/17/EFI-single-boot-mac.html";
+    var disqus_identifier = "/radio/2014/12/30/6m-Delta-Loop.html";
+    var disqus_title      = "6m Delta loop";
+    var disqus_url        = "http://blog.pwarren.id.au/radio/2014/12/30/6m-Delta-Loop.html";
 
     /* Make sure that once disqus renders, we trigger any events that
      * need to happen on page resize. Otherwise our left-bar looks funny. */
