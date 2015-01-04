@@ -12,3 +12,7 @@ After some googling, a delta loop looked easy enough to build, so according to t
 
 So for the new year UTC rollover, I was up at Booroomba Rocks, VK1/AC-026, and had a few contacts on 6m, furthest I think was to Longbeach NSW, about 113km. Not to bad for a first effort I reckon!
 
+For the support, I have 2 bits of PVC pipe about 1m long, joined with a T-joint which has a ~15mm hole drilled in the centre so it sits down the squidpole a bit.
+
+To support the wire, I drilled a 3mm hole about 3mm in from the end of both pipes, then pulled the bit to the edge to create a bit of a notch for the wire to lay in.
+
