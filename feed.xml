@@ -12,6 +12,29 @@
                     
 
 			<item>
+				<title>Mt Stromlo and 1000 QSOs</title>
+				<description>&lt;p&gt;Another SOTA activation for me, having come out of a flu and some other health issues, thought I’d try for an easy one! Mt Stromlo is an easy walk from the carpark up to the summit, then on to the northern hump, so I took a chair this time too!&lt;/p&gt;
+
+&lt;p&gt;Before I left, I noticed the QSO count was at 999, so I asked on the VK1 SOTA list to see if anyone else wanted to grab it, Matt, VK1MA said that he didn’t mind, as long as he was the 1000th QSO, and as he’s the first activator of Mt Stromle, I thought I’d head out!&lt;/p&gt;
+&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2015-02-15-Stromlo.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2015-02-15-Stromlo.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Me activating Mt Stromlo&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;I’d organised with Matt to call him first on 2m FM, so I did that, and had a good chat to get the 1000th QSO! also got Andrew VK1NAM on 2m, and had a bit of trouble with Al, VK1RX, Which I think might have been my HT’s battery deciding it wasn’t going to give enough voltage on TX, tho I did switch to my 817 on 2m FM, and still no luck!&lt;/p&gt;
+
+&lt;p&gt;So to 40m, signals were a bit down until about 0500 UTC, and I only managed 11 QSOs for the summit, 1 on 20m, and none on 15.&lt;/p&gt;
+
+&lt;p&gt;I heard some voices come up on 20m, but I got no intelligence, and then they started some CW, I have a feeling it may have been VK3MCD/7 activating in Tasmania. Unfortunately I don’t yet follow CW at all :( so some more incentive to learn!&lt;/p&gt;
+
+&lt;p&gt;Another activation point, and a pleasant afternoon out of the house!&lt;/p&gt;</description>
+				<pubDate>Sun, 15 Feb 2015 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//radio/2015/02/15/Mt-Stromlo-1000QSOs.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2015/02/15/Mt-Stromlo-1000QSOs.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Booroomba Rocks SOTA activation</title>
 				<description>&lt;p&gt;I had some time to get out and do some SOTA for the new year rollover and decided to do a bit more of a tricky one Booroomba Rocks, VK1/AC-026.&lt;/p&gt;
 
@@ -46,7 +69,7 @@
 
 			<item>
 				<title>6m Delta loop</title>
-				<description>&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-12-30-6m-delta-loop.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-12-30-6m-delta-loop.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-12-30-6m-delta-loop-rolled.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-12-30-6m-delta-loop-rolled.jpg&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;
+				<description>&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-12-30-6m-delta-loop.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-12-30-6m-delta-loop.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;6m Delta loop on a squidpole&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-12-30-6m-delta-loop-rolled.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-12-30-6m-delta-loop-rolled.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;6m Delta loop rolled up for travel&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;In preperation for the next VHF/UHF field day, and for the 2015 SOTA challenge, I thought I’d build a proper antenna for 6m.&lt;/p&gt;
 
 &lt;p&gt;After some googling, a delta loop looked easy enough to build, so according to the instructions from &lt;a href=&quot;http://www.gw7aav.com/main-index/antenna-index/antenna-design/6m-delta&quot;&gt;GW7AAV&lt;/a&gt;, I built myself one with bits I had lying around, and managed to fit it to the squidpole for SOTA ops.&lt;/p&gt;
@@ -316,63 +339,6 @@
 				<pubDate>Sun, 14 Sep 2014 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2014/09/14/Mt-Stromlo.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/09/14/Mt-Stromlo.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Ocf Dipole Up!</title>
-				<description>&lt;p&gt;I’ve managed to string up an 80m Off Centre Fed Dipole over the weekend, I managed a contact to Kentucky, USA, on 20m, and got a 59 report with my 100W and his gigantic yagi of doom! Also had a half dozen SOTA contacts on 40m and 20m over Sunday afternoon, so it’s fair to say it works!&lt;/p&gt;
-
-&lt;p&gt;I had taken some photos, but it’s actually really hard to see it in them! It’s just some wires running through the trees.&lt;/p&gt;
-
-&lt;p&gt;Last night I spent some time with the local club’s MFJ analyser (Thanks Gilbert!) and got an SWR graph of the antenna as installed:&lt;/p&gt;
-&lt;figure&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/ocf_swr.png&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/ocf_swr.png&#39; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;!--more--&gt;
-&lt;p&gt;Spreadsheet available on &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1HkWkwKKXdAVkZsj5o_kiEOkqZ5DnnjBpoTTgiWST81U/edit?usp=sharing&quot;&gt;google drive&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Salient points: Lowest frequency minimum SWR: 1.9 @ 3.455MHz&lt;/p&gt;
-
-&lt;p&gt;Other minimums:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1.8 @ 7.133 MHz&lt;/li&gt;
-
-&lt;li&gt;1.2 @ 14.494 MHz&lt;/li&gt;
-
-&lt;li&gt;1.4 @ 18.046 MHz&lt;/li&gt;
-
-&lt;li&gt;1.3 @ 25.252 MHz&lt;/li&gt;
-
-&lt;li&gt;1.5 @ 29.006 MHz&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Is that telling me I should shorten it a touch, to get the lowest frequency dip up into the 80m band a bit more?&lt;/p&gt;
-
-&lt;p&gt;I’m running my Kenwood TS-140S to it through an MFJ 986 manual tuner, which is able to get it to 1:1 SWR on 80, 40 20, 17, 12 and 10m without much difficulty, so I may just leave it as is!&lt;/p&gt;
-
-&lt;p&gt;I Haven’t tried 15 and 30m yet, is that going to be possible?&lt;/p&gt;
-
-&lt;p&gt;I’d also managed to put a station ground in a few weekends ago, which has reduced the RFI to my PC’s audio system, but, my house alarm still goes off if I try any mode other than SSB voice. FM, AM and JT65 modes, will set it off at varying power levels, FM and AM only at full output power, nominally 50W, and JT65, even at 10W.&lt;/p&gt;
-
-&lt;p&gt;I’m told there are a few options to attempt remedying this:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Put common mode chokes on the wires of the alarm system that go to the various devices around the house, 10 turns around one or two t130-2s&lt;/li&gt;
-
-&lt;li&gt;Put capacitors between the signal wire and the alarm board&lt;/li&gt;
-
-&lt;li&gt;replace cables with screened ones.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Having further thoughts, it may be 433MHz reciever for the key fobs being overloaded, as you can set off the lights and sirens by pressing all the buttons on the fob, and from the keypad, but it’s a special mode, not set off by sensors.&lt;/p&gt;
-
-&lt;p&gt;May have to ring the installer, see if he’s got any tips!&lt;/p&gt;</description>
-				<pubDate>Tue, 09 Sep 2014 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//radio/2014/09/09/OCF-Dipole-Up%21.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/09/09/OCF-Dipole-Up%21.html</guid>
 			</item>
 		
 
