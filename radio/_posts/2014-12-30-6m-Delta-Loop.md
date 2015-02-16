@@ -3,8 +3,8 @@ title: 6m Delta loop
 tags:  amateur radio
 ---
 
-{% fancybox right smaller /images/2014-12-30-6m-delta-loop.jpg "6m Delta loop on a squidpole %}
-{% fancybox right smaller /images/2014-12-30-6m-delta-loop-rolled.jpg "6m Delta loop rolled up for travel %}
+{% fancybox right smaller /images/2014-12-30-6m-delta-loop.jpg "6m Delta loop on a squidpole" %}
+{% fancybox right smaller /images/2014-12-30-6m-delta-loop-rolled.jpg "6m Delta loop rolled up for travel" %}
 
 In preperation for the next VHF/UHF field day, and for the 2015 SOTA challenge, I thought I'd build a proper antenna for 6m.
 
