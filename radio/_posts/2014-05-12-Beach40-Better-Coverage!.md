@@ -3,7 +3,7 @@ Title: Beach40 Better Coverage!
 tags:  electronics buildlog Beach40 amateur radio
 ---
 
-Well, after some help from the [Minimalist-QRP](https://groups.yahoo.com/neo/groups/Minimalist_QRP_Transceivers/info) yahoo group and members of the #nest freenode irc channel, I've got my oscillator going a bit better!  
+Well, after some help from the [Minimalist-QRP](https://groups.yahoo.com/neo/groups/Minimalist_QRP_Transceivers/info) yahoo group and members of the #technest freenode irc channel, I've got my oscillator going a bit better!  
 
 It now covers from 7.0041 MHz to 7.2405 MHz, a much more useful range of the 40m band!
 
