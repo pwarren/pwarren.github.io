@@ -12,6 +12,33 @@
                     
 
 			<item>
+				<title>Beach 40 Contact and general radio update!</title>
+				<description>&lt;p&gt;Over the last few weeks I’ve debugged my Beach40 a bit! I found that I’d stuck in the wrong size resistor on the lm386 feedback circuit, 2.2 Ohms, vs the needed 2.2 kilo-Ohms! So, with that fixed, it worked a bit better!&lt;/p&gt;
+&lt;figure class=&#39;right large&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2015-03-22-Beach40-Setup.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2015-03-22-Beach40-Setup.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Beach40 as set for a QSO, and a messy desk! http://openradio.net.au board in the background&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Audio was still rather low, so I added in the BC548 RF pre-amp, which boosted the signal up very well, can get too loud now with the headphones on! Unfortunately, it had the side effect of increasing the AM broadcast break-in, meaning I could hear Radio National across the dial!&lt;/p&gt;
+
+&lt;p&gt;So, I built a high pass filter, and stick that inline to the Beach40. I had put one internally to start with, but it functioned more as an attenuator, than a filter! Now that I’ve built one that works, I might try to integrate it into the case.&lt;/p&gt;
+
+&lt;p&gt;And, now I’ve finally had a contact with it! VK1DA was activating the local repeater site for SOTA, and I managed to get a 3x2 report from him with the radio, which was a bit lower than I thought I should get. Putting it on the dummy load, the scope is seeing ~5V peak to peak, which may be a bit lower than expected, might check the resistors in the RF amplification stage, see if I got any of those wrong!&lt;/p&gt;
+
+&lt;p&gt;Yay, my first home brew radio success, very pleased with myself :)&lt;/p&gt;
+
+&lt;p&gt;As a learning experience, I’ve been putting my Beach40 circuit into &lt;a href=&quot;http://kicad.org&quot;&gt;KiCAD&lt;/a&gt;, and you can find all the work I’ve done, at my &lt;a href=&quot;https://github.com/pwarren/electronics/&quot;&gt;Git Hub&lt;/a&gt;. I did have plans of doing an all SMT layout for the board, but I think I’ll save that for my next challenge, an SSB home-brew rig!&lt;/p&gt;
+
+&lt;p&gt;I’ll be looking at the “Let’s Build Something” series from Pete, N6QW, details on &lt;a href=&quot;http://jessystems.com/LBS_Detail.htm&quot;&gt;his website&lt;/a&gt;. I already had a few of the bits, and have since bought a bunch more! Hope to have the Part 1 bits done this week, to get me a direct conversion receiver done!&lt;/p&gt;
+
+&lt;p&gt;I’ve been &lt;a href=&quot;https://github.com/pwarren/Si5351Sketches&quot;&gt;hacking&lt;/a&gt; away at the arduino code for the Si5351 clock chip that the design uses for a VFO and BFO, I have it mostly working with the &lt;a href=&quot;http://freetronics.com.au&quot;&gt;Freetronics&lt;/a&gt; LCD board and their ‘eleven’ and arduino uno clone. I have some rotary encoders, now, so that should progress eventually! Lots to do!&lt;/p&gt;</description>
+				<pubDate>Sun, 22 Mar 2015 00:00:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//radio/2015/03/22/Beach40-Contact.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2015/03/22/Beach40-Contact.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Mt Ginini</title>
 				<description>&lt;p&gt;A public holiday Monday with lovely weather, and some restless kids, so I took them up the hills to let Mum have a bit of a rest.&lt;/p&gt;
 
@@ -304,33 +331,6 @@
 				<pubDate>Sun, 12 Oct 2014 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2014/10/12/VK7-Inaugural-Activation.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/10/12/VK7-Inaugural-Activation.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>SOTA Activation of Black Mountain</title>
-				<description>&lt;p&gt;Got out to another SOTA summit today, VK1/AC-042. Started off on 2m and got VK1MA, booming in strong as always, not much further luck on 2m, so attempted to get going on HF, but there were problems!&lt;/p&gt;
-&lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-09-21-sota_01.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-09-21-sota_01.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Telecom (not Telstra, damnit!) Tower&lt;/figcaption&gt;&lt;/figure&gt;&lt;!-- more --&gt;
-&lt;p&gt;I called for a little while, and heard nothing come back, sent a spot to sotawatch, and then heard quite a few come in, but I had very poor signal reports, and VK1MA suggested something was very wrong as I was only signal strength 1, line of sight to his QTH, I should be some dB over strength 9! Tweaking things around a bit, I found that the patch lead I repaired last week, is still no good :( If I look at it in the right tone of voice, and hold it just right, it works, but it’s flakey!&lt;/p&gt;
-
-&lt;p&gt;After some debugging on 2m, and moving the FT-817 off the metal rail to improve 2m SWR and signal reports, I got 2 more contacts and a summit to summit with VK1NAM on Mt Taylor.&lt;/p&gt;
-&lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-09-21-sota_02.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-09-21-sota_02.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;SOTA station nearly packed up&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;After that I tried the end fed wire straight into the LDG 817H tuner, without the 4:1 transformer, which worked fine! Tuned up 1:1 without issue on 40 and 20m. I proceeded to catch 15 more contacts, including 2 summit to summit on 40m with a much improved signal report of 58 to 59 for the most part! I also managed my first contact to England, with a summit to summit on 20m to 2E0YYY which was very cool!&lt;/p&gt;
-
-&lt;p&gt;I did remember photos this time, but only after I’d started packing up!&lt;/p&gt;
-
-&lt;p&gt;That’s the end of the easy summits in Canberra, next one I’ll have to walk a bit further! I’m not sure that I’ll have time to activate next weekend, but I’ll try out the other bands in the back yard with just the tuner, and see how I go.&lt;/p&gt;
-
-&lt;p&gt;Next Monday I’m in Tassie, hoping that the associatin is live so I can activate down there, fingers crossed!&lt;/p&gt;
-
-&lt;p&gt;(And yay, I finally figured out a bit more about the fancybox plugin for jekyll!)&lt;/p&gt;</description>
-				<pubDate>Sun, 21 Sep 2014 00:00:00 +1000</pubDate>
-				<link>http://blog.pwarren.id.au//radio/2014/09/21/Black-Mt.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/09/21/Black-Mt.html</guid>
 			</item>
 		
 

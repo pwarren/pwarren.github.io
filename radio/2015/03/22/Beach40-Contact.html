@@ -7,7 +7,7 @@
 -->
 <html lang="en">
     <head prefix="og: http://ogp.me/ns#">
-        <title>First Contact!</title>
+        <title>Beach 40 Contact and general radio update!</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
         
@@ -17,8 +17,8 @@
     <link rel="image_src"        href="http://blog.pwarren.id.au/images/grr_square.jpg"  />
 
 
-<meta property="og:title" content="First Contact!"  />
-<meta property="og:url"   content="http://blog.pwarren.id.au/radio/2014/04/06/first-contact.html" />
+<meta property="og:title" content="Beach 40 Contact and general radio update!"  />
+<meta property="og:url"   content="http://blog.pwarren.id.au/radio/2015/03/22/Beach40-Contact.html" />
 
 <!-- This should be expanded to allow for 'article' types -->
 <meta property="og:type"  content="website" />
@@ -26,7 +26,7 @@
 
 
 
-    <meta name="keywords" content="amateur, radio" />
+    <meta name="keywords" content="Beach40, Amateur, Radio" />
 
 
 
@@ -94,13 +94,13 @@
 
 <article class="is-post">
     <header>
-    <h2>First Contact!</h2>
+    <h2>Beach 40 Contact and general radio update!</h2>
     
         <!-- This makes G+ bots happy -->
         <span class="byline">By Paul Warren</span>
     
     <p class="edit-post">
-(You can <a href="https://github.com/pwarren/pwarren.github.io/edit/build/radio/_posts/2014-04-06-first-contact.md">suggest changes</a>
+(You can <a href="https://github.com/pwarren/pwarren.github.io/edit/build/radio/_posts/2015-03-22-Beach40-Contact.md">suggest changes</a>
 to this post.)
 </p>
 
@@ -109,9 +109,9 @@ to this post.)
 
     <div class="info">
     
-    <span class="date"> <span class="month">Apr</span>
-        <span class="day"> 6</span> <span
-            class="year"><span>,</span> 2014</span>
+    <span class="date"> <span class="month">Mar</span>
+        <span class="day">22</span> <span
+            class="year"><span>,</span> 2015</span>
     </span>
 
 
@@ -130,18 +130,30 @@ to this post.)
 
     
 
-    <p>2014-04-06 08:30 VK1JST via the VK1RGI 2m repeater :)</p>
+    <p>Over the last few weeks I’ve debugged my Beach40 a bit! I found that I’d stuck in the wrong size resistor on the lm386 feedback circuit, 2.2 Ohms, vs the needed 2.2 kilo-Ohms! So, with that fixed, it worked a bit better!</p>
+<figure class='right large'><a class='fancybox' href='/images/2015-03-22-Beach40-Setup.jpg' rel='group'><img src='/images/2015-03-22-Beach40-Setup.jpg' /></a><figcaption>Beach40 as set for a QSO, and a messy desk! http://openradio.net.au board in the background</figcaption></figure>
+<p>Audio was still rather low, so I added in the BC548 RF pre-amp, which boosted the signal up very well, can get too loud now with the headphones on! Unfortunately, it had the side effect of increasing the AM broadcast break-in, meaning I could hear Radio National across the dial!</p>
 
-<p>I tried doing a callback after the WIA broadcast, but wasn’t heard from my in-laws at griffith. I think Red Hill was in the way! but I could hear the broadcast Ok from outside.</p>
+<p>So, I built a high pass filter, and stick that inline to the Beach40. I had put one internally to start with, but it functioned more as an attenuator, than a filter! Now that I’ve built one that works, I might try to integrate it into the case.</p>
+
+<p>And, now I’ve finally had a contact with it! VK1DA was activating the local repeater site for SOTA, and I managed to get a 3x2 report from him with the radio, which was a bit lower than I thought I should get. Putting it on the dummy load, the scope is seeing ~5V peak to peak, which may be a bit lower than expected, might check the resistors in the RF amplification stage, see if I got any of those wrong!</p>
+
+<p>Yay, my first home brew radio success, very pleased with myself :)</p>
+
+<p>As a learning experience, I’ve been putting my Beach40 circuit into <a href="http://kicad.org">KiCAD</a>, and you can find all the work I’ve done, at my <a href="https://github.com/pwarren/electronics/">Git Hub</a>. I did have plans of doing an all SMT layout for the board, but I think I’ll save that for my next challenge, an SSB home-brew rig!</p>
+
+<p>I’ll be looking at the “Let’s Build Something” series from Pete, N6QW, details on <a href="http://jessystems.com/LBS_Detail.htm">his website</a>. I already had a few of the bits, and have since bought a bunch more! Hope to have the Part 1 bits done this week, to get me a direct conversion receiver done!</p>
+
+<p>I’ve been <a href="https://github.com/pwarren/Si5351Sketches">hacking</a> away at the arduino code for the Si5351 clock chip that the design uses for a VFO and BFO, I have it mostly working with the <a href="http://freetronics.com.au">Freetronics</a> LCD board and their ‘eleven’ and arduino uno clone. I have some rotary encoders, now, so that should progress eventually! Lots to do!</p>
 
     <div class="share-container">
     <div class="share-buttons">
         <p>Share:</p>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.pwarren.id.au/radio/2014/04/06/first-contact.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-        <a href="https://twitter.com/intent/tweet?text=First Contact! (by @pawarren):&amp;url=http://blog.pwarren.id.au/radio/2014/04/06/first-contact.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
-        <a href="https://www.linkedin.com/shareArticle?url=http://blog.pwarren.id.au/radio/2014/04/06/first-contact.html" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
-        <a href="https://plus.google.com/share?url=http://blog.pwarren.id.au/radio/2014/04/06/first-contact.html&amp;hl=en-GB" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
-        <a href="http://pinterest.com/pin/create/button/?url=http://blog.pwarren.id.au/radio/2014/04/06/first-contact.html&amp;description=&amp;media=http://blog.pwarren.id.au" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://blog.pwarren.id.au/radio/2015/03/22/Beach40-Contact.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+        <a href="https://twitter.com/intent/tweet?text=Beach 40 Contact and general radio update! (by @pawarren):&amp;url=http://blog.pwarren.id.au/radio/2015/03/22/Beach40-Contact.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?url=http://blog.pwarren.id.au/radio/2015/03/22/Beach40-Contact.html" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        <a href="https://plus.google.com/share?url=http://blog.pwarren.id.au/radio/2015/03/22/Beach40-Contact.html&amp;hl=en-GB" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+        <a href="http://pinterest.com/pin/create/button/?url=http://blog.pwarren.id.au/radio/2015/03/22/Beach40-Contact.html&amp;description=&amp;media=http://blog.pwarren.id.au" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
     </div>
     <div class="share-buttons pull-right">
         <p>Subscribe:</p>
@@ -167,7 +179,7 @@ to this post.)
         If you wish to support me making creative works and giving them away for free, then I welcome tips on
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VQJ9E7ZGDDF8A">PayPal</a>,
         <a href="https://gittip.com/pwarren">GitTip</a>,
-        <a href="https://flattr.com/submit/auto?user_id=pwarren&amp;url=http://blog.pwarren.id.au/radio/2014/04/06/first-contact.html&amp;title=First Contact!">Flattr</a>,
+        <a href="https://flattr.com/submit/auto?user_id=pwarren&amp;url=http://blog.pwarren.id.au/radio/2015/03/22/Beach40-Contact.html&amp;title=Beach 40 Contact and general radio update!">Flattr</a>,
         or <a href="litecoin:Lbwnx4GoocEBbTimdQDhRhTg6mthCzBU7R">Litecoin</a> (Lbwnx4GoocEBbTimdQDhRhTg6mthCzBU7R).
     </p>
 </div>
@@ -180,9 +192,9 @@ to this post.)
 <script type="text/javascript">
 
     var disqus_shortname  = "aloeblog"; 
-    var disqus_identifier = "/radio/2014/04/06/first-contact.html";
-    var disqus_title      = "First Contact!";
-    var disqus_url        = "http://blog.pwarren.id.au/radio/2014/04/06/first-contact.html";
+    var disqus_identifier = "/radio/2015/03/22/Beach40-Contact.html";
+    var disqus_title      = "Beach 40 Contact and general radio update!";
+    var disqus_url        = "http://blog.pwarren.id.au/radio/2015/03/22/Beach40-Contact.html";
 
     /* Make sure that once disqus renders, we trigger any events that
      * need to happen on page resize. Otherwise our left-bar looks funny. */
