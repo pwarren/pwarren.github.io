@@ -11,7 +11,7 @@ I found a nice spot to park near a ridge that runs up to the top and walked up t
 
 {% fancybox right smaller /images/2015-04-25-parking.jpg "Parked on the trail, looking east" %}
 
-As I got there it started a very light rain, so I set myself with my japara protecting the radio and logbook, made me a bit wet, but the radio kept working! After starting out with AM on 7.140MHz for 15 minutes or so with no takers, I found a clear frequency and started the CQ calls, and after 5 minutes or so I had a taker who spotted me and then I was away! I managed 20 contacts over the next little while.  I did try 14.310 and 21.250 MHz, but no takers on there either. Not being able to spot from the summit made it a bit more difficult! There might be reception on Mt Youngall, the next nearest summit, but driving along the road, the closest is Probably Khancoban, or back to Thredbo.
+As I got there it started a very light rain, so I set myself with my japara protecting the radio and logbook, made me a bit wet, but the radio kept working! After starting out with AM on 7.140MHz for 15 minutes or so with no takers, I found a clear frequency and started the CQ calls, and after 5 minutes or so I had a taker who spotted me and then I was away! I managed 20 contacts over the next little while.  I did try 14.310 and 21.250 MHz, but no takers on there either. Not being able to spot from the summit made it a bit more difficult! There might be mobile phone reception for the various phone apps on Mt Youngall, the next nearest summit, but driving along the road, the closest is probably Khancoban, or back to Thredbo.
 
 {% fancybox right smaller /images/2015-04-25-bush.jpg "Thick bush to traipse through" %}
 
@@ -21,4 +21,4 @@ A careful slog back to the car to a change of clothes and some food! Had to Sit 
 
 {% fancybox left smaller /images/2015-04-25-snow.jpg "Snow from Scammell's lookout" %}
 
-A rather difficult activation for me, and I think next time, I'll not try activating a summit in the wet. It's not much fun at all! Alternatively, I should get myself a bothy bag I supposed.	
+A rather difficult activation for me, and I think next time, I'll not try activating a summit in the wet. It's not much fun at all! Alternatively, I should get myself a bothy bag I suppose.	
