@@ -7,7 +7,7 @@ avatar: grr_square.jpg
 copyright: 2014 Paul Warren
 
 # Site URL
-url: http://blog.pwarren.id.au
+url: https://blog.pwarren.id.au
 
 # Comment out if not wanted, change if wanted.
 twitter: https://twitter.com/pawarren
@@ -20,7 +20,7 @@ gittip: https://gittip.com/pwarren
 # Flattr username
 flattr: pwarren
 
-paginate: 5
+paginate: 10
 
 scholar:
     style: ieee
