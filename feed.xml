@@ -12,17 +12,47 @@
                     
 
 			<item>
+				<title>Back Again</title>
+				<description>&lt;p&gt;So, I haven’t looked at this site for a while, and discovered that it had complete b0rkened!&lt;/p&gt;
+
+&lt;p&gt;Github pages decided to do SSL by default, with strict transport security on all github.io domains.  This is great! An awesome idea, but, it doesn’t work if you have a custom domain, such as mine :(&lt;/p&gt;
+
+&lt;p&gt;So, I’ve fixed it all up by going the easy way out and hosting the blog on my home server again. I may end up moving it to a VPS or similar one day, but it’s good for now.&lt;/p&gt;
+
+&lt;p&gt;In terms of radio and SOTA activities, I’ve not had a lot of outings over Christmas and in the new year. Some illness and busyness with looking after kids has prevented me from doing much more than quick drive-ups. Hopefully that’ll change over the year, but we’ll see how we go!&lt;/p&gt;
+
+&lt;p&gt;I’ve bought a Mitsubishi Triton, which should help me get up the harder peaks not too far away, and get the family out camping. Geehi in the April school holidays is our next one, hope to activate Mt Pinnibar on the Saturday, further details on SOTAWatch as ususal.&lt;/p&gt;
+
+</description>
+				<pubDate>Sat, 05 Mar 2016 08:45:00 +1100</pubDate>
+				<link>http://blog.pwarren.id.au//tech/2016/03/05/back-again.html</link>
+				<guid isPermaLink="true">http://blog.pwarren.id.au//tech/2016/03/05/back-again.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Yellow Rabbit Hill SOTA activation</title>
-				<description>&lt;p&gt;Well, time to get out of the shack again! Decided on Yellow Rabbit hill, a nice drive up summit with a short walk to the top!&lt;/p&gt;
+				<description>&lt;p&gt;Well, time to get out of the shack again!  Decided on Yellow Rabbit hill, a nice drive up summit with a short walk to the top!&lt;/p&gt;
 
 &lt;p&gt;Despite rumours, once you’re on the right roads, this isn’t too hard to find, especially when you follow Andrew VK1NAM’s &lt;a href=&quot;https://vk1nam.wordpress.com/tag/yellow-rabbit-hill/&quot;&gt;instructions&lt;/a&gt; correctly!&lt;/p&gt;
-&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2015-07-05-cairn.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2015-07-05-cairn.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Summit Cairn, with rocks added!&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;Of course, I didn’t, and got a bit lost. On the upside, I had a lovely time driving about in the forests of Namadgi National Park! Looking at Andrew’s Google Earth maps, I’d thought that we needed the end of Warks road that comes of the dirt section of Brindabella Rd, this is not the case! Take the Warks road that’s at the bottom of a dip, while still on the tarmac, and you’ll get there much more easily!&lt;/p&gt;
-&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2015-07-05-shack.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2015-07-05-shack.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;SOTA shack from the cairn&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;right smaller&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2015-07-05-cairn.jpg&quot;&gt;&lt;img src=&quot;/images/2015-07-05-cairn.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Summit Cairn, with rocks added!&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Of course, I didn’t, and got a bit lost. On the upside, I had a lovely time driving about in the forests of Namadgi National Park!  Looking at Andrew’s Google Earth maps, I’d thought that we needed the end of Warks road that comes of the dirt section of Brindabella Rd, this is not the case! Take the Warks road that’s at the bottom of a dip, while still on the tarmac, and you’ll get there much more easily!&lt;/p&gt;
+
+&lt;figure class=&quot;right smaller&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2015-07-05-shack.jpg&quot;&gt;&lt;img src=&quot;/images/2015-07-05-shack.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;SOTA shack from the cairn&lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;p&gt;Once on the right roads, it’s a good fun drive to near the car park near the top. Slow and steady and you’ll be fine, even in a 2wd with normal clearance. My stock Subaru Impreza 2.0i had no trouble at all!&lt;/p&gt;
 
 &lt;p&gt;Once on the top, started out with a few quickfire 10m contacts before heading down to 40m to get SE VK locals. I then tried 20m with no results this time!&lt;/p&gt;
-&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2015-07-05-mist.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2015-07-05-mist.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Mist through the trees&lt;/figcaption&gt;&lt;/figure&gt;</description>
+
+&lt;figure class=&quot;right smaller&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2015-07-05-mist.jpg&quot;&gt;&lt;img src=&quot;/images/2015-07-05-mist.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Mist through the trees&lt;/figcaption&gt;&lt;/figure&gt;
+
+</description>
 				<pubDate>Sun, 05 Jul 2015 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2015/07/05/Yellow-Rabbit-Hill.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2015/07/05/Yellow-Rabbit-Hill.html</guid>
@@ -40,14 +70,22 @@
 &lt;p&gt;Access to Tyrell’s Ridge, VK2/SM-096 is not too bad, turn off Alpine Way at the Geehi Horse Trailer carpark and follow the track into the bush, it says ‘4wd only in dry weather’ but the track would be navigable by 2wd in dry, no clearance issues, but there are steep sections.&lt;/p&gt;
 
 &lt;p&gt;I found a nice spot to park near a ridge that runs up to the top and walked up to the summit, it took me a bit less than an hour, and was a bit of a slog through some wet, thick regrowth from fires in the area some years ago.&lt;/p&gt;
-&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2015-04-25-parking.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2015-04-25-parking.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Parked on the trail, looking east&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;As I got there it started a very light rain, so I set myself with my japara protecting the radio and logbook, made me a bit wet, but the radio kept working! After starting out with AM on 7.140MHz for 15 minutes or so with no takers, I found a clear frequency and started the CQ calls, and after 5 minutes or so I had a taker who spotted me and then I was away! I managed 20 contacts over the next little while. I did try 14.310 and 21.250 MHz, but no takers on there either. Not being able to spot from the summit made it a bit more difficult! There might be mobile phone reception for the various phone apps on Mt Youngall, the next nearest summit, but driving along the road, the closest is probably Khancoban, or back to Thredbo.&lt;/p&gt;
-&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2015-04-25-bush.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2015-04-25-bush.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Thick bush to traipse through&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;right smaller&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2015-04-25-parking.jpg&quot;&gt;&lt;img src=&quot;/images/2015-04-25-parking.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Parked on the trail, looking east&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;As I got there it started a very light rain, so I set myself with my japara protecting the radio and logbook, made me a bit wet, but the radio kept working! After starting out with AM on 7.140MHz for 15 minutes or so with no takers, I found a clear frequency and started the CQ calls, and after 5 minutes or so I had a taker who spotted me and then I was away! I managed 20 contacts over the next little while.  I did try 14.310 and 21.250 MHz, but no takers on there either. Not being able to spot from the summit made it a bit more difficult! There might be mobile phone reception for the various phone apps on Mt Youngall, the next nearest summit, but driving along the road, the closest is probably Khancoban, or back to Thredbo.&lt;/p&gt;
+
+&lt;figure class=&quot;right smaller&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2015-04-25-bush.jpg&quot;&gt;&lt;img src=&quot;/images/2015-04-25-bush.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Thick bush to traipse through&lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;p&gt;At some point, the rain started to get a bit heavier, and towards the end of an hour or so, I was very cold and had most definitely had enough of this! I again omitted to take photos of the SOTA station, one day I’ll remember it in time!&lt;/p&gt;
 
 &lt;p&gt;A careful slog back to the car to a change of clothes and some food! Had to Sit in the car for a bit to warm up, then drove in to Khancoban, stopping at Scammell’s ridge lookout and spotted some snow on the hills! Alpine way’s a hard drive, and should be taken with care, especially in the wet!&lt;/p&gt;
-&lt;figure class=&#39;left smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2015-04-25-snow.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2015-04-25-snow.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Snow from Scammell&#39;s lookout&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;A rather difficult activation for me, and I think next time, I’ll not try activating a summit in the wet. It’s not much fun at all! Alternatively, I should get myself a bothy bag I suppose.&lt;/p&gt;</description>
+
+&lt;figure class=&quot;left smaller&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2015-04-25-snow.jpg&quot;&gt;&lt;img src=&quot;/images/2015-04-25-snow.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Snow from Scammell&#39;s lookout&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;A rather difficult activation for me, and I think next time, I’ll not try activating a summit in the wet. It’s not much fun at all! Alternatively, I should get myself a bothy bag I suppose.&lt;/p&gt;
+
+</description>
 				<pubDate>Sat, 25 Apr 2015 00:00:00 +1000</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2015/04/25/Tyrells-Ridge-SOTA.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2015/04/25/Tyrells-Ridge-SOTA.html</guid>
@@ -61,12 +99,14 @@
 			<item>
 				<title>Beach 40 Contact and general radio update!</title>
 				<description>&lt;p&gt;Over the last few weeks I’ve debugged my Beach40 a bit! I found that I’d stuck in the wrong size resistor on the lm386 feedback circuit, 2.2 Ohms, vs the needed 2.2 kilo-Ohms! So, with that fixed, it worked a bit better!&lt;/p&gt;
-&lt;figure class=&#39;right large&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2015-03-22-Beach40-Setup.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2015-03-22-Beach40-Setup.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Beach40 as set for a QSO, and a messy desk! http://openradio.net.au board in the background&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;right large&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2015-03-22-Beach40-Setup.jpg&quot;&gt;&lt;img src=&quot;/images/2015-03-22-Beach40-Setup.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Beach40 as set for a QSO, and a messy desk! http://openradio.net.au board in the background&lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;p&gt;Audio was still rather low, so I added in the BC548 RF pre-amp, which boosted the signal up very well, can get too loud now with the headphones on! Unfortunately, it had the side effect of increasing the AM broadcast break-in, meaning I could hear Radio National across the dial!&lt;/p&gt;
 
-&lt;p&gt;So, I built a high pass filter, and stick that inline to the Beach40. I had put one internally to start with, but it functioned more as an attenuator, than a filter! Now that I’ve built one that works, I might try to integrate it into the case.&lt;/p&gt;
+&lt;p&gt;So, I built a high pass filter, and stick that inline to the Beach40.  I had put one internally to start with, but it functioned more as an attenuator, than a filter!  Now that I’ve built one that works, I might try to integrate it into the case.&lt;/p&gt;
 
-&lt;p&gt;And, now I’ve finally had a contact with it! VK1DA was activating the local repeater site for SOTA, and I managed to get a 3x2 report from him with the radio, which was a bit lower than I thought I should get. Putting it on the dummy load, the scope is seeing ~5V peak to peak, which may be a bit lower than expected, might check the resistors in the RF amplification stage, see if I got any of those wrong!&lt;/p&gt;
+&lt;p&gt;And, now I’ve finally had a contact with it!  VK1DA was activating the local repeater site for SOTA, and I managed to get a 3x2 report from him with the radio, which was a bit lower than I thought I should get. Putting it on the dummy load, the scope is seeing ~5V peak to peak, which may be a bit lower than expected, might check the resistors in the RF amplification stage, see if I got any of those wrong!&lt;/p&gt;
 
 &lt;p&gt;Yay, my first home brew radio success, very pleased with myself :)&lt;/p&gt;
 
@@ -74,7 +114,9 @@
 
 &lt;p&gt;I’ll be looking at the “Let’s Build Something” series from Pete, N6QW, details on &lt;a href=&quot;http://jessystems.com/LBS_Detail.htm&quot;&gt;his website&lt;/a&gt;. I already had a few of the bits, and have since bought a bunch more! Hope to have the Part 1 bits done this week, to get me a direct conversion receiver done!&lt;/p&gt;
 
-&lt;p&gt;I’ve been &lt;a href=&quot;https://github.com/pwarren/Si5351Sketches&quot;&gt;hacking&lt;/a&gt; away at the arduino code for the Si5351 clock chip that the design uses for a VFO and BFO, I have it mostly working with the &lt;a href=&quot;http://freetronics.com.au&quot;&gt;Freetronics&lt;/a&gt; LCD board and their ‘eleven’ and arduino uno clone. I have some rotary encoders, now, so that should progress eventually! Lots to do!&lt;/p&gt;</description>
+&lt;p&gt;I’ve been &lt;a href=&quot;https://github.com/pwarren/Si5351Sketches&quot;&gt;hacking&lt;/a&gt; away at the arduino code for the Si5351 clock chip that the design uses for a VFO and BFO, I have it mostly working with the &lt;a href=&quot;http://freetronics.com.au&quot;&gt;Freetronics&lt;/a&gt; LCD board and their ‘eleven’ and arduino uno clone.  I have some rotary encoders, now, so that should progress eventually!  Lots to do!&lt;/p&gt;
+
+</description>
 				<pubDate>Sun, 22 Mar 2015 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2015/03/22/Beach40-Contact.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2015/03/22/Beach40-Contact.html</guid>
@@ -90,16 +132,27 @@
 				<description>&lt;p&gt;A public holiday Monday with lovely weather, and some restless kids, so I took them up the hills to let Mum have a bit of a rest.&lt;/p&gt;
 
 &lt;p&gt;An easy drive up to the summit, taking a bit over one and a half hours. Up the top there are a large number of antennas for various radio services, including the local repeater, VK1RGI. They do interfere a bit, my cheapo chinese HT didn’t cope too well, and got some interference from what sounded like some sort of aircraft service, so I missed a few calls on 2m!&lt;/p&gt;
-&lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2015-03-09-sota-shack.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2015-03-09-sota-shack.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;SOTA Shack on Mt Ginini looking south&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;right larger&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2015-03-09-sota-shack.jpg&quot;&gt;&lt;img src=&quot;/images/2015-03-09-sota-shack.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;SOTA Shack on Mt Ginini looking south&lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;p&gt;The kids had a pretty good time, and after munching on some sandwidches, settled down with their toys, and I settled down to radios!&lt;/p&gt;
 
 &lt;p&gt;On HF, the noises aren’t too bad, and had a successful activation, grabbing 31 QSOs in total, getting VK4,5 and 6 on 20m, and 1,2 and 3 on 40, and got a second Summit to Summit to VK7, qualifying me for a mountain hunter for the region, yay!&lt;/p&gt;
 
 &lt;p&gt;The weather up on the summit was lovely, nice and warm, with enough wind that it wasn’t too hot when moving about, and enough to fly my box kite for a while!&lt;/p&gt;
-&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2015-03-09-kite.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2015-03-09-kite.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;4yo daughter flying the kite&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;right smaller&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2015-03-09-kite.jpg&quot;&gt;&lt;img src=&quot;/images/2015-03-09-kite.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;4yo daughter flying the kite&lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;p&gt;The only downside was being distracted by the kids when packing, and leaving my squidpole leaning against the tree I’d tied it to :(&lt;/p&gt;
 
-&lt;p&gt;Ah well, Andrew, VK1DA will be up there shortly, hopefully it survives the intervening time and he’s able to bring it back safely!            &lt;/p&gt;</description>
+&lt;p&gt;Ah well, Andrew, VK1DA will be up there shortly, hopefully it survives the intervening time and he’s able to bring it back safely!
+ 
+ 
+ 
+ 
+ 
+ &lt;/p&gt;
+</description>
 				<pubDate>Mon, 09 Mar 2015 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2015/03/09/Mt-Ginini.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2015/03/09/Mt-Ginini.html</guid>
@@ -115,14 +168,17 @@
 				<description>&lt;p&gt;Another SOTA activation for me, having come out of a flu and some other health issues, thought I’d try for an easy one! Mt Stromlo is an easy walk from the carpark up to the summit, then on to the northern hump, so I took a chair this time too!&lt;/p&gt;
 
 &lt;p&gt;Before I left, I noticed the QSO count was at 999, so I asked on the VK1 SOTA list to see if anyone else wanted to grab it, Matt, VK1MA said that he didn’t mind, as long as he was the 1000th QSO, and as he’s the first activator of Mt Stromle, I thought I’d head out!&lt;/p&gt;
-&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2015-02-15-Stromlo.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2015-02-15-Stromlo.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Me activating Mt Stromlo&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;right smaller&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2015-02-15-Stromlo.jpg&quot;&gt;&lt;img src=&quot;/images/2015-02-15-Stromlo.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Me activating Mt Stromlo&lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;p&gt;I’d organised with Matt to call him first on 2m FM, so I did that, and had a good chat to get the 1000th QSO! also got Andrew VK1NAM on 2m, and had a bit of trouble with Al, VK1RX, Which I think might have been my HT’s battery deciding it wasn’t going to give enough voltage on TX, tho I did switch to my 817 on 2m FM, and still no luck!&lt;/p&gt;
 
 &lt;p&gt;So to 40m, signals were a bit down until about 0500 UTC, and I only managed 11 QSOs for the summit, 1 on 20m, and none on 15.&lt;/p&gt;
 
 &lt;p&gt;I heard some voices come up on 20m, but I got no intelligence, and then they started some CW, I have a feeling it may have been VK3MCD/7 activating in Tasmania. Unfortunately I don’t yet follow CW at all :( so some more incentive to learn!&lt;/p&gt;
 
-&lt;p&gt;Another activation point, and a pleasant afternoon out of the house!&lt;/p&gt;</description>
+&lt;p&gt;Another activation point, and a pleasant afternoon out of the house!&lt;/p&gt;
+</description>
 				<pubDate>Sun, 15 Feb 2015 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2015/02/15/Mt-Stromlo-1000QSOs.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2015/02/15/Mt-Stromlo-1000QSOs.html</guid>
@@ -139,9 +195,9 @@
 
 &lt;p&gt;It’s a lovely drive out to the trail head, winding through the Namadgi National Park, and some interesting driving on 3kms of steep winding dirt road. Then the walk up is pretty steep to start off!&lt;/p&gt;
 
-&lt;p&gt;I managed to get to the cliffs without too much difficulty, but then finding my way up to the summit was a bit trickier! I did, after some scrabbling through the bush, and getting disoriented, and slightly lost, find my way to the cairn marked trail. When I could see the summit, I decided I’d had enough of this rubbish, and since I was in the activation zone decided to set up and get going.&lt;/p&gt;
+&lt;p&gt;I managed to get to the cliffs without too much difficulty, but then finding my way up to the summit was a bit trickier!  I did, after some scrabbling through the bush, and getting disoriented, and slightly lost, find my way to the cairn marked trail. When I could see the summit, I decided I’d had enough of this rubbish, and since I was in the activation zone decided to set up and get going.&lt;/p&gt;
 
-&lt;p&gt;I managed to remember the sunscreen this time, and Applied liberally to my face and arms, forgetting my legs :( The soaked myself with some Bushman’s.&lt;/p&gt;
+&lt;p&gt;I managed to remember the sunscreen this time, and Applied liberally to my face and arms, forgetting my legs :(  The soaked myself with some Bushman’s.&lt;/p&gt;
 
 &lt;p&gt;Got set for some 6m stuff, managed a QSO 113km away with VK2DO, and a s2s with Vk1NAM and VK1DA on the not too far away Mt Tumanang&lt;/p&gt;
 
@@ -153,9 +209,14 @@
 
 &lt;p&gt;So some thoughts.&lt;/p&gt;
 
-&lt;p&gt;I need to make sure I have more time up on the summit, so I don’t feel rushed and start making mistakes I need to get some maps, and a compass, and practice navigation. I should take some food, and make sure to eat it on the summit. Especially when it’s getting close to lunch time. I need to put sunscreen on more regularly, and put it on everywhere that’s bare! I need to scout the route more thoroughly before setting out.&lt;/p&gt;
+&lt;p&gt;I need to make sure I have more time up on the summit, so I don’t feel rushed and start making mistakes
+I need to get some maps, and a compass, and practice navigation.
+I should take some food, and make sure to eat it on the summit. Especially when it’s getting close to lunch time.
+I need to put sunscreen on more regularly, and put it on everywhere that’s bare!
+I need to scout the route more thoroughly before setting out.&lt;/p&gt;
 
-&lt;p&gt;Water was about right this time. Took 2.5L up the hill and drank 2L while out, and another 600 mL or so on the drive home.&lt;/p&gt;</description>
+&lt;p&gt;Water was about right this time. Took 2.5L up the hill and drank 2L while out, and another 600 mL or so on the drive home.&lt;/p&gt;
+</description>
 				<pubDate>Mon, 05 Jan 2015 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2015/01/05/Booroomba-Rocks.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2015/01/05/Booroomba-Rocks.html</guid>
@@ -168,7 +229,9 @@
 
 			<item>
 				<title>6m Delta loop</title>
-				<description>&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-12-30-6m-delta-loop.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-12-30-6m-delta-loop.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;6m Delta loop on a squidpole&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-12-30-6m-delta-loop-rolled.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-12-30-6m-delta-loop-rolled.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;6m Delta loop rolled up for travel&lt;/figcaption&gt;&lt;/figure&gt;
+				<description>&lt;figure class=&quot;right smaller&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2014-12-30-6m-delta-loop.jpg&quot;&gt;&lt;img src=&quot;/images/2014-12-30-6m-delta-loop.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;6m Delta loop on a squidpole&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&quot;right smaller&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2014-12-30-6m-delta-loop-rolled.jpg&quot;&gt;&lt;img src=&quot;/images/2014-12-30-6m-delta-loop-rolled.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;6m Delta loop rolled up for travel&lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;p&gt;In preperation for the next VHF/UHF field day, and for the 2015 SOTA challenge, I thought I’d build a proper antenna for 6m.&lt;/p&gt;
 
 &lt;p&gt;After some googling, a delta loop looked easy enough to build, so according to the instructions from &lt;a href=&quot;http://www.gw7aav.com/main-index/antenna-index/antenna-design/6m-delta&quot;&gt;GW7AAV&lt;/a&gt;, I built myself one with bits I had lying around, and managed to fit it to the squidpole for SOTA ops.&lt;/p&gt;
@@ -177,7 +240,9 @@
 
 &lt;p&gt;For the support, I have 2 bits of PVC pipe about 1m long, joined with a T-joint which has a ~15mm hole drilled in the centre so it sits down the squidpole a bit.&lt;/p&gt;
 
-&lt;p&gt;To support the wire, I drilled a 3mm hole about 3mm in from the end of both pipes, then pulled the bit to the edge to create a bit of a notch for the wire to lay in.&lt;/p&gt;</description>
+&lt;p&gt;To support the wire, I drilled a 3mm hole about 3mm in from the end of both pipes, then pulled the bit to the edge to create a bit of a notch for the wire to lay in.&lt;/p&gt;
+
+</description>
 				<pubDate>Tue, 30 Dec 2014 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2014/12/30/6m-Delta-Loop.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/12/30/6m-Delta-Loop.html</guid>
@@ -190,15 +255,18 @@
 
 			<item>
 				<title>WIA Spring VHF-UHF Field Day</title>
-				<description>&lt;p&gt;After complaining about trying to hold a yagi, the microphone and write down contact details at the same time on SOTA summits, and receiving much advice, I set out to convert my 70cm beam to work on a squid pole! Relatively simple, drill holes for the u-bolt, and put on a coax socket so I can have an extended run of coax up the pole from the radio. And then the use of some PVC pipe so the squidpole doesn’t get smooshed!&lt;/p&gt;
-&lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-11-27-yagi_up_a_pole.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-11-27-yagi_up_a_pole.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Homebrew 70cm yagi up a squidpole&lt;/figcaption&gt;&lt;/figure&gt;
+				<description>&lt;p&gt;After complaining about trying to hold a yagi, the microphone and write down contact details at the same time on SOTA summits, and receiving much advice, I set out to convert my 70cm beam to work on a squid pole!  Relatively simple, drill holes for the u-bolt, and put on a coax socket so I can have an extended run of coax up the pole from the radio.  And then the use of some PVC pipe so the squidpole doesn’t get smooshed!&lt;/p&gt;
+
+&lt;figure class=&quot;right larger&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2014-11-27-yagi_up_a_pole.jpg&quot;&gt;&lt;img src=&quot;/images/2014-11-27-yagi_up_a_pole.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Homebrew 70cm yagi up a squidpole&lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;p&gt;So having done that I got set up ready for the midday start of the &lt;a href=&quot;http://www.wia.org.au/members/contests/vhfuhf/&quot;&gt;VHF-UHF Field Day&lt;/a&gt;. It was a relatively quiet contest, I heard 5 stations total, and contacted a few of them multiple times to get myself 335 points. Furthest distance was 49km to VK2UL near Yass.&lt;/p&gt;
 
 &lt;p&gt;The few stations I did manage to contact appear to call on 2m, then go to other bands as they can. I think for the next one, I’ll build a bigger 2m yagi so I can hear and be heard better on 2m. Perhaps some sort of amp, or a 100W rig might also be in order, as my 5w is really quite low for this stuff.&lt;/p&gt;
 
 &lt;p&gt;I also have dreams of getting onto the 23cm band, and maybe 10GHz at some point too, but the higher you go in GHz, the more expensive, and homebrew you have to get!&lt;/p&gt;
 
-&lt;p&gt;All in all, a bit of fun! I’m travelling back from &lt;a href=&quot;http://lca2015.linux.org.au&quot;&gt;LCA2015&lt;/a&gt; for the summer field day, but I hope to be able to actually get out in the field for the winter field day.&lt;/p&gt;</description>
+&lt;p&gt;All in all, a bit of fun! I’m travelling back from &lt;a href=&quot;http://lca2015.linux.org.au&quot;&gt;LCA2015&lt;/a&gt; for the summer field day, but I hope to be able to actually get out in the field for the winter field day.&lt;/p&gt;
+</description>
 				<pubDate>Thu, 27 Nov 2014 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2014/11/27/Field-Day.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/11/27/Field-Day.html</guid>
@@ -211,15 +279,19 @@
 
 			<item>
 				<title>SOTA activation of Tuggeranong Hill</title>
-				<description>&lt;p&gt;Finally had a morning where I could get out and climb a hill! Decided to try Mt Tuggeranong VK1/AC-038, an easy walk and not too far a drive. Parked at the substation on Callister St in Theodore, as most people have in the past!&lt;/p&gt;
+				<description>&lt;p&gt;Finally had a morning where I could get out and climb a hill!  Decided to try Mt Tuggeranong VK1/AC-038, an easy walk  and not too far a drive.  Parked at the substation on Callister St in Theodore, as most people have in the past!&lt;/p&gt;
 
 &lt;p&gt;It’s a pretty easy walk up, somewhat steep in places, still walking, not climbing. I got to the top and was ready only half an hour after my alert said I would be, hope to improve on that next time!&lt;/p&gt;
-&lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-11-02-view_from_Tuggeranong_Hill.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-11-02-view_from_Tuggeranong_Hill.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;The view looking north from Tuggeranong Hill&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;I started out with 2m, as I knew a few activators were going to be out and about on summits and managed to grab a few of them, an amateur newly interested in SOTA, and a few of the usual VK1 chasers. I tried out 70cm again, which is my favourite even though contacts are a bit sparse, and VK1MA and VK1NAM found me there. Both mentioned that my 817 seems to be a bit off frequency, I’ve now installed the TCXO-9 unit, hopefully that’ll make a difference for the next one!&lt;/p&gt;
+
+&lt;figure class=&quot;right larger&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2014-11-02-view_from_Tuggeranong_Hill.jpg&quot;&gt;&lt;img src=&quot;/images/2014-11-02-view_from_Tuggeranong_Hill.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;The view looking north from Tuggeranong Hill&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;I started out with 2m, as I knew a few activators were going to be out and about on summits and managed to grab a few of them, an amateur newly interested in SOTA, and a few of the usual VK1 chasers.  I tried out 70cm again, which is my favourite even though contacts are a bit sparse, and VK1MA and VK1NAM found me there. Both mentioned that my 817 seems to be a bit off frequency, I’ve now installed the TCXO-9 unit, hopefully that’ll make a difference for the next one!&lt;/p&gt;
 
 &lt;p&gt;I’ve now gone through one of the many SOTA rights of passage, my squidpole’s top element snapped as I was putting the antenna through :(&lt;/p&gt;
-&lt;figure class=&#39;right smaller&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-11-02-busted_squidpole.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-11-02-busted_squidpole.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;Busted Squidpole top piece&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;So, a hasty bodge with some coreflute stuck on the end of the pole, and I was back on the air in the HF bands. It was quite windy up the top, probably 30Kts plus, blew the antenna around a bit, and pulled the it out of the tuner a couple of times, only once in the middle of a QSO fortunately!&lt;/p&gt;
+
+&lt;figure class=&quot;right smaller&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2014-11-02-busted_squidpole.jpg&quot;&gt;&lt;img src=&quot;/images/2014-11-02-busted_squidpole.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Busted Squidpole top piece&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;So, a hasty bodge with some coreflute stuck on the end of the pole, and I was back on the air in the HF bands.  It was quite windy up the top, probably 30Kts plus, blew the antenna around a bit, and pulled the it out of the tuner a couple of times, only once in the middle of a QSO fortunately!&lt;/p&gt;
 
 &lt;p&gt;Another problem with the wind was with my notebook, it kept getting blown about, especially when I was attempting to point the 70cm beam, have a QSO and write the log at the same time! So, I may have some reports and names incorrect!&lt;/p&gt;
 
@@ -230,67 +302,210 @@
 &lt;p&gt;A successful activation, and lots of fun! Thanks to all the chasers! And many thanks for the Summit 2 Summit activators, in particular VK1EM and VK2MWP for pulling out the HT as soon as they got to the top of VK2/ST-008, managed to grab them before I had to leave the summit in order to get home in time for family things!&lt;/p&gt;
 
 &lt;p&gt;Here’s my log for your scrutiny.&lt;/p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Frequency&lt;/th&gt;&lt;th&gt;Mode&lt;/th&gt;&lt;th&gt;Call&lt;/th&gt;&lt;th&gt;Summit&lt;/th&gt;&lt;th&gt;Notes&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:01&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1EM/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2/ST-005&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S53R57 Thanks Mark!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:04&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1FCBX&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59+R59+ Thanks Ross!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:05&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1NAM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59+R59+ Thanks Andrew!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:06&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1DI&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S55R55 Thanks Ian!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:13&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;432.1MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1MA&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59+R59+ Thanks Matt!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:16&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;432.1MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1NAM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59+R59+ Thanks Andrew!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:26&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1RX/2&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2/ST-003&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Thanks Al!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:27&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1DA/2&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2/ST-003&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S31R41 Thanks Andrew!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:27&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;146.5MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;FM&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2MWP/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2/ST-005&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S58R58 Thanks Andrew!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:35&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;7.100MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK3EK&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S56R56 Thanks Rob!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:37&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;7.100MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2CCJ&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S53R53 Thanks!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:37&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;7.100MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK3PF/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK3/VG-002&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S41R51 Thanks Peter!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:38&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;7.100MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK3DAC&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S51R55 Thanks Fred!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:39&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;7.100MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2IO&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S56R32 Thanks Gerard!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:39&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;7.100MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK3ALT/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S57R58 Thanks!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:39&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;7.100MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK3FPSR&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S51R53 Thanks Peter!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;23:59&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;14.310MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1DI&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S57R58 Thanks Again!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:04&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;7.105MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK3EK&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S58R57 Thanks Again!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:05&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;7.105MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2IO&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S56R33 Thanks Again!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:07&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;7.105MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2TCX&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S53R52 Thanks Ian!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:15&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;7.105MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2TWR/3&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK3/VG-024&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S56R51 Thanks!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:41&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;7.105MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK1EM/2&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2/ST-008&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;00:41&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;7.105MHz&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;SSB&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2MWP/P&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;VK2/ST-008&lt;/td&gt;&lt;td style=&quot;text-align: left;&quot;&gt;S59R59 Thanks!&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;</description>
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Time&lt;/th&gt;
+      &lt;th&gt;Frequency&lt;/th&gt;
+      &lt;th&gt;Mode&lt;/th&gt;
+      &lt;th&gt;Call&lt;/th&gt;
+      &lt;th&gt;Summit&lt;/th&gt;
+      &lt;th&gt;Notes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:01&lt;/td&gt;
+      &lt;td&gt;146.5MHz&lt;/td&gt;
+      &lt;td&gt;FM&lt;/td&gt;
+      &lt;td&gt;VK1EM/P&lt;/td&gt;
+      &lt;td&gt;VK2/ST-005&lt;/td&gt;
+      &lt;td&gt;S53R57 Thanks Mark!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:04&lt;/td&gt;
+      &lt;td&gt;146.5MHz&lt;/td&gt;
+      &lt;td&gt;FM&lt;/td&gt;
+      &lt;td&gt;VK1FCBX&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S59+R59+ Thanks Ross!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:05&lt;/td&gt;
+      &lt;td&gt;146.5MHz&lt;/td&gt;
+      &lt;td&gt;FM&lt;/td&gt;
+      &lt;td&gt;VK1NAM&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S59+R59+ Thanks Andrew!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:06&lt;/td&gt;
+      &lt;td&gt;146.5MHz&lt;/td&gt;
+      &lt;td&gt;FM&lt;/td&gt;
+      &lt;td&gt;VK1DI&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S55R55 Thanks Ian!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:13&lt;/td&gt;
+      &lt;td&gt;432.1MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK1MA&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S59+R59+ Thanks Matt!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:16&lt;/td&gt;
+      &lt;td&gt;432.1MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK1NAM&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S59+R59+ Thanks Andrew!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:26&lt;/td&gt;
+      &lt;td&gt;146.5MHz&lt;/td&gt;
+      &lt;td&gt;FM&lt;/td&gt;
+      &lt;td&gt;VK1RX/2&lt;/td&gt;
+      &lt;td&gt;VK2/ST-003&lt;/td&gt;
+      &lt;td&gt;Thanks Al!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:27&lt;/td&gt;
+      &lt;td&gt;146.5MHz&lt;/td&gt;
+      &lt;td&gt;FM&lt;/td&gt;
+      &lt;td&gt;VK1DA/2&lt;/td&gt;
+      &lt;td&gt;VK2/ST-003&lt;/td&gt;
+      &lt;td&gt;S31R41 Thanks Andrew!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:27&lt;/td&gt;
+      &lt;td&gt;146.5MHz&lt;/td&gt;
+      &lt;td&gt;FM&lt;/td&gt;
+      &lt;td&gt;VK2MWP/P&lt;/td&gt;
+      &lt;td&gt;VK2/ST-005&lt;/td&gt;
+      &lt;td&gt;S58R58 Thanks Andrew!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:35&lt;/td&gt;
+      &lt;td&gt;7.100MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK3EK&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S56R56 Thanks Rob!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:37&lt;/td&gt;
+      &lt;td&gt;7.100MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK2CCJ&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S53R53 Thanks!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:37&lt;/td&gt;
+      &lt;td&gt;7.100MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK3PF/P&lt;/td&gt;
+      &lt;td&gt;VK3/VG-002&lt;/td&gt;
+      &lt;td&gt;S41R51 Thanks Peter!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:38&lt;/td&gt;
+      &lt;td&gt;7.100MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK3DAC&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S51R55 Thanks Fred!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:39&lt;/td&gt;
+      &lt;td&gt;7.100MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK2IO&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S56R32 Thanks Gerard!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:39&lt;/td&gt;
+      &lt;td&gt;7.100MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK3ALT/P&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S57R58 Thanks!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:39&lt;/td&gt;
+      &lt;td&gt;7.100MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK3FPSR&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S51R53 Thanks Peter!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;23:59&lt;/td&gt;
+      &lt;td&gt;14.310MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK1DI&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S57R58 Thanks Again!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;00:04&lt;/td&gt;
+      &lt;td&gt;7.105MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK3EK&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S58R57 Thanks Again!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;00:05&lt;/td&gt;
+      &lt;td&gt;7.105MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK2IO&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S56R33 Thanks Again!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;00:07&lt;/td&gt;
+      &lt;td&gt;7.105MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK2TCX&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;S53R52 Thanks Ian!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;00:15&lt;/td&gt;
+      &lt;td&gt;7.105MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK2TWR/3&lt;/td&gt;
+      &lt;td&gt;VK3/VG-024&lt;/td&gt;
+      &lt;td&gt;S56R51 Thanks!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;00:41&lt;/td&gt;
+      &lt;td&gt;7.105MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK1EM/2&lt;/td&gt;
+      &lt;td&gt;VK2/ST-008&lt;/td&gt;
+      &lt;td&gt;S59R59 Thanks!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;00:41&lt;/td&gt;
+      &lt;td&gt;7.105MHz&lt;/td&gt;
+      &lt;td&gt;SSB&lt;/td&gt;
+      &lt;td&gt;VK2MWP/P&lt;/td&gt;
+      &lt;td&gt;VK2/ST-008&lt;/td&gt;
+      &lt;td&gt;S59R59 Thanks!&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</description>
 				<pubDate>Mon, 03 Nov 2014 00:00:00 +1100</pubDate>
 				<link>http://blog.pwarren.id.au//radio/2014/11/03/Tuggeranong-Hill.html</link>
 				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/11/03/Tuggeranong-Hill.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>Filters and stuff</title>
-				<description>&lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-10-27-7MHz_lowpass.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-10-27-7MHz_lowpass.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;7MHz low pass filter sweep&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;I recently bought an HP 8601 sweep generator from a local ham’s shack clearout, and thought I’d have a look at some filters and see what happens.&lt;/p&gt;
-
-&lt;p&gt;Hooked up the sweep-out of the generator to channel 1 of the scope, and the filter output into channel 2, set the trigger to channel 1 and positioned it for a good view. For the 7 MHz low pass filter of my Beach40 transciever, I set the generator to 12MHz and 10MHz width, and got a nice look at the filter.&lt;/p&gt;
-
-&lt;p&gt;For the crystal filter in my MST2, I set it to 10MHz with about a 40 kHz width, and also got a pretty picture of the filter response!&lt;/p&gt;
-&lt;figure class=&#39;right larger&#39;&gt;&lt;a class=&#39;fancybox&#39; href=&#39;/images/2014-10-27-3kHz_crystal.jpg&#39; rel=&#39;group&#39;&gt;&lt;img src=&#39;/images/2014-10-27-3kHz_crystal.jpg&#39; /&gt;&lt;/a&gt;&lt;figcaption&gt;3kHz Crystal filter sweep&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;I think there are some wierd effects from my lack of 50 ohm terimnation on the scope, but they kind of look like I’d expect them to, a bit of fun :)&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
-				<pubDate>Mon, 27 Oct 2014 00:00:00 +1100</pubDate>
-				<link>http://blog.pwarren.id.au//radio/2014/10/27/Filters-and-stuff.html</link>
-				<guid isPermaLink="true">http://blog.pwarren.id.au//radio/2014/10/27/Filters-and-stuff.html</guid>
 			</item>
 		
 

@@ -130,7 +130,7 @@ to this post.)
 
     
 
-    <p>Okay, so in order to play with some new blocks I found, <a href="https://github.com/argilo/gr-rds">gr-rds</a> in particular. It appears I needed a newer version of gnuradio than I had previously built from git to get the Control Port functions these blocks require.</p>
+    <p>Okay, so in order to play with some new blocks I found, [gr-rds] (https://github.com/argilo/gr-rds) in particular. It appears I needed a newer version of gnuradio than I had previously built from git to get the Control Port functions these blocks require.</p>
 
 <p>So, off I go and</p>
 
@@ -138,7 +138,8 @@ to this post.)
 cd build
 rm -rf *
 cmake ../
-make</code></pre>
+make
+</code></pre>
 
 <p>and get:</p>
 
@@ -151,13 +152,15 @@ In file included from /usr/include/Ice/Ice.h:30:0,
 	 /usr/include/Ice/Connection.h:92:29: note: ‘Ice::LocalObject* IceInternal::upCast(Ice::UDPConnectionInfo*)’ declared here, later in the translation unit
 	 make[2]: *** [gnuradio-core/src/lib/CMakeFiles/gnuradio-core.dir/runtime/ice_application_base.cc.o] Error 1
 	 make[1]: *** [gnuradio-core/src/lib/CMakeFiles/gnuradio-core.dir/all] Error 2
-	 make: *** [all] Error 2</code></pre>
+	 make: *** [all] Error 2
+</code></pre>
 
 <p>Apparently, the debian build of ZeroC’s Ice lib is bad, simple enough to fix, if you don’t mind stuff accumulating in /usr/local! Go to <a href="http://www.zeroc.com/download.html#src">ZeroC’s source download site</a> and grab the latest tarball, unpack it.</p>
 
 <p>I edited the cpp/conf/Make.rules to install to /usr/local/, change as you see fit, or leave it at the default.</p>
 
 <p>Then gnuradio builds fine again!</p>
+
 
     <div class="share-container">
     <div class="share-buttons">
@@ -324,6 +327,8 @@ under the <a href="https://creativecommons.org/licenses/by/3.0/">Creative Common
 </header>
 <ul>
 
+<li><a href="/tech/2016/03/05/back-again.html">Back Again</a>
+
 <li><a href="/radio/2015/07/05/Yellow-Rabbit-Hill.html">Yellow Rabbit Hill SOTA activation</a>
 
 <li><a href="/radio/2015/04/25/Tyrells-Ridge-SOTA.html">Tyrell's Ridge VK2/SM-096 SOTA Activation</a>
@@ -341,8 +346,6 @@ under the <a href="https://creativecommons.org/licenses/by/3.0/">Creative Common
 <li><a href="/radio/2014/11/27/Field-Day.html">WIA Spring VHF-UHF Field Day</a>
 
 <li><a href="/radio/2014/11/03/Tuggeranong-Hill.html">SOTA activation of Tuggeranong Hill</a>
-
-<li><a href="/radio/2014/10/27/Filters-and-stuff.html">Filters and stuff</a>
 
 </ul>
 </section>
@@ -376,7 +379,7 @@ open-source
 </a>
 </li>
 
-<li style="font-size: 108%">
+<li style="font-size: 116%">
 <a href="/tag/tech/">
 tech
 </a>
