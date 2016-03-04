@@ -41,5 +41,7 @@ system("git add -A");
 system(qq{git commit -m"Site update at $time"});
 system("git push");
 
+system("rsync -avP ./ pwarren.id.au:/var/www/blog/");
+
 # Finally, return home
 system("git checkout build");
