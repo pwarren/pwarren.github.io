@@ -12,6 +12,34 @@
                     
 
 			<item>
+				<title>ARPS working and update!</title>
+				<description>&lt;p&gt;I have finally figured out all the bits for running APRS for tracking to and from my activations, worked well for my last activation of Webb’s Ridge. That’s a bit of a slower drive up via Blue Range Rd out in the brindies, good fun if a bit chilly towards the end!&lt;/p&gt;
+
+&lt;figure class=&quot;left medium&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2016-06-18-APRS.png&quot;&gt;&lt;img src=&quot;/images/2016-06-18-APRS.png&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;APRS&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;I recently purchased an FT-897, mostly so that the car has a reasonable HF capable radio for bigger trips, and so I have a bit more power on the 2m and 70cm bands.  Works well from that perspective! It’s also useful to have a bit more grunt for APRS tracking too.&lt;/p&gt;
+
+&lt;p&gt;So the rest of the setup is a BeagleBone Black which has a built in sound card, running Cubian, with Direwolf doing all the heavy lifting for the Smart Beacon.  I have an Arduino thing that has a GPS chip built in that connects as an NMEA compatible device over the USB port. And finally a cheap chinese imported interface cable that does PTT over the DTR line of a USB Serial thingo, and audio in and out from the Data port on the 897.&lt;/p&gt;
+
+&lt;p&gt;The antenna is an Andrews Communications copy of a diamond apparently. It mostly works, but isn’t that much better than the 1/4 wave on 2m wobbly antenna that replaced the rubber ducky for my handheld, but it works :)&lt;/p&gt;
+
+&lt;p&gt;As you can see from the image, it works reasonably well, there are some obvious outliers of locations I was never at, not entirely sure what’s going on there.&lt;/p&gt;
+
+&lt;p&gt;I’m currently sitting listening on 144.2MHz for the VHF/UHF field day, nothing heard so far :( The weather is pretty horrible, maybe some more overnight or in the morning. I’m hoping to get up to Ginini for at least 8 hours for the November field day, on the 6,2,70,23 and 9cm bands! I have all the necessary bits for 6 2 and 70.&lt;/p&gt;
+
+&lt;p&gt;For 23cm, I have two upconverters, which were for ancient satellites that had 23cm uplink and 2m downlink, there should be enough to get a transverter going there.  For 9cm I have two of the Geelong panels, and hopefully I know have enough components to get them going!&lt;/p&gt;
+</description>
+				<pubDate>Sat, 18 Jun 2016 00:00:00 +1000</pubDate>
+				<link>https://blog.pwarren.id.au//radio/2016/06/18/update.html</link>
+				<guid isPermaLink="true">https://blog.pwarren.id.au//radio/2016/06/18/update.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>Mt Pinnibar SOTA activation</title>
 				<description>&lt;p&gt;I’d decided to try and drive the triton up Mt Pinnibar while camping with the family at Geehi, 33km past Thredbo on the Apline Way. Geehi’s a lovely spot, and I recommend it for camping!&lt;/p&gt;
 
@@ -271,30 +299,6 @@ I need to scout the route more thoroughly before setting out.&lt;/p&gt;
 				<pubDate>Tue, 30 Dec 2014 00:00:00 +1100</pubDate>
 				<link>https://blog.pwarren.id.au//radio/2014/12/30/6m-Delta-Loop.html</link>
 				<guid isPermaLink="true">https://blog.pwarren.id.au//radio/2014/12/30/6m-Delta-Loop.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>WIA Spring VHF-UHF Field Day</title>
-				<description>&lt;p&gt;After complaining about trying to hold a yagi, the microphone and write down contact details at the same time on SOTA summits, and receiving much advice, I set out to convert my 70cm beam to work on a squid pole!  Relatively simple, drill holes for the u-bolt, and put on a coax socket so I can have an extended run of coax up the pole from the radio.  And then the use of some PVC pipe so the squidpole doesn’t get smooshed!&lt;/p&gt;
-
-&lt;figure class=&quot;right larger&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2014-11-27-yagi_up_a_pole.jpg&quot;&gt;&lt;img src=&quot;/images/2014-11-27-yagi_up_a_pole.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Homebrew 70cm yagi up a squidpole&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;So having done that I got set up ready for the midday start of the &lt;a href=&quot;http://www.wia.org.au/members/contests/vhfuhf/&quot;&gt;VHF-UHF Field Day&lt;/a&gt;. It was a relatively quiet contest, I heard 5 stations total, and contacted a few of them multiple times to get myself 335 points. Furthest distance was 49km to VK2UL near Yass.&lt;/p&gt;
-
-&lt;p&gt;The few stations I did manage to contact appear to call on 2m, then go to other bands as they can. I think for the next one, I’ll build a bigger 2m yagi so I can hear and be heard better on 2m. Perhaps some sort of amp, or a 100W rig might also be in order, as my 5w is really quite low for this stuff.&lt;/p&gt;
-
-&lt;p&gt;I also have dreams of getting onto the 23cm band, and maybe 10GHz at some point too, but the higher you go in GHz, the more expensive, and homebrew you have to get!&lt;/p&gt;
-
-&lt;p&gt;All in all, a bit of fun! I’m travelling back from &lt;a href=&quot;http://lca2015.linux.org.au&quot;&gt;LCA2015&lt;/a&gt; for the summer field day, but I hope to be able to actually get out in the field for the winter field day.&lt;/p&gt;
-</description>
-				<pubDate>Thu, 27 Nov 2014 00:00:00 +1100</pubDate>
-				<link>https://blog.pwarren.id.au//radio/2014/11/27/Field-Day.html</link>
-				<guid isPermaLink="true">https://blog.pwarren.id.au//radio/2014/11/27/Field-Day.html</guid>
 			</item>
 		
 
