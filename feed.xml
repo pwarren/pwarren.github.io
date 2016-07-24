@@ -12,6 +12,30 @@
                     
 
 			<item>
+				<title>Mqtt Graphing</title>
+				<description>&lt;p&gt;Having attended the LCA2016 &lt;a href=&quot;OpenHardware miniconf&quot;&gt;http://www.openhardwareconf.org/wiki/Main_Page&lt;/a&gt; I have an &lt;a href=&quot;ESPlant&quot;&gt;https://github.com/CCHS-Melbourne/ESPlant&lt;/a&gt; module, and it had just sat in it’s packet since the conference in February!&lt;/p&gt;
+
+&lt;p&gt;I finally got it hacked together to do some data collection!  I used mosquitto on my in home debian server to be the broker, which mqtt2rrd then listens on for the MQTT messages, and spits out some RRD files. Finally, drraw.cgi on my internal web server creates the graphs on the fly!&lt;/p&gt;
+
+&lt;p&gt;{ % fancybox left medium /images/2016-07-24-ESPlant.jpg “Temp, Humidity, Pressure and Voltage graphs in drraw.cgi” %}&lt;/p&gt;
+
+&lt;p&gt;I’ve put it in our north facing bedroom, with the solar panel stuck on the window, so hopefully it’ll charge enough during the day to measure constantly.&lt;/p&gt;
+
+&lt;p&gt;I may have to look at @projectgus’ firmware that does longer sleeping.&lt;/p&gt;
+
+&lt;p&gt;A good afternoon’s hacking I reckon!&lt;/p&gt;
+</description>
+				<pubDate>Mon, 25 Jul 2016 07:45:00 +1000</pubDate>
+				<link>https://blog.pwarren.id.au//tech/2016/07/25/MQTT-Graphing.html</link>
+				<guid isPermaLink="true">https://blog.pwarren.id.au//tech/2016/07/25/MQTT-Graphing.html</guid>
+			</item>
+		
+
+                    
+                    
+                    
+
+			<item>
 				<title>APRS working and update!</title>
 				<description>&lt;p&gt;I have finally figured out all the bits for running APRS for tracking to and from my activations, worked well for my last activation of Webb’s Ridge. That’s a bit of a slower drive up via Blue Range Rd out in the brindies, good fun if a bit chilly towards the end!&lt;/p&gt;
 
@@ -274,32 +298,6 @@ I need to scout the route more thoroughly before setting out.&lt;/p&gt;
 				<pubDate>Mon, 05 Jan 2015 00:00:00 +1100</pubDate>
 				<link>https://blog.pwarren.id.au//radio/2015/01/05/Booroomba-Rocks.html</link>
 				<guid isPermaLink="true">https://blog.pwarren.id.au//radio/2015/01/05/Booroomba-Rocks.html</guid>
-			</item>
-		
-
-                    
-                    
-                    
-
-			<item>
-				<title>6m Delta loop</title>
-				<description>&lt;figure class=&quot;right smaller&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2014-12-30-6m-delta-loop.jpg&quot;&gt;&lt;img src=&quot;/images/2014-12-30-6m-delta-loop.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;6m Delta loop on a squidpole&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;figure class=&quot;right smaller&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2014-12-30-6m-delta-loop-rolled.jpg&quot;&gt;&lt;img src=&quot;/images/2014-12-30-6m-delta-loop-rolled.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;6m Delta loop rolled up for travel&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;In preperation for the next VHF/UHF field day, and for the 2015 SOTA challenge, I thought I’d build a proper antenna for 6m.&lt;/p&gt;
-
-&lt;p&gt;After some googling, a delta loop looked easy enough to build, so according to the instructions from &lt;a href=&quot;http://www.gw7aav.com/main-index/antenna-index/antenna-design/6m-delta&quot;&gt;GW7AAV&lt;/a&gt;, I built myself one with bits I had lying around, and managed to fit it to the squidpole for SOTA ops.&lt;/p&gt;
-
-&lt;p&gt;So for the new year UTC rollover, I was up at Booroomba Rocks, VK1/AC-026, and had a few contacts on 6m, furthest I think was to Longbeach NSW, about 113km. Not to bad for a first effort I reckon!&lt;/p&gt;
-
-&lt;p&gt;For the support, I have 2 bits of PVC pipe about 1m long, joined with a T-joint which has a ~15mm hole drilled in the centre so it sits down the squidpole a bit.&lt;/p&gt;
-
-&lt;p&gt;To support the wire, I drilled a 3mm hole about 3mm in from the end of both pipes, then pulled the bit to the edge to create a bit of a notch for the wire to lay in.&lt;/p&gt;
-
-</description>
-				<pubDate>Tue, 30 Dec 2014 00:00:00 +1100</pubDate>
-				<link>https://blog.pwarren.id.au//radio/2014/12/30/6m-Delta-Loop.html</link>
-				<guid isPermaLink="true">https://blog.pwarren.id.au//radio/2014/12/30/6m-Delta-Loop.html</guid>
 			</item>
 		
 
