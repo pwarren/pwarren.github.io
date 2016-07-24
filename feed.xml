@@ -24,6 +24,43 @@
 &lt;p&gt;I may have to look at @projectgus’ firmware that does longer sleeping.&lt;/p&gt;
 
 &lt;p&gt;A good afternoon’s hacking I reckon!&lt;/p&gt;
+
+&lt;h3 id=&quot;details&quot;&gt;Details&lt;/h3&gt;
+
+&lt;p&gt;The standard mosqitto package on debian 7 doesn’t cope with the ESPlant’s output, so I installed from the &lt;a href=&quot;https://github.com/eclipse/mosquitto&quot;&gt;github&lt;/a&gt;repo, and to keep things ‘easy’, moved the distro binary to a backup file, and linked /usr/local/sbin/mosqitto in to /usr/sbin. No config changes necessary!&lt;/p&gt;
+
+&lt;p&gt;On my web server VM, I cloned &lt;a href=&quot;https://github.com/irvined1982/MQTT2RRD&quot;&gt;MQTT2RRD&lt;/a&gt;. I had to install the python-mosqitto and python-rrdtool packages, but after that it worked fine!  For it’s config I’m sticking the RRD files on my NAS. I’m not sure if the ‘archives’ bit is doing what I think it is, but time will tell I suppose!&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-kconfig&quot; data-lang=&quot;kconfig&quot;&gt;[daemon]
+data_dir &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; /media/media/mqtt
+pid_file &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; /tmp/mqtt2rrd.pid
+user &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; pwarren
+group &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; pwarren
+
+[logging]
+log_file &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; /tmp/mqtt2rrd.log
+log_level &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
+
+[mqtt]
+client_id &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Ashpool&amp;quot;&lt;/span&gt;
+hostname &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; ashpool.lan
+port= &lt;span class=&quot;mi&quot;&gt;1883&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#username=&amp;quot;bob&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#password=&amp;quot;t0ps3cr3t!&amp;quot;&lt;/span&gt;
+keepalive=60
+subscriptions=#
+
+[/ESP_b5952/temp/c]
+friendly_name &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Temperature&amp;quot;&lt;/span&gt;
+step=30
+archives=RRA:AVERAGE:0.5:1:120,RRA:AVERAGE:0.5:5:288
+
+[/ESP_b5952/pressure_mbar]
+friendly_name &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Atmospheric Pressure&amp;quot;&lt;/span&gt;
+step=30
+archives=RRA:AVERAGE:0.5:1:120,RRA:AVERAGE:0.5:5:288&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Lastly, I installed drraw from apt, it’s config was rather simple to start with, point it to the RRD files, and get apache to serve up /cgi-bin/drraw/drraw.cgi and go nuts creating graphs and dashboards!&lt;/p&gt;
 </description>
 				<pubDate>Mon, 25 Jul 2016 07:45:00 +1000</pubDate>
 				<link>https://blog.pwarren.id.au//tech/2016/07/25/MQTT-Graphing.html</link>

@@ -142,6 +142,43 @@ to this post.)
 
 <p>A good afternoon’s hacking I reckon!</p>
 
+<h3 id="details">Details</h3>
+
+<p>The standard mosqitto package on debian 7 doesn’t cope with the ESPlant’s output, so I installed from the <a href="https://github.com/eclipse/mosquitto">github</a>repo, and to keep things ‘easy’, moved the distro binary to a backup file, and linked /usr/local/sbin/mosqitto in to /usr/sbin. No config changes necessary!</p>
+
+<p>On my web server VM, I cloned <a href="https://github.com/irvined1982/MQTT2RRD">MQTT2RRD</a>. I had to install the python-mosqitto and python-rrdtool packages, but after that it worked fine!  For it’s config I’m sticking the RRD files on my NAS. I’m not sure if the ‘archives’ bit is doing what I think it is, but time will tell I suppose!</p>
+
+<div class="highlight"><pre><code class="language-kconfig" data-lang="kconfig">[daemon]
+data_dir <span class="o">=</span> /media/media/mqtt
+pid_file <span class="o">=</span> /tmp/mqtt2rrd.pid
+user <span class="o">=</span> pwarren
+group <span class="o">=</span> pwarren
+
+[logging]
+log_file <span class="o">=</span> /tmp/mqtt2rrd.log
+log_level <span class="o">=</span> <span class="mi">30</span>
+
+[mqtt]
+client_id <span class="o">=</span> <span class="s2">&quot;Ashpool&quot;</span>
+hostname <span class="o">=</span> ashpool.lan
+port= <span class="mi">1883</span>
+<span class="c1">#username=&quot;bob&quot;</span>
+<span class="c1">#password=&quot;t0ps3cr3t!&quot;</span>
+keepalive=60
+subscriptions=#
+
+[/ESP_b5952/temp/c]
+friendly_name <span class="o">=</span> <span class="s2">&quot;Temperature&quot;</span>
+step=30
+archives=RRA:AVERAGE:0.5:1:120,RRA:AVERAGE:0.5:5:288
+
+[/ESP_b5952/pressure_mbar]
+friendly_name <span class="o">=</span> <span class="s2">&quot;Atmospheric Pressure&quot;</span>
+step=30
+archives=RRA:AVERAGE:0.5:1:120,RRA:AVERAGE:0.5:5:288</code></pre></div>
+
+<p>Lastly, I installed drraw from apt, it’s config was rather simple to start with, point it to the RRD files, and get apache to serve up /cgi-bin/drraw/drraw.cgi and go nuts creating graphs and dashboards!</p>
+
 
     <div class="share-container">
     <div class="share-buttons">
