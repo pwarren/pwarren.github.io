@@ -13,11 +13,11 @@
 
 			<item>
 				<title>Mqtt Graphing</title>
-				<description>&lt;p&gt;Having attended the LCA2016 &lt;a href=&quot;OpenHardware miniconf&quot;&gt;http://www.openhardwareconf.org/wiki/Main_Page&lt;/a&gt; I have an &lt;a href=&quot;ESPlant&quot;&gt;https://github.com/CCHS-Melbourne/ESPlant&lt;/a&gt; module, and it had just sat in it’s packet since the conference in February!&lt;/p&gt;
+				<description>&lt;p&gt;Having attended the LCA2016 &lt;a href=&quot;http://www.openhardwareconf.org/wiki/Main_Page&quot;&gt;OpenHardware miniconf&lt;/a&gt; I have an &lt;a href=&quot;https://github.com/CCHS-Melbourne/ESPlant&quot;&gt;ESPlant&lt;/a&gt; module, and it had just sat in it’s packet since the conference in February!&lt;/p&gt;
 
 &lt;p&gt;I finally got it hacked together to do some data collection!  I used mosquitto on my in home debian server to be the broker, which mqtt2rrd then listens on for the MQTT messages, and spits out some RRD files. Finally, drraw.cgi on my internal web server creates the graphs on the fly!&lt;/p&gt;
 
-&lt;p&gt;{ % fancybox left medium /images/2016-07-24-ESPlant.jpg “Temp, Humidity, Pressure and Voltage graphs in drraw.cgi” %}&lt;/p&gt;
+&lt;figure class=&quot;left medium&quot;&gt;&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;/images/2016-07-24-ESPlant.png&quot;&gt;&lt;img src=&quot;/images/2016-07-24-ESPlant.png&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Temp, Humidity, Pressure and Voltage graphs in drraw.cgi&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;I’ve put it in our north facing bedroom, with the solar panel stuck on the window, so hopefully it’ll charge enough during the day to measure constantly.&lt;/p&gt;
 

@@ -130,11 +130,11 @@ to this post.)
 
     
 
-    <p>Having attended the LCA2016 <a href="OpenHardware miniconf">http://www.openhardwareconf.org/wiki/Main_Page</a> I have an <a href="ESPlant">https://github.com/CCHS-Melbourne/ESPlant</a> module, and it had just sat in it’s packet since the conference in February!</p>
+    <p>Having attended the LCA2016 <a href="http://www.openhardwareconf.org/wiki/Main_Page">OpenHardware miniconf</a> I have an <a href="https://github.com/CCHS-Melbourne/ESPlant">ESPlant</a> module, and it had just sat in it’s packet since the conference in February!</p>
 
 <p>I finally got it hacked together to do some data collection!  I used mosquitto on my in home debian server to be the broker, which mqtt2rrd then listens on for the MQTT messages, and spits out some RRD files. Finally, drraw.cgi on my internal web server creates the graphs on the fly!</p>
 
-<p>{ % fancybox left medium /images/2016-07-24-ESPlant.jpg “Temp, Humidity, Pressure and Voltage graphs in drraw.cgi” %}</p>
+<figure class="left medium"><a class="fancybox" rel="group" href="/images/2016-07-24-ESPlant.png"><img src="/images/2016-07-24-ESPlant.png" /></a><figcaption>Temp, Humidity, Pressure and Voltage graphs in drraw.cgi</figcaption></figure>
 
 <p>I’ve put it in our north facing bedroom, with the solar panel stuck on the window, so hopefully it’ll charge enough during the day to measure constantly.</p>
 
