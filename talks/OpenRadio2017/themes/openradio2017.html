@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!-- This file is Copyright 2017 Paul Warren.
+     It is released under the CC-BY-SA license. -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+
+  <title>My Adventures Building HAMLib Support for the OpenRadio SDR Board </title>
+
+  <!-- Required stylesheet -->
+  <link rel="stylesheet" media="screen" href="core/deck.core.css">
+
+  <!-- Extension CSS files go here. Remove or add as needed. -->
+  <link rel="stylesheet" media="screen" href="extensions/goto/deck.goto.css">
+  <link rel="stylesheet" media="screen" href="extensions/menu/deck.menu.css">
+  <link rel="stylesheet" media="screen" href="extensions/navigation/deck.navigation.css">
+  <link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
+  <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
+
+  <!-- Style theme. More available in /themes/style/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/style/web-2.0.css">
+
+  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/transition/horizontal-slide.css">
+
+  <!-- Basic black and white print styles -->
+  <link rel="stylesheet" media="print" href="core/print.css">
+
+  <!-- Required Modernizr file -->
+  <script src="modernizr.custom.js"></script>
+  <style>
+    #bottom_right {
+    position:fixed;
+    bottom:0;
+    right:0;
+    font-size:-4;
+    }
+  </style>     
+</head>
+<body>
+  <div class="deck-container">
+
+    <!-- Begin slides. Just make elements with a class of slide. -->
+
+    <section class="slide">
+      <h1>My Adventures Building HAMLib support for the OpenRadio SDR board</h1>
+    </section>
+
+    <section class="slide" id="about-me">
+      <h2>About me</h2>
+      <h3>Paul Warren</h3>
+      <p><a href='https://twitter.com/pawarren'>@pawarren</a></p>
+      <p>VK1ATP</p>
+      <p>Sysadmin for Money, Coding for fun!</p>
+      <p>These slides available at: <a href=https://github.com/pwarren/OpenRadio2017>https://github.com/pwarren/OpenRadio2017</a></p>
+         <div id="bottom_right"><p>&copy; 2017 Paul Warren. CC-BY-SA.</p></div>
+	
+    </section>
+
+    <section class="slide">
+      <h2>The OpenRadio SDR Board</h2>
+      <p><img src="images/OpenSDR.jpg" alt="OpenRadio SDR Board" /></p>
+    </section>
+
+    <section class="slide">
+      <h2>The OpenRadio SDR Board</h2>
+      <ul>
+	<li>Inexpensive SDR Receiver + PSK31 Transmitter</li>
+	<li class='slide'>Constructed at the Auckland LCA in 2015</li>
+	<li class='slide'>HF (~0->30MHz)</li>
+	<li class='slide'>Tayloe Detector type SDR</li>
+	<li class='slide'>Arduino control system</li>
+	<li class='slide'>Outputs to a Soundcard</li>
+	<li class='slide'>Works well at 48kHz sampling rate</li>
+	<li class='slide'>Kits no longer sold 😢</li>
+	<li class='slide'>Schematics/Gerbers available at: (Harrass Mark VK5QI) </li>
+	<li class='slide'>Various firmware already made</li>
+      </ul>
+    </section>
+    
+    <section class="slide">
+      <h3>My favourite SDR software</h3>
+      <p><a href="http://cubicsdr.com/">CubicSDR.com</a></p>
+      <img src="images/CubicSDR.png" />
+    </section>
+
+    <section class="slide">
+      <h2>Getting them to talk!</h2>
+      <p class='slide'>Enter HAMlib</p>
+      <p class='slide'>An easy to use library to interface with various radios</p>
+      <p class='slide'>Abstracts out serial protocols</p>
+      <p class='slide'>Testing tool comes with the package</p>
+      <p class='slide'>rigctl -m 228 -r /dev/ttyUSB0 -s 9600 F 7090000</p>
+    </section>
+
+    <section class="slide">
+      <h2>How hard can it be?</h2>
+      <p class='slide'>I know, I have an FT-817, I'll emulate that!</p>
+      <p class='slide'>Got a bit of the way through</p>
+      <p class='slide'>5 byte blocks</p>
+      <p class='slide'> 4 param bytes, one command byte<br />
+	{0x00,0x70,0x90,0x00,0x01} tunes to 7 090 000 Hz</p>
+      <p class='slide'>ergh: convert integer's to BCD</p>
+      <p class='slide'>Some _days_ attempting to get BCD encoding/decoding to work</p>
+    </section>
+
+    <section class="slide">
+      <h2>Sanity Prevails!</h2>
+      <p>Thanks to VK5ZM</p>
+      <p>TS-430 protocol is much easier</p>
+      <blockquote><p>37 chars<br />
+       P1: 11 digits freqency in Hz<br />
+       P2: 5 spaces<br />
+       P3: 5 digit RIT Freq<br />
+       P4: 1 digit RIT Status<br />
+       P5: 1 digit XIT Status<br />
+       P6: 0 <br /><br />
+       P7: 2 digit Mem channel (00-99) <br />
+       P8: 1 digit TX status<br />
+       P9: 1 char Operating Mode<br />
+      P10: 1 char FT/FR<br />
+      P11: 1 char Scan Status<br />
+      P12: 1 digit Simplex Status<br />
+      P13: 1 digit OFF/Tone/CTCSS<br />
+      P14: 2 digit Tone Number<br />
+      P15: 1 space<br />
+      TRM: ;</p></blockquote>
+    </section>
+
+    <section class='slide'>
+      <h2>Sanity Prevails!</h2>
+      <p>Character based</p>
+      <p>No more binary packing</p>
+      <p>No More BCD encoding/decoding!</p>
+      <p>Responses have variable length but terminations are easy: ';'</p>
+      <p class='slide'>finished in a few hours</p>
+      <p class='slide'>Code available at: <a href="https://github.com/darksidelemm/open_radio_miniconf_2015/tree/master/openradio_cat">https://github.com/darksidelemm/open_radio_miniconf_2015/tree/master/openradio_cat</a></p>
+    </section>
+
+    <section class='slide'>
+      <h2>And here it is working!</h2>
+      <p>Live Demo</p>
+    </section>
+
+    <section class='slide'>
+      <h2>Next Steps?</h2>
+      <p>I don't know!</p>
+      <p>PSK TX capabilities not easily done with ts-480 spec</p>
+      <p>Will have to come up with a another protocol</p>
+      <p>Implement in Arduino and C</p>
+      <p>It does what I want</p>
+    </section>
+    
+    <section class='slide'>
+      <h1>Questions?</h1>
+    </section>
+
+    <section class='slide'>
+      <h2>Bonus Content</h2>
+      <div align='left' position='relative'>
+      <p>I have a PortableSDR with me</p>
+      <p class='slide'>Small, Portable, fully open SDR transciever</p>
+      <p class='slide'>Hackaday contest finalist</p>
+      <p class='slide'>Crowdfunded</p>
+      <p class='slide'>I've hacked away on it too!</p>
+      <p class='slide'>Now has an off switch</p>
+      <p class='slide'>Many current limitations</p>
+      <p class='slide'>Come over and help remove some!</p>
+      <p class='slide'><a href="https://github.com/MichaelRColton/PSDR">https://github.com/MichaelRColton/PSDR</a></p>
+      </div>
+      <div aligh="right" position="relative">
+	<img src="images/PSDR.jpg" />
+      </div>
+
+    </section>
+    
+
+    <!-- End slides. -->
+
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+    <!-- deck.navigation snippet -->
+    <div aria-role="navigation">
+      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+    </div>
+
+    <!-- deck.status snippet -->
+    <p class="deck-status" aria-role="status">
+      <span class="deck-status-current"></span>
+      /
+      <span class="deck-status-total"></span>
+    </p>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+      <label for="goto-slide">Go to slide:</label>
+      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+      <datalist id="goto-datalist"></datalist>
+      <input type="submit" value="Go">
+    </form>
+
+    <!-- End extension snippets. -->
+  </div>
+
+<!-- Required JS files. -->
+<script src="jquery.min.js"></script>
+<script src="core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+  $(function() {
+    $.deck('.slide');
+  });
+</script>
+</body>
+</html>
